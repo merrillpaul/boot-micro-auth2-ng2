@@ -1,0 +1,1 @@
+include 'core', 'aws', 'auth-data', 'auth-commons', 'auth-server', 'customer-data', 'customer-server', 'global-data', 'global-server', 'projectone-ui'

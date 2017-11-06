@@ -1,0 +1,549 @@
+{
+   "normType": "wisc-v-au",
+   "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+   "displayName": "WISC-V A&NZ",
+   "useQgComparisonAPI": true,
+   "businessUnitGuid": "9f046d939abf4644820ac698605a228b",
+   "domain": "Ability",
+   "name": "WISC-V-AU",
+   "description": "Assessment of children's overall intellectual ability and various specific cognitive domains.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "While viewing a constructed model or a picture, the child uses red-and-white blocks to re-create the design within a specified time limit.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 12
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "4c5e6d8d82c241d78fbf4c2f6ed98361",
+         "orderId": 1,
+         "displayName": "Block Design",
+         "name": "Block Design",
+         "abbr": "bd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child is presented two words that represent common objects or concepts and describes how they are similar.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 10
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "b447b24b62e24bcea1723c8786394d66",
+         "orderId": 2,
+         "displayName": "Similarities",
+         "name": "Similarities",
+         "abbr": "si"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child looks at an incomplete matrix or series and selects the missing portion from five response options.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 7
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "e514447b9ba64ab1bda0248248baa680",
+         "orderId": 3,
+         "displayName": "Matrix Reasoning",
+         "name": "Matrix Reasoning",
+         "abbr": "mr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "For Digit Span Forward, the child repeats numbers in the same order as read aloud by the examiner. For Digit Span Backward, the child repeats numbers in the reverse order of that presented aloud by the examiner.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 10
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "532e7747604b40a1971022c74d5eab41",
+         "orderId": 4,
+         "displayName": "Digit Span",
+         "name": "Digit Span",
+         "abbr": "ds"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child copies symbols that are paired with simple geometric shapes or numbers. Using a key, the child draws each symbol in its corresponding shape or box within a specified time limit.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 4
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "c566809c39644f9a972e61b70ebebdec",
+         "orderId": 5,
+         "displayName": "Coding",
+         "name": "Coding",
+         "abbr": "cd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "For picture items, the child names pictures that are displayed on the Client Device. For verbal items, the child gives definitions for words that the examiner reads aloud.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 8
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "a8d025194dfa4f6389efc207dfde6449",
+         "orderId": 6,
+         "displayName": "Vocabulary",
+         "name": "Vocabulary",
+         "abbr": "vc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Working within a specified time limit, the examinee views a scale with missing weight(s) and selects the response option that keeps the scale balanced.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 6
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "956670125826490ca2b9b7c9b3912110",
+         "orderId": 7,
+         "displayName": "Figure Weights",
+         "name": "Figure Weights",
+         "abbr": "fw"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Within a specified time limit, the child views a completed puzzle and selects three response options that, when combined, reconstruct the puzzle.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 6
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "4282eb899d0b470d949c8fc7056994fb",
+         "orderId": 8,
+         "displayName": "Visual Puzzles",
+         "name": "Visual Puzzles",
+         "abbr": "vp"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "FPO",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "479406f31b2d4a9fb83534b040ee6532",
+         "orderId": 9,
+         "displayName": "Picture Span",
+         "name": "Picture Span",
+         "abbr": "ps"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child scans a search group and indicates whether the target symbol(s) matches any of the symbols in the search group within a specified time limit.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "b725c693ad9b4dea9ffcf39596e18920",
+         "orderId": 10,
+         "displayName": "Symbol Search",
+         "name": "Symbol Search",
+         "abbr": "ss"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child answers questions that address a broad range of general knowledge topics.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 5
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "c4a5039cda2e46a18bc9f868a777ac98",
+         "orderId": 11,
+         "displayName": "Information",
+         "name": "Information",
+         "abbr": "in"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child is presented with two or three rows of pictures and chooses one picture from each row to form a group\r\nwith a common characteristic.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 7
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "f18ecd78a5a349e59e2185a1a9a9b01c",
+         "orderId": 12,
+         "displayName": "Picture Concepts",
+         "name": "Picture Concepts",
+         "abbr": "pc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child is read a sequence of numbers and letters and recalls the numbers in ascending order and the letters in alphabetical order.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "cd1dfe77b79d48088c5feccf7317ad61",
+         "orderId": 13,
+         "displayName": "Letter-Number Sequencing",
+         "name": "Letter-Number Sequencing",
+         "abbr": "ln"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child scans both a random and a structured arrangement of pictures and marks target pictures within a specified time limit.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "5a01accf6e5748eaa5b036a44b8a862d",
+         "orderId": 14,
+         "displayName": "Cancellation",
+         "name": "Cancellation",
+         "abbr": "ca"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child names elements (e.g., objects of various size and color, quantities of squares, letters and numbers) as quickly as possible.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Naming Speed",
+            "averageDuration": 5
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "918b4427a2ee4ac9b711e28b2a1b7d0c",
+         "orderId": 15,
+         "displayName": "Naming Speed Literacy",
+         "name": "Naming Speed Literacy",
+         "abbr": "nsl"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child names elements (e.g., objects of various size and color, quantities of squares, letters and numbers) as quickly as possible.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Naming Speed",
+            "averageDuration": 2
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "3d75373ab3c8455ea5b27293afdefb07",
+         "orderId": 16,
+         "displayName": "Naming Speed Quantity",
+         "name": "Naming Speed Quantity",
+         "abbr": "nsq"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "FPO",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Symbol Translation",
+            "averageDuration": 12
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "2c65f45acc0e4d898a3625e7be487c42",
+         "orderId": 17,
+         "displayName": "Immediate Symbol Translation",
+         "name": "Immediate Symbol Translation",
+         "abbr": "ist"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child answers questions based on his or her understanding of general principles and social situations.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 11
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "43578051103548eaaceada9686c110d3",
+         "orderId": 18,
+         "displayName": "Comprehension",
+         "name": "Comprehension",
+         "abbr": "co"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "For both the picture and verbal items,\r\nthe child mentally solves arithmetic\r\nproblems within a specified time limit.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 9
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "fb134c8320bb44848edd80f8ef926869",
+         "orderId": 19,
+         "displayName": "Arithmetic",
+         "name": "Arithmetic",
+         "abbr": "ar"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "FPO",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 16
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 6
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 30,
+                  "minDelayMinutes": 20,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "2c65f45acc0e4d898a3625e7be487c42",
+                     "subtestName": "Immediate Symbol Translation"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Symbol Translation",
+            "averageDuration": 5
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "5200619d98b44ad9b8c9f1b8ee29d1d8",
+         "orderId": 20,
+         "displayName": "Delayed Symbol Translation",
+         "name": "Delayed Symbol Translation",
+         "abbr": "dst"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "FPO",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 16
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 6
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 30,
+                  "minDelayMinutes": 20,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "2c65f45acc0e4d898a3625e7be487c42",
+                     "subtestName": "Immediate Symbol Translation"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Symbol Translation",
+            "averageDuration": 5
+         },
+         "testGUID": "ad4eee8835bf4fab9220117a719c0aa4",
+         "subtestGUID": "d304b99d572e46e58e194e01f38bdcc1",
+         "orderId": 21,
+         "displayName": "Recognition Symbol Translation",
+         "name": "Recognition Symbol Translation",
+         "abbr": "rst"
+      }
+   ],
+   "averageDuration": 144
+}

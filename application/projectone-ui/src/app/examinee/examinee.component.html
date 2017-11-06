@@ -1,0 +1,74 @@
+<div fxLayout="column" layout-fill >
+    
+    <psn-message [@fadeOnEnter]="''" *ngIf="error" label="" sublabel="Error retreving examinee list" icon="info" color="warn" [opened]="true">
+    </psn-message>
+
+    <md-card fxFlex>
+        <md-card-title>{{title}}</md-card-title>
+        <md-divider></md-divider>
+        <md-card-header>
+            <div fxLayout="row" fxLayout.xs="column" fxLayoutGap="10px" fxLayoutGap.xs="1px" layout-fill fxLayoutAlign="start center" >
+                <div fxFlex="50" fxFlex.xs="100" layout-fill>
+                 <md-input-container fxFlex>
+                    <input mdInput placeholder="search..."  #examineeSearch name="examineeSearch"  id="examineeSearch" [(ngModel)]="searchWord" (keyup)="search(examineeSearch.value)">
+                    <md-icon class="input-icon">search</md-icon>
+                 </md-input-container>
+                </div>                
+                  <div >
+                    <button mdTooltip="Create new Examinee" color="accent" mdTooltipPosition="above"
+                            md-mini-fab (click)="new()">
+                        <md-icon>add</md-icon>
+                    </button>
+                 </div>
+
+
+            </div>
+        </md-card-header>
+        <ng-template spin="examinees.load">
+        <md-card-content>
+            <psn-label *ngIf="actionResponse" text="{{actionResponse}}"></psn-label>
+            <psn-label text="{{confirmationMessage}}" *ngIf="confirmationMessage" color="warn"></psn-label>
+            
+            <psn-data-grid
+                    #dataTable
+                    [data]="examineesData"
+                    gridHeight="20rem"
+                    [columns]="columns"
+                    [selectable]="false"
+                    [clickable]="false"
+            >
+
+                <ng-template psnGridColumnTemplate="actions" let-value="value" let-row="row" let-column="column"
+                             let-rowIndex="rowIndex">
+                    <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="5px">
+
+                        <button md-icon-button [mdMenuTriggerFor]="menu">
+                            <md-icon>more_vert</md-icon>
+                        </button>
+                        <md-menu #menu="mdMenu">
+                            <button md-menu-item (click)="buildAssessment(row['id'])">
+                                <md-icon>assessment</md-icon>
+                                <span>Assessment</span>
+                            </button>
+                            <button md-menu-item>
+                                <md-icon>mode_edit</md-icon>
+                                <span>Edit</span>
+                            </button>
+                            <button md-menu-item (click)="delete(row['id'])">
+                                <md-icon>delete</md-icon>
+                                <span>Delete</span>
+                            </button>
+                        </md-menu>
+                    </div>
+                </ng-template>
+
+                  <ng-template psnGridColumnTemplate="dob" let-value="value" let-row="row" let-column="column"
+                             let-rowIndex="rowIndex">
+                             {{ value | date }} 
+                </ng-template>
+            </psn-data-grid>
+       
+        </md-card-content>
+        </ng-template>
+    </md-card>
+</div>

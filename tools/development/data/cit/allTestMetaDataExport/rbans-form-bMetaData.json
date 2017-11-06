@@ -1,0 +1,302 @@
+{
+   "normType": "rbans",
+   "testGUID": "d97da654c2614498bab53825fceb8d60",
+   "displayName": "RBANS Update Form B",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "211d4c122b3242e286090a80c09b95eb",
+   "domain": "Neuropsychology",
+   "name": "RBANS-Form-B",
+   "description": "The Repeatable Battery for the Assessment of Neuropsychological Status (RBANS®) is a brief, individually administered test measuring, attention, language, visuospatial/constructional abilities, and immediate and delayed memory",
+   "subtestsAdministeredTogether": true,
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "tbd",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 12
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 3
+         },
+         "testGUID": "d97da654c2614498bab53825fceb8d60",
+         "subtestGUID": "87914222c6a741429e5281bd236d38f9",
+         "orderId": 1,
+         "displayName": "List Learning",
+         "name": "List Learning",
+         "abbr": "ll"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "tbd",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 12
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 3
+         },
+         "testGUID": "d97da654c2614498bab53825fceb8d60",
+         "subtestGUID": "b3589153c5564469be78e879908d1ab0",
+         "orderId": 2,
+         "displayName": "Story Memory",
+         "name": "Story Memory",
+         "abbr": "sm"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "tbd",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 12
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 3
+         },
+         "testGUID": "d97da654c2614498bab53825fceb8d60",
+         "subtestGUID": "0ba801e00fea40ccbcd0cd1d292093b8",
+         "orderId": 3,
+         "displayName": "Figure Copy",
+         "name": "Figure Copy",
+         "abbr": "fc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "tbd",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 12
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 3
+         },
+         "testGUID": "d97da654c2614498bab53825fceb8d60",
+         "subtestGUID": "b3848f5e238e4ef1a2c65ae8086fc684",
+         "orderId": 4,
+         "displayName": "Line Orientation",
+         "name": "Line Orientation",
+         "abbr": "lo"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The examinee is presented with a series of pictured objects and is asked to name each one.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 12
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 3
+         },
+         "testGUID": "d97da654c2614498bab53825fceb8d60",
+         "subtestGUID": "24e737aa5f4f4ab6a9be4b5600bff24b",
+         "orderId": 5,
+         "displayName": "Picture Naming",
+         "name": "Picture Naming",
+         "abbr": "pn"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "tbd",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 12
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 3
+         },
+         "testGUID": "d97da654c2614498bab53825fceb8d60",
+         "subtestGUID": "bcf71dcf93304a67b77867f5ff607aeb",
+         "orderId": 6,
+         "displayName": "Semantic Fluency",
+         "name": "Semantic Fluency",
+         "abbr": "sfb"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "tbd",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 12
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 3
+         },
+         "testGUID": "d97da654c2614498bab53825fceb8d60",
+         "subtestGUID": "538d4d7c3a4f4d5483a018ad8008575f",
+         "orderId": 7,
+         "displayName": "Digit Span",
+         "name": "Digit Span",
+         "abbr": "ds"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "tbd",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 12
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "d97da654c2614498bab53825fceb8d60",
+         "subtestGUID": "1456e4af7a1146909150b05c6c61edfa",
+         "orderId": 8,
+         "displayName": "Coding",
+         "name": "Coding",
+         "abbr": "cd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "tbd",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 12
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 3
+         },
+         "testGUID": "d97da654c2614498bab53825fceb8d60",
+         "subtestGUID": "a5ccf9085c674e3aaafdcdef218fabd0",
+         "orderId": 9,
+         "displayName": "List Recall",
+         "name": "List Recall",
+         "abbr": "lr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "tbd",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 12
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language Memory",
+            "averageDuration": 3
+         },
+         "testGUID": "d97da654c2614498bab53825fceb8d60",
+         "subtestGUID": "f2b1a4b0ecd44b36a1b0db3e3d612bcc",
+         "orderId": 10,
+         "displayName": "List Recognition",
+         "name": "List Recognition",
+         "abbr": "lrn"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "tbd",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 12
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Auditory Memory",
+            "averageDuration": 3
+         },
+         "testGUID": "d97da654c2614498bab53825fceb8d60",
+         "subtestGUID": "f53a3cc234514dc98c0b7149cd1e6c18",
+         "orderId": 11,
+         "displayName": "Story Recall",
+         "name": "Story Recall",
+         "abbr": "sr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "A single design was presented previously which the examinee is asked to draw from memory.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 12
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Memory",
+            "averageDuration": 4
+         },
+         "testGUID": "d97da654c2614498bab53825fceb8d60",
+         "subtestGUID": "0e0b06bf946c4e54bf4ccc422cc6419b",
+         "orderId": 12,
+         "displayName": "Figure Recall",
+         "name": "Figure Recall",
+         "abbr": "frb"
+      }
+   ],
+   "averageDuration": 37
+}

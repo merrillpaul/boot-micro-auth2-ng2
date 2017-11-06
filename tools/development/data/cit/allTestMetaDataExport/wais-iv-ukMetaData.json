@@ -1,0 +1,373 @@
+{
+   "normType": "wais-iv",
+   "testGUID": "c1468f955f33cf66e040a8c042015ccb",
+   "displayName": "WAIS-IV-UK",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "ff2be44cfa8f4d9c8211633892e9cbc8",
+   "domain": "Ability",
+   "name": "WAIS-IV-UK",
+   "description": "Assessment of adults' overall cognitive ability and four specific domains of intelligence.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "Working within a specified time limit, the examinee views a model and a picture, or a picture only and uses red-and-white blocks to re-create the design.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 10
+         },
+         "testGUID": "c1468f955f33cf66e040a8c042015ccb",
+         "subtestGUID": "c146a8bf8ca4c5d2e040a8c042015f9a",
+         "orderId": 1,
+         "displayName": "Block Design",
+         "name": "Block Design",
+         "abbr": "Block Design"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The examinee is presented two words that represent common objects or concepts and describes how they are similar.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 7
+         },
+         "testGUID": "c1468f955f33cf66e040a8c042015ccb",
+         "subtestGUID": "c146a8bf8cacc5d2e040a8c042015f9a",
+         "orderId": 2,
+         "displayName": "Similarities",
+         "name": "Similarities",
+         "abbr": "Similarities"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "For Digit Span Forward, the examinee is read a sequence of numbers and recalls the numbers in the same order. For Digit Span Backward, the examinee is read a sequence of numbers\r\nand recalls the numbers in reverse order. For Digit Span Sequencing, the examinee is read a sequence of numbers and recalls the numbers in ascending order.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 8
+         },
+         "testGUID": "c1468f955f33cf66e040a8c042015ccb",
+         "subtestGUID": "c146acfd16b1b27de040a8c042015fff",
+         "orderId": 3,
+         "displayName": "Digit Span",
+         "name": "Digit Span",
+         "abbr": "Digit Span"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The examinee views an incomplete matrix or series and selects the response option that completes the matrix or series.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 7
+         },
+         "testGUID": "c1468f955f33cf66e040a8c042015ccb",
+         "subtestGUID": "c146acfd16b2b27de040a8c042015fff",
+         "orderId": 4,
+         "displayName": "Matrix Reasoning",
+         "name": "Matrix Reasoning",
+         "abbr": "Matrix Reasoning"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "For picture items, the examinee names the object presented visually. For verbal items, the examinee defines words that are presented visually and orally.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 10
+         },
+         "testGUID": "c1468f955f33cf66e040a8c042015ccb",
+         "subtestGUID": "c146b15814f5e74fe040a8c042016091",
+         "orderId": 5,
+         "displayName": "Vocabulary",
+         "name": "Vocabulary",
+         "abbr": "Vocabulary"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Working within a specified time limit, the examinee mentally solves a series of arithmetic problems.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 6
+         },
+         "testGUID": "c1468f955f33cf66e040a8c042015ccb",
+         "subtestGUID": "c146b3ab07dd98a4e040a8c0420160eb",
+         "orderId": 6,
+         "displayName": "Arithmetic",
+         "name": "Arithmetic",
+         "abbr": "Arithmetic"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Working within a specified time limit, the examinee scans a search group and indicates whether one of the symbols in the target group matches.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "c1468f955f33cf66e040a8c042015ccb",
+         "subtestGUID": "c146b3ab07de98a4e040a8c0420160eb",
+         "orderId": 7,
+         "displayName": "Symbol Search",
+         "name": "Symbol Search",
+         "abbr": "Symbol Search"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Working within a specified time limit, the examinee views a completed puzzle and selects three response options that, when combined, reconstruct the puzzle.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 6
+         },
+         "testGUID": "c1468f955f33cf66e040a8c042015ccb",
+         "subtestGUID": "c146b7e3f55b496be040a8c042016136",
+         "orderId": 8,
+         "displayName": "Visual Puzzles",
+         "name": "Visual Puzzles",
+         "abbr": "Visual Puzzles"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The examinee answers questions that address a broad range of general knowledge topics.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 5
+         },
+         "testGUID": "c1468f955f33cf66e040a8c042015ccb",
+         "subtestGUID": "c146b7e3f55c496be040a8c042016136",
+         "orderId": 9,
+         "displayName": "Information",
+         "name": "Information",
+         "abbr": "Information"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Using a key, the examinee copies symbols that are paired with numbers within a specified time limit.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "c1468f955f33cf66e040a8c042015ccb",
+         "subtestGUID": "c146bc061c0bb283e040a8c042016189",
+         "orderId": 10,
+         "displayName": "Coding",
+         "name": "Coding",
+         "abbr": "Coding"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The examinee is read a sequence of numbers and letters and recalls the numbers in ascending order and the letters in alphabetical order.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "c1468f955f33cf66e040a8c042015ccb",
+         "subtestGUID": "c146bc061c0cb283e040a8c042016189",
+         "orderId": 11,
+         "displayName": "Letter-Number Sequencing",
+         "name": "Letter-Number Sequencing",
+         "abbr": "Letter-Number Sequencing"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Working within a specified time limit, the examinee views a scale with missing weight(s) and selects the response option that keeps the scale balanced.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 11
+         },
+         "testGUID": "c1468f955f33cf66e040a8c042015ccb",
+         "subtestGUID": "c146c56a00d8fdbae040a8c0420163d1",
+         "orderId": 12,
+         "displayName": "Figure Weights",
+         "name": "Figure Weights",
+         "abbr": "Figure Weights"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The examinee answers questions based on his or her understanding of general principles and social situations.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 15
+         },
+         "testGUID": "c1468f955f33cf66e040a8c042015ccb",
+         "subtestGUID": "c146c56a00d9fdbae040a8c0420163d1",
+         "orderId": 13,
+         "displayName": "Comprehension",
+         "name": "Comprehension",
+         "abbr": "Comprehension"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Working within a specified time limit, the examinee scans a structured arrangement of shapes and marks target shapes.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 4
+         },
+         "testGUID": "c1468f955f33cf66e040a8c042015ccb",
+         "subtestGUID": "c146ca915529a80be040a8c042016423",
+         "orderId": 14,
+         "displayName": "Cancellation",
+         "name": "Cancellation",
+         "abbr": "Cancellation"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Working within a specified time limit, the examinee views a picture with an important part missing and identifies the missing part.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 9
+         },
+         "testGUID": "c1468f955f33cf66e040a8c042015ccb",
+         "subtestGUID": "c146cc8776120265e040a8c042016487",
+         "orderId": 15,
+         "displayName": "Picture Completion",
+         "name": "Picture Completion",
+         "abbr": "Picture Completion"
+      }
+   ],
+   "averageDuration": 111
+}

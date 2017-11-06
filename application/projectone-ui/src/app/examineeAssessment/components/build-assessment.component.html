@@ -1,0 +1,79 @@
+<div fxLayout="column" layout-fill >
+
+
+    <md-card fxFlex class="bgc-grey-50">
+        <md-card-title>Build a Test Session</md-card-title>
+        <md-divider class="pad-bottom-sm"></md-divider>       
+        <psn-message [@fadeOnEnter]="savedExaminee" *ngIf="savedExaminee" [sublabel]="savedMessage" icon="info" color="success"> </psn-message>   
+        <md-card-content> 
+
+           <assessment-steps>  
+
+            <assessment-step  [active]="step1Active" [completed]="step1Completed" >
+                    <div assessment-active-step>
+                        <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="5px" class="pad-left-sm">
+                            <psn-badge  size="36" color="lime" notifications="1">
+                            </psn-badge>
+                            <h3>Who is the test for?</h3>
+                        </div>
+                        <assessment-examinee (examineeSaved)="onExamineeSaved($event)" [examinee]="examineeAssessment.examinee"></assessment-examinee> 
+                    </div>
+
+                    <div assessment-not-started-step>
+                        Is it nor started
+                    </div>
+
+                    <div assessment-step-completed>
+                        <div fxLayout="row"  fxLayoutAlign="start center" fxLayoutGap="5px" class="pad-left-sm">                              
+                            <psn-badge   size="36" color="lime" notifications="1"></psn-badge>       
+                             <md-icon color="success">done</md-icon>                 
+                            <h2 class="tc-disabled" fxFlex>Who is the test for?</h2>
+                        </div>
+                        <md-divider></md-divider>  
+                        <div fxLayout="row" >
+                          <div class="container pad-md push-top-sm" fxLayout="row" fxLayoutAlign="start center" fxLayout.xs="column" fxLayoutGap.xs="10px" fxLayoutAlign.xs="start stretch">
+                                <span fxFlex>{{examineeAssessment.examinee?.firstName}} {{examineeAssessment.examinee?.lastName}}</span>
+                                <span fxFlex="20">{{ examineeAssessment.examinee?.dob | date }} </span>
+                                <span>{{ examineeAssessment.examinee.gender }} </span>
+                          </div>
+                        </div>
+                        <div fxLayout="row" fxLayout.xs="column" class="pad-top-sm" >
+                            <span fxFlex fxHide.xs></span>
+                            <button fxFlex="none" fxFlex.xs="100" (click)="editInlineExaminee()" md-raised-button color="accent" >Edit</button>
+                        </div>
+                    </div> 
+
+            </assessment-step>
+
+            <assessment-step  [active]="step2Active" [completed]="step2Completed" >
+                 <div assessment-active-step>
+                    <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="5px" class="pad-left-sm">
+                        <psn-badge  size="36" color="lime" notifications="2"></psn-badge>
+                        <h3>Add tests/forms to your Test Session?</h3>
+                    </div>
+                    <md-divider></md-divider>                       
+
+                    <assessment-builder-container [examineeAssessment]="examineeAssessment" [@fadeOnEnter]="step2Active" *ngIf="step2Active"></assessment-builder-container>
+                    
+                 </div>
+                    
+                   <div assessment-not-started-step>
+                        <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="5px" class="pad-left-sm">
+                            <psn-badge   size="36" color="lime" notifications="2"></psn-badge>
+                            <h3>Add tests/forms to your Test Session?</h3>
+                        </div>
+                        <md-divider></md-divider>  
+                        <div fxLayout="row">
+                         <h4>Please enter an examinee before selecting a test.</h4>
+                        </div>
+                   </div>
+                   <div assessment-step-completed>
+                        When step2 is completed
+                   </div>
+            </assessment-step>
+           
+           </assessment-steps>
+
+        </md-card-content>
+    </md-card>
+</div>

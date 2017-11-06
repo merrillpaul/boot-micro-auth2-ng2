@@ -1,0 +1,61 @@
+{
+   "normType": "d-kefs",
+   "testGUID": "68a6dd913f144f80814e7644a9176e15",
+   "displayName": "D-KEFS 2.0",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Executive Function",
+   "name": "DD-KEFS",
+   "description": "A comprehensive assessment of the key components of executive function.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "FPO",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 0
+         },
+         "testGUID": "68a6dd913f144f80814e7644a9176e15",
+         "subtestGUID": "0bca68ca27c04c129e94bb05e43255d3",
+         "orderId": 2,
+         "displayName": "Grocery List",
+         "name": "Grocery List",
+         "abbr": "GL"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "D-KEFS 2.0",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Mathematics",
+            "averageDuration": 0
+         },
+         "testGUID": "68a6dd913f144f80814e7644a9176e15",
+         "subtestGUID": "ccd945fa4d2c40f19ebe58506e1b580c",
+         "orderId": 8,
+         "displayName": "Derby",
+         "name": "Derby",
+         "abbr": "derby"
+      }
+   ],
+   "averageDuration": 0
+}

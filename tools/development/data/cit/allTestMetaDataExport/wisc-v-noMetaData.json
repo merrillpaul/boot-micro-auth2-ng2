@@ -1,0 +1,373 @@
+{
+   "normType": "wisc-v-se",
+   "testGUID": "c3b06fc8f58749da96b7074e0f40d16d",
+   "displayName": "WISC-V-NO",
+   "useQgComparisonAPI": true,
+   "businessUnitGuid": "211d4c122b3242e286090a80c09b95eb",
+   "domain": "Ability",
+   "name": "WISC-V-NO",
+   "description": "Test for vurdering av kognitive evner hos barn og ungdom",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "Barnet skal innenfor en gitt tidsgrense kopiere modeller eller bilder av ulike mønstre ved hjelp av tofargede klosser.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 12
+         },
+         "testGUID": "c3b06fc8f58749da96b7074e0f40d16d",
+         "subtestGUID": "0becd18484d64c1b86edbd778a7f540e",
+         "orderId": 1,
+         "displayName": "Terningmønster",
+         "name": "Terningmønster",
+         "abbr": "bd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet skal svare på spørsmål om hva som er likheten mellom to ord. Ordene representerer objekter eller begreper og presenteres muntlig.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 10
+         },
+         "testGUID": "c3b06fc8f58749da96b7074e0f40d16d",
+         "subtestGUID": "6c818ee7ab5c4719b7766ba93d0662b8",
+         "orderId": 2,
+         "displayName": "Likheter",
+         "name": "Likheter",
+         "abbr": "si"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet får se en matrise eller serie hvor det mangler en del, og velge det svaralternativet blant fem som gjør matrisen eller serien komplett, ved enten å peke på det eller benevne det.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 7
+         },
+         "testGUID": "c3b06fc8f58749da96b7074e0f40d16d",
+         "subtestGUID": "d2eb528a87b34a56a2eeb4522b7c2e71",
+         "orderId": 3,
+         "displayName": "Matriser",
+         "name": "Matriser",
+         "abbr": "mr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Tallhukommelse består av tre deler som administreres uavhengig av hverandre: Tallhukommelse Forlengs, Tallhukommelse Baklengs og Tallhukommelse Sekvensering. Testlederen leser opp flere serier med tall for barnet. På oppgavene Tallhukommelse Forlengs skal barnet gjenta tallene i samme rekkefølge som de ble lest opp. I Tallhukommelse Baklengs skal barnet gjenta tallene i omvendt rekkefølge. På Tallhukommelse Sekvensering skal tallene gjentas i stigende rekkefølge.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 10
+         },
+         "testGUID": "c3b06fc8f58749da96b7074e0f40d16d",
+         "subtestGUID": "d6ee442bd2be4d068b08a665a7046e92",
+         "orderId": 4,
+         "displayName": "Tallhukommelse",
+         "name": "Tallhukommelse",
+         "abbr": "ds"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet skal innenfor en gitt tidsgrense, ved hjelp av en kodenøkkel, kopiere enkle symboler som hører sammen med enkle geometriske figurer (Versjon A) eller tall (Versjon B).",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 4
+         },
+         "testGUID": "c3b06fc8f58749da96b7074e0f40d16d",
+         "subtestGUID": "f3ba0891251b44ab9cfba2ee5355b2b5",
+         "orderId": 5,
+         "displayName": "Koding",
+         "name": "Koding",
+         "abbr": "cd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "For picture items, the child names pictures that are displayed on the Client Device. For verbal items, the child gives definitions for words that the examiner reads aloud.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 8
+         },
+         "testGUID": "c3b06fc8f58749da96b7074e0f40d16d",
+         "subtestGUID": "636e376badf64eb3ae9af6daf5a21429",
+         "orderId": 6,
+         "displayName": "Ordforståelse",
+         "name": "Ordforståelse",
+         "abbr": "vc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet skal innenfor enn gitt tidsgrense se på en vekt der ett eller flere vektlodd mangler, og velge det svaralternativet blant fem som gjør at vekten er i balanse.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 6
+         },
+         "testGUID": "c3b06fc8f58749da96b7074e0f40d16d",
+         "subtestGUID": "64083d45dd144d36822fa71284c9a34d",
+         "orderId": 7,
+         "displayName": "Figurvekter",
+         "name": "Figurvekter",
+         "abbr": "fw"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet skal innenfor en gitt tidsgrense se på et ferdig puslespill, og deretter identifisere de tre (av seks) svaralternativene som rekonstruerer psulespillet når de legges sammen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 6
+         },
+         "testGUID": "c3b06fc8f58749da96b7074e0f40d16d",
+         "subtestGUID": "d92581b257da4f1ca0b1e5a8b0a5bd19",
+         "orderId": 8,
+         "displayName": "Visuelle puslespill",
+         "name": "Visuelle puslespill",
+         "abbr": "vp"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet får presentert en stimulusside med ett eller flere bilder i et visst antall sekunder, og skal deretter på påfølgende side identifisere hvilke(t) bilde(r) han eller hun fikk presentert.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "c3b06fc8f58749da96b7074e0f40d16d",
+         "subtestGUID": "36f921df6317499ab4d6413dc94453e1",
+         "orderId": 9,
+         "displayName": "Bildehukommelse",
+         "name": "Bildehukommelse",
+         "abbr": "ps"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet skal innenfor en gitt tidsgrense visuelt søke gjennom en gruppe symboler og avgjøre om noen av målsymbolene er med eller ikke.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "c3b06fc8f58749da96b7074e0f40d16d",
+         "subtestGUID": "3d0bbffc68c54d5bbe1913509e643af8",
+         "orderId": 10,
+         "displayName": "Symbolleting",
+         "name": "Symbolleting",
+         "abbr": "ss"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child answers questions that address a broad range of general knowledge topics.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 5
+         },
+         "testGUID": "c3b06fc8f58749da96b7074e0f40d16d",
+         "subtestGUID": "ccd8fb044a424c2ebbc52cc06f0d6f81",
+         "orderId": 11,
+         "displayName": "Informasjon",
+         "name": "Informasjon",
+         "abbr": "in"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Testlederen leser opp kombinasjoner av tall og bokstaver. Barnet skal først gjengi tallene i stigende rekkefølge og deretter bokstavene i alfabetisk rekkefølge.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "c3b06fc8f58749da96b7074e0f40d16d",
+         "subtestGUID": "acf99ad113ce4090bd2c6d609fbacbcd",
+         "orderId": 12,
+         "displayName": "Tall-bokstav-serier",
+         "name": "Tall-bokstav-serier",
+         "abbr": "ln"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet skal innenfor en gitt tidsgrense søke gjennom A3-sider med bilder av forskjellige objekter (arrangert tilfeldig eller strukturert) og markere målobjektene (dyr).",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "c3b06fc8f58749da96b7074e0f40d16d",
+         "subtestGUID": "7093f86c5e354470b86d893f9180c762",
+         "orderId": 13,
+         "displayName": "Utstrykning",
+         "name": "Utstrykning",
+         "abbr": "ca"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet skal muntlig besvare en rekke spørsmål som handler om hvordan han eller hun resonnerer rundt hverdagslige problemstillinger, generelle prinsipper og sosiale situasjoner.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 11
+         },
+         "testGUID": "c3b06fc8f58749da96b7074e0f40d16d",
+         "subtestGUID": "e1c34bae5ed74caeab3514565c3095f5",
+         "orderId": 14,
+         "displayName": "Resonnering",
+         "name": "Resonnering",
+         "abbr": "co"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet skal innenfor en gitt tidsgrense løse en rekke regneoppgaver (bilder og verbalt presenterte) ved hjelp av hoderegning.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 9
+         },
+         "testGUID": "c3b06fc8f58749da96b7074e0f40d16d",
+         "subtestGUID": "37326eaf3f9f4dfb879b30b73e55bb67",
+         "orderId": 15,
+         "displayName": "Regning",
+         "name": "Regning",
+         "abbr": "ar"
+      }
+   ],
+   "averageDuration": 108
+}

@@ -1,0 +1,85 @@
+{
+   "normType": "d-kefs",
+   "testGUID": "a71e42aea676452d97a4079324abba86",
+   "displayName": "D-KEFS-NL",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "60e0560444824221b804706f27c23ce9",
+   "domain": "Executive Function",
+   "name": "D-KEFS-NL",
+   "description": "Een uitgebreide afname van de kerncomponenten van executief functioneren.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "Een visuomotorische test die een indicatie geeft van cognitieve flexibiliteit, met vijf condities: Visueel Scannen, Cijfer Sequencing, Letter Sequencing, Cijfer-Letter Switching, Motorische Snelheid.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 9
+         },
+         "testGUID": "a71e42aea676452d97a4079324abba86",
+         "subtestGUID": "6a961de18f254825b9e75c96ab40dddc",
+         "orderId": 1,
+         "displayName": "Trail Making Test",
+         "name": "Trail Making Test",
+         "abbr": "Trail Making Test"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Test voor het vaststellen van executieve functies en in het bijzonder visuele aandacht, motorische snelheid, visueel-perceptuele vaardigheden en constructievaardigheden. De cliënt moet in drie verschillende condities zoveel mogelijk verschillende patronen tekenen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 10
+         },
+         "testGUID": "a71e42aea676452d97a4079324abba86",
+         "subtestGUID": "31d634c339d3480d8be53a65bad7e357",
+         "orderId": 4,
+         "displayName": "Design Fluency Test",
+         "name": "Design Fluency Test",
+         "abbr": "Design Fluency Test"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De Color Word Test meet cognitieve flexibiliteit en het inhibitievermogen en is gebaseerd op de bekende STROOP test. De Color Word Test bevat vier condities: Kleuren benoemen, Woorden lezen, Inhibitie en Inhibitie/Switching.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 8
+         },
+         "testGUID": "a71e42aea676452d97a4079324abba86",
+         "subtestGUID": "771e897d3e2c41259f1641026245a0d5",
+         "orderId": 5,
+         "displayName": "Color Word Test",
+         "name": "Color-Word Interference Test",
+         "abbr": "Color-Word Interference Test"
+      }
+   ],
+   "averageDuration": 27
+}

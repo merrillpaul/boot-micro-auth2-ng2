@@ -1,0 +1,253 @@
+{
+   "normType": "wms-iv-fr-older-adult",
+   "testGUID": "ef616d6743ee4d6c8ea77b9a63492574",
+   "displayName": "MEM-IV Séniors",
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Memory",
+   "name": "WMS-IV-FR-Older-Adult",
+   "description": "La référence pour l'évaluation de la mémoire",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "Le sujet réalise de simples tâches relevant de domaines variés comme l'orientation et l'estimation du temps, le contrôle mental, le dessin d'une horloge, le rappel incident, l'inhibition, et la production verbale.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Mental Status",
+            "averageDuration": 7
+         },
+         "testGUID": "ef616d6743ee4d6c8ea77b9a63492574",
+         "subtestGUID": "e470352809f545da9fca6fd245491d5d",
+         "orderId": 1,
+         "displayName": "Examen cognitif rapide du sujet",
+         "name": "Examen cognitif rapide du sujet",
+         "educationRange": [],
+         "abbr": "bcsefr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Une série de cinq dessins est montrée au sujet, un dessin à la fois pendant 10 secondes chacun. Après la présentation de chaque dessin, le sujet doit le dessiner de mémoire sur le Cahier de réponses.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 65
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Memory",
+            "averageDuration": 4
+         },
+         "testGUID": "ef616d6743ee4d6c8ea77b9a63492574",
+         "subtestGUID": "ad2d8d887ef149aea1694927b59ce1ad",
+         "orderId": 2,
+         "displayName": "Reproduction Visuelle I",
+         "name": "Reproduction Visuelle I",
+         "abbr": "vrfr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Deux brèves histoires sont présentées oralement. L'une des deux histoires est présentée deux fois. A chaque fois, l'examinateur demande au sujet de restituer l'histoire de mémoire, immédiatement après l'avoir entendue.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 65
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Auditory Memory",
+            "averageDuration": 4
+         },
+         "testGUID": "ef616d6743ee4d6c8ea77b9a63492574",
+         "subtestGUID": "32e8f27d2b67416f97191d4c7b5347d6",
+         "orderId": 3,
+         "displayName": "Mémoire Logique I",
+         "name": "Mémoire Logique I - Séniors",
+         "abbr": "lmOAfr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Après avoir lu 10 paires de mots au sujet, l'examinateur lit le premier mot de chaque paire, le sujet devant fournir le second de mémoire.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 65
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Auditory Memory",
+            "averageDuration": 9
+         },
+         "testGUID": "ef616d6743ee4d6c8ea77b9a63492574",
+         "subtestGUID": "87c3d2088be14227bebe9cf27a2b684e",
+         "orderId": 4,
+         "displayName": "Mots Couplés I",
+         "name": "Mots Couplés I - Séniors",
+         "abbr": "vpaOAfr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Tout d'abord, l'examinateur demande au sujet de dessiner de mémoire les dessins présentés lors de la condition immédiate dans n'importe quel ordre. Ensuite, l'examinateur lui demande de choisir parmi six dessins présentés sur l'écran celui qui correspond à un dessin montré lors de la condition immédiate. Enfin, pour la tâche optionnelle de copie, l'examinateur demande de dessiner les dessins pendant qu'ils sont sous les yeux des sujets.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 90
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 16
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 30,
+                  "minDelayMinutes": 20,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "ad2d8d887ef149aea1694927b59ce1ad",
+                     "subtestName": "Reproduction Visuelle I"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Visual Memory",
+            "averageDuration": 8
+         },
+         "testGUID": "ef616d6743ee4d6c8ea77b9a63492574",
+         "subtestGUID": "bc003af567fb44238b29dc0bbbde2ce9",
+         "orderId": 5,
+         "displayName": "Reproduction Visuelle II",
+         "name": "Reproduction Visuelle II",
+         "abbr": "vr2fr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "L'examinateur demande au sujet de restituer chacune des histoires de la condition immédiate. Il pose ensuite des questions avec réponse par oui ou non concernant chacune des histoires.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 90
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 65
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 30,
+                  "minDelayMinutes": 20,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "32e8f27d2b67416f97191d4c7b5347d6",
+                     "subtestName": "Mémoire Logique I - Séniors"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Auditory Memory",
+            "averageDuration": 5
+         },
+         "testGUID": "ef616d6743ee4d6c8ea77b9a63492574",
+         "subtestGUID": "efaf5bbeb5fd4523aea035492c03b26d",
+         "orderId": 6,
+         "displayName": "Mémoire Logique II",
+         "name": "Mémoire Logique II - Séniors",
+         "abbr": "lm2OAfr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "L'examinateur présente verbalement au sujet le premier mot de chaque paire apprise lors de la condition immédiate et lui demande ensuite de restituer le mot correspondant. \r\nL'examinateur lit ensuite au sujet une liste de paires de mots et lui demande d'identifier chaque paire comme étant soit issue de la condition immédiate, soit nouvelle. \r\nEnfin, lors de la tâche optionnelle de Rappel de mots,l'examinateur demande au sujet de citer de mémoire autant de mots issus des paires que possible.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 90
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 65
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 30,
+                  "minDelayMinutes": 20,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "87c3d2088be14227bebe9cf27a2b684e",
+                     "subtestName": "Mots Couplés I - Séniors"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Auditory Memory",
+            "averageDuration": 5
+         },
+         "testGUID": "ef616d6743ee4d6c8ea77b9a63492574",
+         "subtestGUID": "c0496672528e46aab1da441ad2d30ae4",
+         "orderId": 7,
+         "displayName": "Mots Couplés II",
+         "name": "Mots Couplés II - Séniors",
+         "abbr": "vpa2OAfr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "L'examinateur montre brièvement au sujet une série de symboles abstraits sur une page et lui demande ensuite de sélectionner parmi un ensemble de symboles ceux qui ont été présentés, et ce dans le même ordre.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Working Memory",
+            "averageDuration": 8
+         },
+         "testGUID": "ef616d6743ee4d6c8ea77b9a63492574",
+         "subtestGUID": "91b3e77229234726a05da54d9e93ce5a",
+         "orderId": 8,
+         "displayName": "Mémoire de Symboles",
+         "name": "Mémoire de Symboles",
+         "abbr": "ssfr"
+      }
+   ],
+   "averageDuration": 105
+}

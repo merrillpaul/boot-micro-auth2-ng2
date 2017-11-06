@@ -1,0 +1,105 @@
+<!-- only the main layout should have the root as true. Default is false -->
+<nav-layout #layout [root]="true" *ngIf="true">
+    <!-- drawer  not mandatory-->
+    <nav-drawer *ngIf="currentUser?.loggedIn" class="mainDrawer" logo="assets:logo" sidenavTitle="Pattern Lib"
+                name="{{ currentUser?.firstName }} {{ currentUser?.lastName }}" email="{{ currentUser?.email }}">
+        <md-nav-list>
+            <ng-template let-item let-last="last" ngFor [ngForOf]="routes">
+                <a md-list-item (click)="layout.close()">
+                    <md-icon>{{item.icon}}</md-icon>
+                    {{item.title}}</a>
+            </ng-template>
+        </md-nav-list>
+    </nav-drawer>
+
+
+    <nav-content [hideMenu]="!currentUser?.loggedIn">
+
+        <!-- header toolbar -->
+        <nav-toolbar-content>
+            <a md-icon-button mdTooltip="ProjectOne">
+                <md-icon svgIcon="assets:logo"></md-icon>
+            </a>
+            <span>Project one</span>
+            <span *ngIf="!currentUser?.loggedIn" fxFlex></span>
+            <span *ngIf="currentUser?.loggedIn" fxLayout="row" fxLayoutAlign="center" fxFlex fxShow fxHide.xs>
+          <button md-button class="text-upper">dashboard</button>
+          <button md-button class="text-upper">examinees</button>
+          <button md-button class="text-upper">test sessions</button>
+        </span>
+            <span fxFlex fxHide fxShow.xs></span>
+            <button md-icon-button [mdMenuTriggerFor]="notificationsMenu">
+                <psn-badge color="success" notifications="4">
+                    <md-icon>notifications</md-icon>
+                </psn-badge>
+            </button>
+            <md-menu #notificationsMenu="mdMenu">
+                <psn-menu>
+                    <div psn-menu-header class="md-subhead">Your Options</div>
+                    <md-nav-list dense psn-menu-content>
+                        <a *ngIf="currentUser?.loggedIn" md-list-item>
+                            <md-icon md-list-avatar>system_update_alt</md-icon>
+                            <h4 md-line><span class="text-wrap">Assessments</span></h4>
+                            <p md-line>2 incoming results</p>
+                        </a>
+                        <a *ngIf="currentUser?.loggedIn" md-list-item>
+                            <md-icon md-list-avatar>dashboard</md-icon>
+                            <h4 md-line><span class="text-wrap">Users</span></h4>
+                            <p md-line>some users have been using</p>
+                        </a>
+                        <a *ngIf="currentUser?.loggedIn" md-list-item>
+                            <md-icon md-list-avatar>email</md-icon>
+                            <h4 md-line><span class="text-wrap">Email</span></h4>
+                            <p md-line>you got mail</p>
+                        </a>
+                        <md-divider></md-divider>
+                        <a md-list-item (click)="changeTheme()">
+                            <md-icon md-list-avatar>system_update_alt</md-icon>
+                            <h4 md-line><span class="text-wrap">Change App Theme</span></h4>
+                            <p md-line>cycle thru the available themes</p>
+                        </a>
+                        <md-divider *ngIf="currentUser?.loggedIn"></md-divider>
+                        <a *ngIf="currentUser?.loggedIn" md-list-item (click)="logout()">
+                            <md-icon md-list-avatar>exit_to_app</md-icon>
+                            <h4 md-line><span class="text-wrap">Sign out</span></h4>
+                            <p md-line>logs you out of the application</p>
+                        </a>
+                    </md-nav-list>
+
+                    <a md-button color="accent" psn-menu-footer td-menu-footer href="https://github.com/"
+                       target="_blank">
+                        View Code
+                    </a>
+                </psn-menu>
+            </md-menu>
+
+            <button md-icon-button [mdMenuTriggerFor]="userprofile">
+                <md-icon>account_circle</md-icon>
+            </button>
+            <md-menu #userprofile="mdMenu">
+  <span md-menu-item disabled>
+    {{currentUser.firstName}} {{currentUser.lastName}}
+  </span>
+                <md-divider></md-divider>
+                <button md-menu-item (click)="settings()">
+                    <md-icon>settings</md-icon>
+                    <span>Settings</span>
+                </button>
+                <button md-menu-item (click)="logout()">
+                    <md-icon>exit_to_app</md-icon>
+                    <span>Logout</span>
+                </button>
+            </md-menu>
+        </nav-toolbar-content>
+        <!-- toolbar ends -->
+        <nav-body class="any-class-you-like-for-the-content">
+            <router-outlet></router-outlet>
+            <nav-footer color="grey" fxShow fxHide.xs>
+                <app-footer></app-footer>
+            </nav-footer>
+        </nav-body>
+        <nav-footer color="grey" fxHide fxShow.xs>
+            <app-footer></app-footer>
+        </nav-footer>
+    </nav-content>
+</nav-layout>

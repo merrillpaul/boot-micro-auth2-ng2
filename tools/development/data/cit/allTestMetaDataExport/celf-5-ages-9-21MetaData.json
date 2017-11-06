@@ -1,0 +1,300 @@
+{
+   "normType": "celf-5",
+   "testGUID": "1feda8d2d67542f491db0cb3cf87596b",
+   "displayName": "CELF-5 Ages 9-21",
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Speech/Language",
+   "name": "CELF-5-Ages-9-21",
+   "description": "A flexible comprehensive language assessment reflecting today's diverse population.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "To evaluate the student's ability to understand relationships between words based on semantic class features, function, \r\nor place or time of occurrence",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 21
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 9
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 8
+         },
+         "testGUID": "1feda8d2d67542f491db0cb3cf87596b",
+         "subtestGUID": "34621d8d475945b1a18b0b662d4b71e6",
+         "orderId": 1,
+         "displayName": "Word Classes",
+         "name": "Word Classes",
+         "abbr": "wc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "To evaluate the student's ability to (a) interpret spoken directions of increasing length and complexity; (b) follow the \r\nstated order of mention of familiar shapes with varying characteristics such as color, size, or location; and (c) identify \r\nfrom among several choices the pictured objects that were mentioned. These abilities reflect short-term and procedural \r\nmemory capacities.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 21
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 9
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 9
+         },
+         "testGUID": "1feda8d2d67542f491db0cb3cf87596b",
+         "subtestGUID": "b0eb6eed96ac40eea4e322a5d018745d",
+         "orderId": 2,
+         "displayName": "Following Directions",
+         "name": "Following Directions",
+         "abbr": "fd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "To evaluate the student's ability to formulate complete, semantically and grammatically correct, spoken sentences of increasing length and complexity (i.e., simple, compound, and complex sentences), using given words (e.g., car, if, because) and contextual constraints imposed by illustrations. These abilities reflect the capacity to integrate semantic, syntactic, and pragmatic rules and constraints while using working memory",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 21
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 9
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 13
+         },
+         "testGUID": "1feda8d2d67542f491db0cb3cf87596b",
+         "subtestGUID": "c0f74516e9924c14a90e0fccdf14bc84",
+         "orderId": 3,
+         "displayName": "Formulated Sentences",
+         "name": "Formulated Sentences",
+         "abbr": "fs"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "To evaluate the student’s ability to listen to spoken sentences of increasing length and complexity, and repeat the sentences without changing word meaning and content, word structure (morphology), or sentence structure (syntax). Semantic, morphological, and syntactic competence facilitates immediate recall (short-term memory).",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 21
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 9
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 7
+         },
+         "testGUID": "1feda8d2d67542f491db0cb3cf87596b",
+         "subtestGUID": "b486ccf3503f42fdb9775b5efbda7c9c",
+         "orderId": 4,
+         "displayName": "Recalling Sentences",
+         "name": "Recalling Sentences",
+         "abbr": "rs"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "To evaluate the student's ability to (a) sustain attention and focus while listening to spoken paragraphs of increasing length and complexity, (b) create meaning from oral narratives and text, (c) answer questions about the content of the \r\ninformation given, and (d) use critical thinking strategies for interpreting beyond the given information. The questions probe for understanding of the main idea, memory for facts and details, recall of event sequences, and making inferences and predictions.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 21
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 9
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 12
+         },
+         "testGUID": "1feda8d2d67542f491db0cb3cf87596b",
+         "subtestGUID": "1ece33c74d1740b5a18c7cf7da7d4340",
+         "orderId": 5,
+         "displayName": "Understanding Spoken Paragraphs",
+         "name": "Understanding Spoken Paragraphs",
+         "abbr": "usp"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "To evaluate the student's ability to (a) analyze words for their meaning features, (b) define words by referring to class relationships and shared meanings, and (c) describe meanings that are unique to the reference or instance.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 21
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 9
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 13
+         },
+         "testGUID": "1feda8d2d67542f491db0cb3cf87596b",
+         "subtestGUID": "9e4e453766344cc58f778c652e807c85",
+         "orderId": 6,
+         "displayName": "Word Definitions",
+         "name": "Word Definitions",
+         "abbr": "wd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "To evaluate the student's ability to formulate grammatically-acceptable and semantically-meaningful sentences by manipulating and transforming given words and word groups.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 21
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 9
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 11
+         },
+         "testGUID": "1feda8d2d67542f491db0cb3cf87596b",
+         "subtestGUID": "11c8b52ad59846b8b99e6d232caeaf90",
+         "orderId": 7,
+         "displayName": "Sentence Assembly",
+         "name": "Sentence Assembly",
+         "abbr": "sa"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "To evaluate the student's ability to interpret sentences that (a) make comparisons, (b) identify location or direction, (c) specify time relationships, (d) include serial order, or (e) are expressed in passive voice.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 21
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 9
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 9
+         },
+         "testGUID": "1feda8d2d67542f491db0cb3cf87596b",
+         "subtestGUID": "33935c663c634be884e7fa1c4aff0e5a",
+         "orderId": 8,
+         "displayName": "Semantic Relationships",
+         "name": "Semantic Relationships",
+         "abbr": "sr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The skills that are evaluated are common, daily skills observed across ages, genders, and classroom situations and are necessary for obtaining, responding to, and giving information.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 21
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 9
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 8
+         },
+         "testGUID": "1feda8d2d67542f491db0cb3cf87596b",
+         "subtestGUID": "437962f11f2649a7a98f59f46f883cb1",
+         "orderId": 9,
+         "displayName": "Pragmatics Profile",
+         "name": "Pragmatics Profile",
+         "abbr": "pp"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "To provide the examiner an opportunity to observe the student’s functional communications skills during authentic conversational interactions in order to identify verbal and nonverbal behaviors that may negatively influence social and academic communication.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 21
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 9
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 18
+         },
+         "testGUID": "1feda8d2d67542f491db0cb3cf87596b",
+         "subtestGUID": "f5b5cc2219b9440786a876cb478d3708",
+         "orderId": 10,
+         "displayName": "Pragmatics Activities Checklist",
+         "name": "Pragmatics Activities Checklist",
+         "abbr": "pac"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "To evaluate the student's ability to (a) sustain attention and focus while reading paragraphs of increasing length and complexity, (b) create meaning from written narratives and text, (c) answer questions about the content of the information given, and (d) use critical thinking strategies for interpreting beyond the given information. The questions probe for understanding of the main idea, memory for facts and details, recall of event sequences, and making \r\ninferences and predictions. This test is in a parallel format to understanding Spoken Paragraphs",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 21
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 9
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 10
+         },
+         "testGUID": "1feda8d2d67542f491db0cb3cf87596b",
+         "subtestGUID": "7193430bef5e44fca0915d9622226c55",
+         "orderId": 11,
+         "displayName": "Reading Comprehension",
+         "name": "Reading Comprehension",
+         "abbr": "rc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "To evaluate the student’s ability to use situational information given by a story title, an introductory sentence, and an \r\nincomplete sentence to create and write a thematic, structured narrative.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 21
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 9
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Written Expression",
+            "averageDuration": 12
+         },
+         "testGUID": "1feda8d2d67542f491db0cb3cf87596b",
+         "subtestGUID": "b0554a38bb4049a185951bf3a251d8c4",
+         "orderId": 12,
+         "displayName": "Structured Writing",
+         "name": "Structured Writing",
+         "abbr": "sw"
+      }
+   ],
+   "averageDuration": 152
+}

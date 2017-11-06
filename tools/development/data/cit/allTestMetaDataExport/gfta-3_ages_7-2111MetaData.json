@@ -1,0 +1,34 @@
+{
+   "normType": "gfta-3",
+   "testGUID": "dd847b92d49b4adfb0df55a0fc7273e5",
+   "displayName": "GFTA-3 Ages 7-21:11",
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Speech/Language",
+   "name": "GFTA-3_Ages_7-21:11",
+   "description": "A systematic means of assessing an individual's articulation of the consonant and consonant cluster sounds of Standard American English with optional KLPA-3 reporting.",
+   "subtests": [{
+      "metaData": {
+         "descriptionCS": "A systematic means of assessing an individual's articulation of the consonant and consonant cluster sounds of Standard American English with optional KLPA-3 reporting.",
+         "rules": [{
+            "maxAge": {
+               "month": 11,
+               "year": 21
+            },
+            "minAge": {
+               "month": 0,
+               "year": 7
+            },
+            "type": "age"
+         }],
+         "subtestCategory": "Articulation",
+         "averageDuration": 15
+      },
+      "testGUID": "dd847b92d49b4adfb0df55a0fc7273e5",
+      "subtestGUID": "da47bdf8c7cf490c8ff19acdf3e1c42e",
+      "orderId": 1,
+      "displayName": "Test of Articulation",
+      "name": "Test of Articulation 7 - 21:11",
+      "abbr": "SoundsRe"
+   }],
+   "averageDuration": 30
+}

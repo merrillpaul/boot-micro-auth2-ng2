@@ -1,0 +1,65 @@
+// a custom gradle plugin for dbmaintain , inspired from http://www.dbmaintain.org/ant-tasks.html
+configurations {
+	dbmaintain
+	mysql
+}
+dependencies {
+	dbmaintain group: 'org.dbmaintain', name: 'dbmaintain', version: '2.4'
+	mysql group: 'mysql', name: 'mysql-connector-java', version: '5.1.39'
+}
+
+// allows loading dbmaintain properties from external location though command line using properties like:
+// `$ dbmaint_config_file=/some/location/dbmaintain_auth_db.properties   ./gradlew updateDatabase`
+// if not, uses the one that is there in the resources folder of the data project
+def getDBMaintainFiles = {
+	def sqlFolder = "${project.projectDir}/src/database/scripts"
+	def externalDbMaintainProperties = System.getenv('dbmaint_config_file')
+	def config = "${project.projectDir}/src/database/resources/dbmaintain.properties"
+	[
+			dir   : sqlFolder,
+			config: externalDbMaintainProperties ?: config
+	]
+}
+
+// register dbmaintain tasks
+ant.taskdef(resource: "dbmaintain-anttasks.xml", classpath: "${configurations.mysql.asPath}:${configurations.dbmaintain.asPath}")
+
+// create the archive for distribution
+task createDBMaintainArchive << {
+	ant.echo("Creating DB Maintain for ${project.name}")
+	def destination = "${project.buildDir}/dbmaintain"
+	ant.mkdir(dir: destination)
+	def config = getDBMaintainFiles()
+	ant.createScriptArchive(
+			archiveFileName: "${destination}/${project.name}-${project.version}-dbmaintain.jar",
+			scriptLocations: config.dir,
+			configFile: config.config
+	)
+}
+
+// brings the database up2date
+task updateDatabase << {
+	ant.echo("Updating DB Maintain for ${project.name}")
+	def config = getDBMaintainFiles()
+	ant.updateDatabase(scriptLocations: config.dir, configFile: config.config, autoCreateDbMaintainScriptsTable: true)
+}
+
+// updates the state of the database to indicate that all scripts have been executed, without actually executing them
+task markDatabaseAsUpToDate << {
+	ant.echo("Marking DB Maintain as up2date ${project.name}")
+	def config = getDBMaintainFiles()
+	ant.markDatabaseAsUpToDate(scriptLocations: config.dir, configFile: config.config, autoCreateDbMaintainScriptsTable: true)
+}
+
+// indicates that the failed script was manually reverted
+task markErrorScriptReverted << {
+	ant.echo("Marking error script as reverted DB Maintain for ${project.name}")
+	def config = getDBMaintainFiles()
+	ant.markErrorScriptReverted(configFile: config.config)
+}
+
+artifacts {
+	archives file("${project.buildDir}/dbmaintain/${project.name}-${project.version}-dbmaintain.jar")
+}
+
+

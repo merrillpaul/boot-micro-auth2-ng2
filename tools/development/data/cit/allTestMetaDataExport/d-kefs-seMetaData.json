@@ -1,0 +1,109 @@
+{
+   "normType": "d-kefs-se",
+   "testGUID": "7d82e728d96641478e0b9f8ba51f7f9f",
+   "displayName": "D-KEFS",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Executive Function",
+   "name": "D-KEFS-SE",
+   "description": "Test för bedömning av exekutiva funktioner",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "Trail Making Test mäter kognitiv flexibilitet i en visuomotorisk uppgift",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 9
+         },
+         "testGUID": "7d82e728d96641478e0b9f8ba51f7f9f",
+         "subtestGUID": "3a57f456f2714a6b9e488273882370fd",
+         "orderId": 1,
+         "displayName": "Trail Making Test",
+         "name": "Trail Making Test",
+         "abbr": "d-kefs-tmt-se"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Verbalt flöde mäter förmåga till verbal produktion/verbalt flöde",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 10
+         },
+         "testGUID": "7d82e728d96641478e0b9f8ba51f7f9f",
+         "subtestGUID": "940f68977448450aaeaaa2554e9f3b5c",
+         "orderId": 2,
+         "displayName": "Verbalt flöde",
+         "name": "Verbalt flöde",
+         "abbr": "d-kefs-vft-se"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Mönsterflöde mäter förmågan till spatial produktion/mönsterflöde",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 10
+         },
+         "testGUID": "7d82e728d96641478e0b9f8ba51f7f9f",
+         "subtestGUID": "4477e8b4fc464ce5915691f91f08f3a9",
+         "orderId": 3,
+         "displayName": "Mönsterflöde",
+         "name": "Mönsterflöde",
+         "abbr": "d-kefs-dft-se"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Color-Word Interference Test mäter förmågan till verbal inhibering",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 8
+         },
+         "testGUID": "7d82e728d96641478e0b9f8ba51f7f9f",
+         "subtestGUID": "3d0971673a844e72a41ae5ba8d0f95ee",
+         "orderId": 4,
+         "displayName": "Color-Word Interference Test",
+         "name": "Color-Word Interference Test",
+         "abbr": "d-kefs-cit-se"
+      }
+   ],
+   "averageDuration": 37
+}

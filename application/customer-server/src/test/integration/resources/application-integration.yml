@@ -1,0 +1,5 @@
+config:
+  auth_server: false
+
+customerDatasource:
+  mongo-uri: mongodb://localhost:27017/customerdb_intg

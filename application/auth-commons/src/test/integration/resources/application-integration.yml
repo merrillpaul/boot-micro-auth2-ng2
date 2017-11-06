@@ -1,0 +1,19 @@
+appSecurityDatasource:
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/integration_db
+  username: intg_user
+  password: password1!
+tokenDatasource:
+  mongo-uri: mongodb://localhost:27017/tokenstoredb_intg
+
+spring:
+ jpa:
+   show-sql: true
+   generate-ddl: true
+   hibernate:
+     ddl-auto: create
+   properties:
+     hibernate:
+       physical_naming_strategy: com.pearson.projectone.core.support.hibernate.PhysicalNamingStrategyImpl
+       ejb:
+        interceptor: com.pearson.projectone.core.support.jpa.listeners.GenericJpaListener

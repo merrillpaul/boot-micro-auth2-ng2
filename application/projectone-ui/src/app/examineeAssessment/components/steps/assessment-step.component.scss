@@ -1,0 +1,33 @@
+:host {
+    
+    @mixin step-arrow($color) {
+                content: "";
+                bottom: -1.25rem;
+                left: 1.5rem;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 1.25rem 1.125rem 0;
+                border-color: $color transparent transparent;
+                position: absolute;
+    }
+    .assessment-step {
+        position: relative;
+        &::after {
+                @include step-arrow(#fff);
+        }
+        &::before {
+                @include step-arrow(rgba(0, 0, 0, 0.45));                
+        } 
+
+    } 
+
+    &.last {
+        .assessment-step {            
+            &::after, &::before {
+                    display: none
+            }
+        } 
+    }   
+    
+}

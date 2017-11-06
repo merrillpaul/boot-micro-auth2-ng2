@@ -1,0 +1,10 @@
+<div class="rater-builder">
+
+    <ng-template let-item let-last="last" let-index="index" ngFor [ngForOf]="raters">
+           <rater-form (validityChange)="onValidityChange($event)"  [@fadeOnEnter]="''" [rater]="item" [index]="index" [editing]="editing"></rater-form>
+    </ng-template>
+
+    <div [@fadeOnEnter]="''" *ngIf="raters.length === 0" fxLayout="row" fxLayoutAlign="center center" >
+        <i>No Raters added yet</i>
+    </div>
+</div>

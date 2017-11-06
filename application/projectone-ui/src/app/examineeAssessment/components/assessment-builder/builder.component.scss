@@ -1,0 +1,27 @@
+@import 'pearson-theme';
+
+:host /deep/ {
+    .builder {
+        margin-top: 10px;
+        .builder-ctr {
+            min-height: 300px;
+            padding: 0 10px 10px 10px;
+        }
+        .instrument {
+            &.active {
+                font-style: italic;
+                @include pearson_color(secondary, 'background-color', 50);
+                .mat-list-item-content {
+                    &:after {
+                        @include material-icon-pseudo("check");
+                        @include pearson_color(success);
+                    }
+                }
+            }
+        }
+        .builder-selections .mat-divider {
+            //border-top-color: white;
+            margin-left: 0;
+        }
+    }
+}

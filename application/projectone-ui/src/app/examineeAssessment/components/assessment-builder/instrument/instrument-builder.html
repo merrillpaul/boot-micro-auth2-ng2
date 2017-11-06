@@ -1,0 +1,34 @@
+<psn-expanding-panel [color]="color" #instrumentPanel [expand]="instrumentAssessment.currentSelected" (collapsed)="onCollapsed()" (closed)="onRemove()">
+
+   
+    <h4>{{instrument.assessmentName }}</h4>
+    <md-icon class="pad-left-sm" *ngIf="completed" color="success">done</md-icon>  
+    <span fxFlex></span>
+    <button mdTooltip="Edit this instrument" [disabled]="instrumentAssessment.editing" (click)="openForEditing($event)" md-icon-button>
+        <md-icon>edit</md-icon>
+    </button>
+
+    <expanding-panel-content class="bgc-grey-50">
+        <div class="md-padding" >
+            <assessment-rater-builder [raters]="instrumentAssessment.raters" [editing]="instrumentAssessment.editing" (builderValidityChange)="markValidRater($event)"
+            [@fadeOnEnter]="''" *ngIf="instrument.formType === 'RATER'" (remove)="removeRater($event)"></assessment-rater-builder>
+            <div [@fadeOnEnter]="''" *ngIf="instrument.formType === 'SELF'">Coming soon </div>
+        </div>
+        <md-divider *ngIf="instrumentAssessment.editing" ></md-divider>
+    
+        <div *ngIf="instrumentAssessment.editing" fxLayout="row" fxLayout.xs="column" fxLayoutAlign="start center" fxLayoutAlign.xs="start stretch" fxLayoutGap.xs="5px" fxLayoutGap="20px" class="pad-sm">
+            
+            <button [@fadeOnEnter]="''" *ngIf="instrument.formType === 'RATER'" [disabled]="!validRaters"
+              md-raised-button color="secondary" type="button" (click)="addRater()">
+                    <div *ngIf="instrumentAssessment.raters.length > 0; else elseBlock">Add Another Rater</div>
+                    <ng-template #elseBlock>Add a Rater</ng-template>                
+                </button>
+
+             <span fxFlex fxHide.xs></span>
+             <button  md-button type="button" (click)="onRemove()">Cancel</button>
+             <button [disabled]="!validInstrument"  md-raised-button color="primary" type="button" (click)="doneWithInstrument()">Done w/ {{instrument.assessmentName}}
+            </button>
+        </div>
+    </expanding-panel-content>
+
+</psn-expanding-panel>

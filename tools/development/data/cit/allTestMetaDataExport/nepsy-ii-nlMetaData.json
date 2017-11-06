@@ -1,0 +1,221 @@
+{
+   "normType": "nepsy-ii-nl",
+   "testGUID": "30110f32c48b48fcaecabc142766b534",
+   "displayName": "NEPSY-II-NL",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "60e0560444824221b804706f27c23ce9",
+   "domain": "Neuropsychology",
+   "name": "NEPSY-II-NL",
+   "description": "Een kind kan met de NEPSY-II-NL uitgebreid worden getest om gedetailleerde en uitgebreide informatie te verkrijgen over zijn neuropsychologische functioneren.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "Het kind sorteert kaarten in twee groepen van elk vier kaarten met behulp van verschillende zelfbedachte sorteercriteria.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 12
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 7
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 7
+         },
+         "testGUID": "30110f32c48b48fcaecabc142766b534",
+         "subtestGUID": "c85097d73a50433b9d36ec8a612f9599",
+         "orderId": 1,
+         "displayName": "Dieren sorteren",
+         "name": "Dieren sorteren",
+         "abbr": "Dieren sorteren"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het kind kijkt naar een serie zwarte en witte vormen of pijlen en benoemt deze, of geeft afhankelijk van de kleur van de vorm of pijl een andere reactie.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 11
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 7
+         },
+         "testGUID": "30110f32c48b48fcaecabc142766b534",
+         "subtestGUID": "7da84ccd0c1c45cd8bac382260c150bb",
+         "orderId": 2,
+         "displayName": "Inhibitie",
+         "name": "Inhibitie",
+         "abbr": "Inhibitie"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het kind krijgt steeds 10 seconden lang een raster te zien met daarin, afhankelijk van het niveau, vier tot tien tekeningen. Dit raster wordt daarna uit het zicht gehaald. Het kind kiest de juiste tekeningen uit een verzameling van acht tot twintig kaarten met tekeningen en legt deze in het raster op de juiste plaats.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 11
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 10
+         },
+         "testGUID": "30110f32c48b48fcaecabc142766b534",
+         "subtestGUID": "018163a15294479db520dbee39a33658",
+         "orderId": 3,
+         "displayName": "Visueel-ruimtelijk geheugen",
+         "name": "Visueel-ruimtelijk geheugen",
+         "abbr": "Visueel-ruimtelijk geheugen"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het kind tekent figuren na die in het Antwoordboekje staan.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 11
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 6
+         },
+         "testGUID": "30110f32c48b48fcaecabc142766b534",
+         "subtestGUID": "593e06f417da4d92a918e35dbdae059f",
+         "orderId": 4,
+         "displayName": "Patronen natekenen",
+         "name": "Patronen natekenen",
+         "abbr": "Patronen natekenen"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het kind krijgt een grote afbeelding te zien die door middel van een raster is verdeeld in kleinere afbeeldingen. Daarnaast staan vier kleinere afbeeldingen die uit de grote afbeelding genomen zijn. Het kind geeft op de grote afbeelding de plaatsen aan waaruit de kleinere afbeelding afkomstig zijn.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 11
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 7
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 9
+         },
+         "testGUID": "30110f32c48b48fcaecabc142766b534",
+         "subtestGUID": "f331f20a73b942fdba1a8c9a65b9bb2b",
+         "orderId": 5,
+         "displayName": "Plaatjespuzzels",
+         "name": "Plaatjespuzzels",
+         "abbr": "Plaatjespuzzels"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het kind imiteert zo snel mogelijk\r\neen serie vingerbewegingen die u voordoet.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 11
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Sensorimotor",
+            "averageDuration": 3
+         },
+         "testGUID": "30110f32c48b48fcaecabc142766b534",
+         "subtestGUID": "13a4dcfb2cf343de8543efe714d9ec24",
+         "orderId": 6,
+         "displayName": "Tikken met de vingertoppen",
+         "name": "Tikken met de vingertoppen",
+         "abbr": "Tikken met de vingertoppen"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het kind kiest de juiste tekeningen uit een verzameling van acht tot twintig kaarten met tekeningen en legt deze in het raster op de juiste plaats.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 11
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 5
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 25,
+                  "minDelayMinutes": 15,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "018163a15294479db520dbee39a33658",
+                     "subtestName": "Visueel-ruimtelijk geheugen"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 3
+         },
+         "testGUID": "30110f32c48b48fcaecabc142766b534",
+         "subtestGUID": "c3cceaf9c4634eab8a5c131272615449",
+         "orderId": 7,
+         "displayName": "Visueel-ruimtelijk geheugen uitgesteld",
+         "name": "Visueel-ruimtelijk geheugen uitgesteld",
+         "abbr": "Visueel-ruimtelijk geheugen uitgesteld"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het kind wordt gevraagd zo veel mogelijk woorden in zestig seconden\r\nte produceren die binnen een bepaalde categorie vallen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 11
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 6
+         },
+         "testGUID": "30110f32c48b48fcaecabc142766b534",
+         "subtestGUID": "c506f7ebf86f4a6fb1b580ab55036adb",
+         "orderId": 8,
+         "displayName": "Woordproductie",
+         "name": "Woordproductie",
+         "abbr": "Woordproductie"
+      }
+   ],
+   "averageDuration": 51
+}

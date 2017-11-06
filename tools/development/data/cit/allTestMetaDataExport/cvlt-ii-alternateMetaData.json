@@ -1,0 +1,117 @@
+{
+   "normType": "cvlt-ii-alternate",
+   "testGUID": "bd4270c00532afefe040a8c04201392d",
+   "displayName": "CVLT-II-Alternate",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Memory",
+   "name": "CVLT-II-Alternate",
+   "description": "An assessment of verbal learning and memory deficits in adults.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "An assessment of verbal learning and memory deficits in adults.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 11
+         },
+         "testGUID": "bd4270c00532afefe040a8c04201392d",
+         "subtestGUID": "bd42a92837d4ab2ee040a8c04201400e",
+         "orderId": 1,
+         "displayName": "Short Delay",
+         "name": "CVLT-II Short Delay",
+         "abbr": "CVLT-II Short Delay"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "An assessment of verbal learning and memory deficits in adults.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 89
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 16
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 25,
+                  "minDelayMinutes": 15,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "bd42a92837d4ab2ee040a8c04201400e",
+                     "subtestName": "CVLT-II Short Delay"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 6
+         },
+         "testGUID": "bd4270c00532afefe040a8c04201392d",
+         "subtestGUID": "bd43b6f79154cba2e040a8c042016243",
+         "orderId": 2,
+         "displayName": "Long Delay",
+         "name": "CVLT-II Long Delay",
+         "abbr": "CVLT-II Long Delay"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "An assessment of verbal learning and memory deficits in adults.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 89
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 16
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 15,
+                  "minDelayMinutes": 10,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "bd43b6f79154cba2e040a8c042016243",
+                     "subtestName": "CVLT-II Long Delay"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 1
+         },
+         "testGUID": "bd4270c00532afefe040a8c04201392d",
+         "subtestGUID": "be2b7b49dd0a460dbb7d33bdcfa09b00",
+         "orderId": 3,
+         "displayName": "Long Delay Forced-Choice Recognition (Optional)",
+         "name": "CVLT-II Long Delay Forced-Choice Recognition",
+         "abbr": "CVLT-II Long Delay Forced-Choice Recognition"
+      }
+   ],
+   "averageDuration": 18
+}

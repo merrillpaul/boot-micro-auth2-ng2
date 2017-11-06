@@ -1,0 +1,45 @@
+config:
+  auth_server: true
+  refreshTokens: true
+
+server:
+  port: 9999
+  contextPath: /auth
+
+spring:
+  profiles:
+    active: dev
+  groovy:
+    template:
+      cache: false
+  jpa:
+    show-sql: false
+    generate-ddl: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: com.pearson.projectone.core.support.data.hibernate.MySQLUTF8InnoDBDialect
+        physical_naming_strategy: com.pearson.projectone.core.support.hibernate.PhysicalNamingStrategyImpl
+        ejb:
+          interceptor: com.pearson.projectone.core.support.jpa.listeners.GenericJpaListener
+---
+spring:
+  profiles: dev
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+appSecurityDatasource:
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/auth_db
+  username: auth_user
+  password: password1!
+tokenDatasource:
+  mongo-uri: mongodb://tokenstoredb_user:password1!@localhost:27017/tokenstoredb
+---
+spring:
+  profiles: prod
+appSecurityDatasource:
+  jndiName: java:comp/env/jdbc/authDS

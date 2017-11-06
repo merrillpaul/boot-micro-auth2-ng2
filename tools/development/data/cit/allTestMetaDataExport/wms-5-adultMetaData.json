@@ -1,0 +1,307 @@
+{
+   "normType": "wms-v-adult",
+   "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+   "displayName": "WMS-5 Adult",
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Memory",
+   "name": "WMS-5-ADULT",
+   "description": "The most widely used scale of adult memory.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "The examinee performs simple tasks in a number of different areas including orientation to time, mental control, clock drawing, incidental recall, automaticity and inhibitory control, and verbal production.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Mental Status",
+            "averageDuration": 7
+         },
+         "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+         "subtestGUID": "4fe8753d47ad460697855a0d1204e2cd",
+         "orderId": 1,
+         "displayName": "Brief Cognitive Status Exam",
+         "name": "Brief Cognitive Status Exam",
+         "educationRange": [
+            "<=  8",
+            "9 - 11",
+            "12",
+            "13 - 15",
+            ">= 16"
+         ],
+         "abbr": "bcsevus"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The examinee is shown, sequentially, two grids with blue and red circles. The examinee is then asked to add or subtract the location of the circles based on a set of rules.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Working Memory",
+            "averageDuration": 12
+         },
+         "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+         "subtestGUID": "33278a887e694dd38c58e67fd555d238",
+         "orderId": 2,
+         "displayName": "Spatial Addition",
+         "name": "Spatial Addition",
+         "abbr": "savus"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "visual reproduction",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Memory",
+            "averageDuration": 4
+         },
+         "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+         "subtestGUID": "53790d2f294a4ec2a723b5456bae13f7",
+         "orderId": 3,
+         "displayName": "Visual Reproduction I",
+         "name": "Visual Reproduction I",
+         "abbr": "vrsvus"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "TFLS",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Mental Status",
+            "averageDuration": 10
+         },
+         "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+         "subtestGUID": "ac4b007a5dd9407c84e24a6e16bb03b8",
+         "orderId": 4,
+         "displayName": "Texas Functional Living Scale",
+         "name": "TFLS",
+         "abbr": "lmvus"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "VR2",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 90
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 16
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 30,
+                  "minDelayMinutes": 10,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "53790d2f294a4ec2a723b5456bae13f7",
+                     "subtestName": "Visual Reproduction I"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Visual Memory",
+            "averageDuration": 10
+         },
+         "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+         "subtestGUID": "324537c364b44969a5aed59386670884",
+         "orderId": 5,
+         "displayName": "Visual Reproduction II",
+         "name": "Visual Reproduction II",
+         "abbr": "vrs2vus"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The examinee is briefly shown a series of abstract symbols on a page and then asked to select the symbols from an array of symbols, in the same order they were presented on the previous page.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Working Memory",
+            "averageDuration": 8
+         },
+         "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+         "subtestGUID": "0a0750d6fad9403cab27d4a62b5edc2e",
+         "orderId": 6,
+         "displayName": "Symbol Span",
+         "name": "Symbol Span",
+         "abbr": "ssvus"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "After 14 word pairs are read to the examinee, the first word of each pair is read, and the examinee is asked to provide the corresponding word.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Auditory Memory",
+            "averageDuration": 9
+         },
+         "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+         "subtestGUID": "b6bfac41df39420faf848a507005c5a0",
+         "orderId": 7,
+         "displayName": "Verbal Paired Associates I",
+         "name": "Verbal Paired Associates I - Adult",
+         "abbr": "vpavus"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The examinee is shown a grid with 4-8 designs on a page for 10 seconds, which is then removed from view. The examinee then selects the designs from a set of cards and places the cards in a grid in the same place as previously shown.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Memory",
+            "averageDuration": 10
+         },
+         "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+         "subtestGUID": "e917913194934eb1a5831abe1ccc64a2",
+         "orderId": 8,
+         "displayName": "Designs I",
+         "name": "Designs I",
+         "abbr": "designsvus"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "First, the examinee is asked to\r\nrecreate the pages shown in the immediate condition with the cards and grid. Then he or she is shown a series of grids and asked to select the two designs that are correct and in the same place as on the pages shown in the immediate condition.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 69
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 16
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 30,
+                  "minDelayMinutes": 10,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "e917913194934eb1a5831abe1ccc64a2",
+                     "subtestName": "Designs I"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Visual Memory",
+            "averageDuration": 10
+         },
+         "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+         "subtestGUID": "ea81518861b745e8b3f11656f6fdeb6f",
+         "orderId": 9,
+         "displayName": "Designs II",
+         "name": "Designs II",
+         "abbr": "designs2vus"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The examinee is orally presented with the first word of each pair learned in the immediate condition and asked to provide the corresponding word. The examinee is then read a list of word pairs and\r\nasked to identify each as either one of the word pairs he or she was asked to remember or a new word pair. Finally, during the optional word recall task, the examinee is asked to say as many of the words from the pairs as he or she can recall.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 69
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 16
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 30,
+                  "minDelayMinutes": 10,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "b6bfac41df39420faf848a507005c5a0",
+                     "subtestName": "Verbal Paired Associates I - Adult"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Auditory Memory",
+            "averageDuration": 5
+         },
+         "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+         "subtestGUID": "e7cc6763e65e43d6a7a16abe97dce66a",
+         "orderId": 10,
+         "displayName": "Verbal Paired Associates II",
+         "name": "Verbal Paired Associates II - Adult",
+         "abbr": "vpa2vus"
+      }
+   ],
+   "averageDuration": 125
+}

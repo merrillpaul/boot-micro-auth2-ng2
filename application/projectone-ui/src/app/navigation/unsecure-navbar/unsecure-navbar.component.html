@@ -1,0 +1,71 @@
+<!-- only the main layout should have the root as true. Default is false -->
+<nav-layout #layout [root]="true" *ngIf="true">
+    <!-- drawer  not mandatory-->
+    <nav-drawer *ngIf="currentUser?.loggedIn" class="mainDrawer" logo="assets:logo" sidenavTitle="Pattern Lib"
+                name="Hello">
+        <md-nav-list>
+            <ng-template let-item let-last="last" ngFor [ngForOf]="routes">
+                <a md-list-item (click)="layout.close()">
+                    <md-icon>{{item.icon}}</md-icon>
+                    {{item.title}}</a>
+            </ng-template>
+        </md-nav-list>
+    </nav-drawer>
+
+
+    <nav-content>
+
+        <!-- header toolbar -->
+        <nav-toolbar-content>
+            <a md-icon-button mdTooltip="ProjectOne">
+                <md-icon svgIcon="assets:logo"></md-icon>
+            </a>
+            <span>Project one</span>
+            <span *ngIf="!currentUser?.loggedIn" fxFlex></span>
+            <span *ngIf="currentUser?.loggedIn" fxLayout="row" fxLayoutAlign="center" fxFlex fxShow fxHide.xs>
+          <button md-button class="text-upper">New Products</button>
+          <button md-button class="text-upper">examinees</button>
+          <button md-button class="text-upper">test sessions</button>
+        </span>
+            <span fxFlex fxHide fxShow.xs></span>
+            <button md-icon-button [mdMenuTriggerFor]="notificationsMenu">
+                <psn-badge color="success" notifications="4">
+                    <md-icon>notifications</md-icon>
+                </psn-badge>
+            </button>
+            <md-menu #notificationsMenu="mdMenu">
+                <psn-menu>
+                    <div psn-menu-header class="md-subhead">Your Options</div>
+                </psn-menu>
+            </md-menu>
+
+            <button md-icon-button [mdMenuTriggerFor]="userprofile">
+                <md-icon>account_circle</md-icon>
+            </button>
+            <md-menu #userprofile="mdMenu">
+  <span md-menu-item disabled>
+    {{currentUser.firstName}} {{currentUser.lastName}}
+  </span>
+                <md-divider></md-divider>
+                <button md-menu-item (click)="settings()">
+                    <md-icon>settings</md-icon>
+                    <span>Settings</span>
+                </button>
+                <button md-menu-item (click)="logout()">
+                    <md-icon>exit_to_app</md-icon>
+                    <span>Logout</span>
+                </button>
+            </md-menu>
+        </nav-toolbar-content>
+        <!-- toolbar ends -->
+        <nav-body class="any-class-you-like-for-the-content">
+            <router-outlet></router-outlet>
+            <nav-footer color="grey" fxShow fxHide.xs>
+                <app-footer></app-footer>
+            </nav-footer>
+        </nav-body>
+        <nav-footer color="grey" fxHide fxShow.xs>
+            <app-footer></app-footer>
+        </nav-footer>
+    </nav-content>
+</nav-layout>

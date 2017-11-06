@@ -1,0 +1,67 @@
+<div fxLayout="row" fxLayout.xs="column" fxLayoutAlign.xs="start stretch" fxLayoutAlign="start start" fxLayoutGap="10px" class="builder">
+      
+    <div fxFlex="20" fxFlex.xs="100" fxLayout="column" class="builder-selections" fxLayoutGap="2px" >    
+
+        <h4 class="text-upper">Pick Instruments</h4>
+        <md-divider></md-divider>
+        <md-input-container>
+            <input mdInput #instrumentSearch placeholder="search .." [(ngModel)]="searchWord" (keyup)="search(instrumentSearch.value)"/> <md-icon class="input-icon">search</md-icon>
+        </md-input-container>
+        <button md-raised-button color="primary">My Favorite Batteries</button>
+        <button md-raised-button color="primary">Custom Batteries</button>
+        <button md-raised-button class="tc-primary" color="lime" (click)="allInstruments()">All Instruments</button>
+        <md-divider></md-divider>
+        <psn-message [@fadeOnEnter]="''" *ngIf="errorInstruments" label="" sublabel="Error retreving form list" icon="info" inverted color="warn" [opened]="true">
+        </psn-message>
+        <ng-template spin="instruments.load">
+            <div psn-scroller [containerHeight]="media.query('xs') ? '250px': '400px'">
+                <md-nav-list>
+                <ng-template let-item let-last="last" ngFor [ngForOf]="instruments">
+                    <a [mdTooltip]="item.name" md-list-item class="instrument bgc1-grey-100" (click)="!item.detailsLoading && selectAndAddInstrument(item)" [ngClass]="{'active': item === currentSelectedInstrument}">                       
+                            <h3 md-line > {{item.name}} </h3>                        
+                        </a>
+                        <md-divider *ngIf="!last" md-inset></md-divider>
+                </ng-template>
+                </md-nav-list>
+            </div>          
+        </ng-template>  
+       
+    </div>
+
+      
+    <div *ngIf="!hasInstruments" fxFlex="80" fxFlex.xs="100" class="builder-ctr" fxLayout="column" fxLayoutGap="2px">         
+        <h4 class="text-upper">Build Assessments</h4>
+        <md-divider></md-divider> 
+        <psn-message [@fadeOnEnter]="''" *ngIf="errorSelectInstrument" label="" [sublabel]="'Error retreving form ' + currentSelectedInstrument.name" icon="info" inverted color="warn" [opened]="true">
+        </psn-message>
+        <ng-template spin="form.details.load">              
+        </ng-template>  
+        <div fxFlex class="builder-ctr" fxLayout="column" fxLayoutAlign="center center" >       
+         Select an instrument on the left to enter options.
+        </div>        
+    </div>
+    
+    <div *ngIf="hasInstruments" fxFlex="80" fxFlex.xs="100" class="builder-ctr" fxLayout="column" fxLayoutGap="2px">   
+       <h4 class="text-upper">Build Assessments</h4>
+       <md-divider></md-divider>        
+       <div fxLayout="column" >    
+            <ng-template let-item let-last="last" let-index="index" ngFor [ngForOf]="examineeAssessment.instrumentAssessments">
+                <assessment-instrument-builder [@fadeOnEnter]="''" [instrumentAssessment]="item" [index]="index"
+                    (removed)="onInstrumentRemoved($event)"></assessment-instrument-builder>
+            </ng-template>  
+             <psn-message [@fadeOnEnter]="''" *ngIf="errorSelectInstrument" label="" [sublabel]="'Error retreving form ' + currentSelectedInstrument.name" icon="info" inverted color="warn" [opened]="true">
+                </psn-message>
+            <ng-template spin="form.details.load">                
+            </ng-template>  
+       </div> 
+       <div class="pad-top-sm">
+           <div fxLayout="row" fxLayoutGap="10px" fxFlex fxLayoutAlign="start center" >
+               <span fxFlex></span>
+               <button md-button >Cancel</button>
+               <button  [disabled]="!validBattery" md-raised-button  color="primary" (click)="activateBattery()" >Activate Battery</button>    
+           </div>    
+       </div>    
+
+    </div>
+
+</div>

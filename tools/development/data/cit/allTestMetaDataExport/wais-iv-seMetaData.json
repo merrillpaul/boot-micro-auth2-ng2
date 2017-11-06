@@ -1,0 +1,373 @@
+{
+   "normType": "wais-iv-se",
+   "testGUID": "504a7e1857e346b3bbf2ca9d51c5b70f",
+   "displayName": "WAIS-IV",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Ability",
+   "name": "WAIS-IV-SE",
+   "description": "Test för bedömning av kognitivt fungerande hos ungdomar och vuxna",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "Tp ska inom en angiven tidsgräns avbilda modeller eller bilder av tvåfärgade mönster med hjälp av rödvita klossar.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 9
+         },
+         "testGUID": "504a7e1857e346b3bbf2ca9d51c5b70f",
+         "subtestGUID": "d4912a0cff7147b9b9ff2c471e983d4d",
+         "orderId": 1,
+         "displayName": "Blockmönster",
+         "name": "Blockmönster",
+         "abbr": "bd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Tp ska verbalt beskriva på vilket sätt två olika ord som representerar vanliga objekt är lika.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 7
+         },
+         "testGUID": "504a7e1857e346b3bbf2ca9d51c5b70f",
+         "subtestGUID": "186b851910234b28b7b981f002cf1bed",
+         "orderId": 2,
+         "displayName": "Likheter",
+         "name": "Likheter",
+         "abbr": "si"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Sifferrepetition består av tre delar som administreras oberoende av varandra: Sifferrepetition Framlänges, Sifferrepetition Baklänges och Sifferrepetition Sekvensering. Ett antal sifferserier\r\npresenteras muntligt. I Sifferrepetition Framlänges ska tp återge siffrorna i samma ordningsföljd som de lästes upp, i Sifferrepetition Baklänges i omvänd ordning och i Sifferrepetition Sekvensering i stigande ordning.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 8
+         },
+         "testGUID": "504a7e1857e346b3bbf2ca9d51c5b70f",
+         "subtestGUID": "9cc5ffc8b8a54cbcb6c6055c699372a3",
+         "orderId": 3,
+         "displayName": "Sifferrepetition",
+         "name": "Sifferrepetition",
+         "abbr": "ds"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Tp får titta på en matris eller serie i vilken en del saknas och ska identifiera den saknade\r\ndelen genom att antingen peka på eller benämna svarsalternativets siffra av fem alternativ.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 7
+         },
+         "testGUID": "504a7e1857e346b3bbf2ca9d51c5b70f",
+         "subtestGUID": "75b877d56f76436c87f85b706f2d4682",
+         "orderId": 4,
+         "displayName": "Matriser",
+         "name": "Matriser",
+         "abbr": "mr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Tp ska förklara vad visuellt och muntligt presenterade ord betyder.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 10
+         },
+         "testGUID": "504a7e1857e346b3bbf2ca9d51c5b70f",
+         "subtestGUID": "a1d181daaf3747b8aadc260877dcad91",
+         "orderId": 5,
+         "displayName": "Ordförråd",
+         "name": "Ordförråd",
+         "abbr": "vc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Tp ska inom en given tidsgräns genom huvudräkning lösa olika räkneproblem.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 6
+         },
+         "testGUID": "504a7e1857e346b3bbf2ca9d51c5b70f",
+         "subtestGUID": "27a94b1a0ef24b4f85c73619b0e8d403",
+         "orderId": 6,
+         "displayName": "Aritmetik",
+         "name": "Aritmetik",
+         "abbr": "ar"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Tp ska inom en angiven tidsgräns visuellt söka igenom en grupp symboler och avgöra om\r\nnågon av målsymbolerna finns med eller inte.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "504a7e1857e346b3bbf2ca9d51c5b70f",
+         "subtestGUID": "c565221d7c7a4248b192accfb605bcd4",
+         "orderId": 7,
+         "displayName": "Symbolletning",
+         "name": "Symbolletning",
+         "abbr": "ss"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Tp ska inom en angiven tidsgräns titta på ett lagt pussel och identifiera de tre svarsalternativ, av sex, som bildar pusslet när de läggs ihop. Tp pekar på svarsalternativen eller benämner\r\nalternativens siffror.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 6
+         },
+         "testGUID": "504a7e1857e346b3bbf2ca9d51c5b70f",
+         "subtestGUID": "c09acf70501748808801613d405667cb",
+         "orderId": 8,
+         "displayName": "Visuella pussel",
+         "name": "Visuella pussel",
+         "abbr": "vp"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Tp besvarar frågor som spänner över breda allmänbildningsområden.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 5
+         },
+         "testGUID": "504a7e1857e346b3bbf2ca9d51c5b70f",
+         "subtestGUID": "564146738d914ba2bd4cd80471f5e98c",
+         "orderId": 9,
+         "displayName": "Information",
+         "name": "Information",
+         "abbr": "in"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Tp ska inom en angiven tidsgräns kopiera enkla symboler och para ihop dem med rätt siffra utifrån en kodnyckel.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "504a7e1857e346b3bbf2ca9d51c5b70f",
+         "subtestGUID": "74b912304bb9478e8ae9e8d637c828f4",
+         "orderId": 10,
+         "displayName": "Kodning",
+         "name": "Kodning",
+         "abbr": "cd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Tl presenterar muntligt kombinationer av bokstäver och siffror och tp ska först återge siffrorna i stigande ordning och sedan bokstäverna i alfabetisk ordning.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "504a7e1857e346b3bbf2ca9d51c5b70f",
+         "subtestGUID": "7e86c6ee0e0b49888720d4808e9c4a59",
+         "orderId": 11,
+         "displayName": "Bokstavs-siffer-serier",
+         "name": "Bokstavs-siffer-serier",
+         "abbr": "ln"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Tp ska inom en given tidsgräns titta på en våg där en eller flera vikter saknas och välja det\r\nsvarsalternativ av fem som gör att vågen är i jämvikt.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 11
+         },
+         "testGUID": "504a7e1857e346b3bbf2ca9d51c5b70f",
+         "subtestGUID": "1daf120ac69641418dc55f1077f66613",
+         "orderId": 12,
+         "displayName": "Figurvikter",
+         "name": "Figurvikter",
+         "abbr": "fw"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Tp besvarar frågor utifrån sin förståelse av generella principer och sociala situationer.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 15
+         },
+         "testGUID": "504a7e1857e346b3bbf2ca9d51c5b70f",
+         "subtestGUID": "1e22f622fc954d5bb7fb3ff308d9abb5",
+         "orderId": 13,
+         "displayName": "Förståelse",
+         "name": "Förståelse",
+         "abbr": "co"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Tp ska inom en angiven tidsgräns visuellt söka igenom två A3-sidor med olika geometriska\r\nformer arrangerade i rader, och markera dem som stämmer med målformerna.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 4
+         },
+         "testGUID": "504a7e1857e346b3bbf2ca9d51c5b70f",
+         "subtestGUID": "abcaafc180bb49d2a9d961c743eee682",
+         "orderId": 14,
+         "displayName": "Överstrykning",
+         "name": "Överstrykning",
+         "abbr": "ca"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Tp ska inom en angiven tidsgräns titta på bilder där en viktig del saknas och identifiera den\r\nsaknade delen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 9
+         },
+         "testGUID": "504a7e1857e346b3bbf2ca9d51c5b70f",
+         "subtestGUID": "f2155e79a32946c1b57fcf65b52f5282",
+         "orderId": 15,
+         "displayName": "Bildkomplettering",
+         "name": "Bildkomplettering",
+         "abbr": "pc"
+      }
+   ],
+   "averageDuration": 110
+}

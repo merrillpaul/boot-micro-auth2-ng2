@@ -1,0 +1,27 @@
+dependencies {
+	compile project(':core')
+	compile("com.querydsl:querydsl-mongodb:${versions.querydsl}")
+	compile "com.querydsl:querydsl-apt:${versions.querydsl}"
+}
+
+compileJava {
+
+	// for QueryDSL classes/java generation
+	doFirst {
+
+		def genDir = new File("$projectDir/src/main/generated/java")
+		if (genDir.exists()) {
+			genDir.deleteDir()
+		}
+		file(new File(projectDir, "/src/main/generated/java")).mkdirs()
+
+		options.compilerArgs = [
+				'-processor', 'org.springframework.data.mongodb.repository.support.MongoAnnotationProcessor',
+				'-s', "$projectDir/src/main/generated/java"
+		]
+
+	}
+
+}
+
+apply from: '../mongodbmaintain.gradle'

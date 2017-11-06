@@ -1,0 +1,35 @@
+{
+   "normType": "wais-5",
+   "testGUID": "67575398d8574cae8ce3e50d6cb8857a",
+   "displayName": "test-VT-WAIS-5",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Ability",
+   "name": "test-VT-WAIS-5",
+   "description": "Assessment of adults' overall cognitive ability and five specific domains of intelligence.",
+   "subtests": [{
+      "metaData": {
+         "descriptionCS": "Working within a specified time limit, the examinee views a completed puzzle and selects three response options that, when combined, reconstruct the puzzle.",
+         "rules": [{
+            "maxAge": {
+               "month": 11,
+               "year": 110
+            },
+            "minAge": {
+               "month": 0,
+               "year": 16
+            },
+            "type": "age"
+         }],
+         "subtestCategory": "Perceptual Reasoning",
+         "averageDuration": 6
+      },
+      "testGUID": "67575398d8574cae8ce3e50d6cb8857a",
+      "subtestGUID": "9a084345bf604fddae446e221a836427",
+      "orderId": 8,
+      "displayName": "Visual Puzzles",
+      "name": "Visual Puzzles",
+      "abbr": "Visual Puzzles"
+   }],
+   "averageDuration": 104
+}

@@ -1,0 +1,45 @@
+server:
+  port: 9997
+  contextPath: /global
+
+config:
+  auth_server: false
+  oauth2:
+    check_token_url: http://localhost:9999/auth/oauth/check_token
+    client_id: globalCheckTokenApp
+    client_secret: password1
+spring:
+  profiles:
+    active: dev
+  groovy:
+    template:
+      cache: false
+  jpa:
+    show-sql: false
+    generate-ddl: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: com.pearson.projectone.core.support.data.hibernate.MySQLUTF8InnoDBDialect
+        physical_naming_strategy: com.pearson.projectone.core.support.hibernate.PhysicalNamingStrategyImpl
+        ejb:
+          interceptor: com.pearson.projectone.core.support.jpa.listeners.GenericJpaListener
+---
+spring:
+  profiles: dev
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+globalDatasource:
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/global_db
+  username: global_user
+  password: password1!
+---
+spring:
+  profiles: prod
+globalDatasource:
+  jndiName: java:comp/env/jdbc/globalDS

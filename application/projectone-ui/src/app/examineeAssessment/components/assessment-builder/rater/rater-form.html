@@ -1,0 +1,106 @@
+<div class="rater-container container" fxLayout="column">
+<form #raterForm="ngForm"  >
+
+    <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="10px">
+        <button *ngIf="!rater.editing" (click)="enableForEditing()" md-icon-button>
+            <md-icon>keyboard_arrow_right</md-icon>
+        </button>
+         <button *ngIf="rater.editing" (click)="collapse()" md-icon-button>
+            <md-icon>keyboard_arrow_down</md-icon>
+        </button>
+        <h4>RATER {{index + 1 }}</h4>
+        <span fxFlex="10px"></span>
+        <span *ngIf="rater.editing">  Please enter parent/guardian details. </span>
+        <h4 *ngIf="!rater.editing">{{ rater.firstName }} {{ rater.lastName }} with {{deliveryMethodText()}}</h4>
+        <span fxFlex></span>
+        <!-- button mdTooltip="Edit this rater" [disabled]="rater.editing" (click)="enableForEditing()" md-icon-button>
+            <md-icon>edit</md-icon>
+        </button -->
+        <button mdTooltip="Remove this rater" (click)="removeRater()" md-icon-button>
+            <md-icon>close</md-icon>
+        </button>
+    </div>
+    <div class="rater-form" *ngIf="rater.editing" [@fadeOnEnter]="rater.editing">
+        
+        <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="start center" fxLayoutAlign.xs="start stretch" fxLayoutGap="15px"
+            fxLayoutGap.xs="5px">
+            <div fxFlex="50" fxFlex.xs="100">
+                <label for="firstName" fxHide.xs>
+                                <strong>First Name</strong>
+                        </label>
+                <div>
+                    <md-input-container fxFlex>
+                        <input mdInput type="text" [(ngModel)]="rater.firstName" name="firstName" placeholder="First Name" required>
+                    </md-input-container>
+                </div>
+            </div>
+
+             <div fxFlex="50" fxFlex.xs="100">
+                <label for="lastName" fxHide.xs>
+                                <strong>Last Name</strong>
+                        </label>
+                <div>
+                    <md-input-container fxFlex>
+                        <input mdInput type="text" [(ngModel)]="rater.lastName" name="lastName" placeholder="Last Name" required>
+                    </md-input-container>
+                </div>
+            </div>
+        </div>
+
+        <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="start center" fxLayoutAlign.xs="start stretch" fxLayoutGap="15px"
+            fxLayoutGap.xs="5px">
+
+
+            <div fxFlex>
+                <label for="firstName" fxHide.xs>
+                                <strong>How will they complete the form?</strong>
+                        </label>
+                <div class="pad-top-sm">
+
+                     <md-button-toggle-group [value]="rater.deliveryType" (change)="onDeliveryChanged($event)" >
+                        <md-button-toggle [value]="item.value" *ngFor="let item of deliveryMethods">
+                            {{item.label | async}}
+                        </md-button-toggle>
+                    </md-button-toggle-group>
+                </div>
+            </div>             
+        </div>
+
+        <!-- paper attrs -->
+        <div class="pad-top-sm" *ngIf="rater.deliveryType == 'FORM_DELIVERY_TYPE.Manual.Entry'" fxLayout="column"  fxLayoutAlign="center center" fxLayoutAlign.xs="center center" fxLayoutGap="15px"
+            fxLayoutGap.xs="5px">
+                <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="10px">
+                    <button md-fab color="primary">
+                        <md-icon class="md-36">file_download</md-icon>
+                    </button>
+                    <div fxLayout="column">
+                        <div><strong>DOWNLOAD</strong></div>
+                        <div><strong>Paper Form</strong></div>
+                    </div>
+                </div> 
+                <div><i> NOTE: Please give the parent/guardian a paper to complete.</i></div>                   
+        </div> 
+
+
+        <!-- email form -->
+        <div class="pad-top-sm" *ngIf="rater.deliveryType =='FORM_DELIVERY_TYPE.Remote.On.Screen.Administration'"  fxLayout="row" fxLayout.xs="column" fxLayoutAlign="start center" fxLayoutAlign.xs="start stretch" fxLayoutGap="15px"
+            fxLayoutGap.xs="5px">
+            <div fxFlex="30" fxFlex.xs="100">
+                <div fxLayout="column">
+                <label for="email" fxHide.xs>
+                                <strong>Email Address</strong>
+                        </label>
+                <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="10px">
+                    <md-input-container fxFlex>
+                        <input mdInput type="text" [(ngModel)]="rater.email" name="email" placeholder="Email Address" required>
+                    </md-input-container>
+                    <md-checkbox  [checked]="rater.selfCC">
+                        CC myself
+                     </md-checkbox>
+                </div>
+                </div>
+            </div>             
+        </div>  
+    </div>
+    </form>
+</div>

@@ -1,0 +1,138 @@
+<div layout-fill fxLayoutAlign="center center" fxLayout="column">
+
+    
+    <div fxLayout="row" fxLayoutAlign="center center" layout-fill>
+
+    <md-card fxFlex="60" fxFlex.xs="100" fxFlex.sm="100" class="examinee-card-padding">
+        <md-card-header>
+            <div md-card-avatar>
+                <md-icon>person</md-icon>
+            </div>
+
+            <md-card-title>{{title}}</md-card-title>
+            <md-card-subtitle>{{subTitle}}</md-card-subtitle>
+        </md-card-header>
+        <md-divider></md-divider>
+        
+            <form #examineeForm="ngForm" (ngSubmit)="submit()">
+                <div fxLayout="column">
+
+                    <div fxLayout="row"  fxLayoutAlign="start center" fxLayoutGap="10px">
+                        <label for="firstName" fxHide.xs fxFlex="30">
+                            First Name
+                        </label>
+                        <div fxFlex fxFlex.xs="100">
+                            <md-input-container fxFlex>
+                                <input mdInput id="firstName" type="text" [(ngModel)]="this.examinee.firstName"
+                                    #fname="ngModel"
+                                    name="firstName" placeholder="First Name" required aria-describedby="sizing-addon1">
+                            </md-input-container>
+                        </div>
+                    </div>
+
+                   <div fxLayout="row"  fxLayoutAlign="start center" fxLayoutGap="10px">
+                        <label for="lastName" fxHide.xs fxFlex="30">
+                            Last Name
+                        </label>
+                        <div fxFlex fxFlex.xs="100">
+                            <md-input-container fxFlex>
+
+                                <div>
+                                    <input mdInput id="lastName" type="text" [(ngModel)]="this.examinee.lastName"
+                                        #lname="ngModel"
+                                        name="lastName" placeholder="Last Name" required
+                                        aria-describedby="sizing-addon1">
+                                </div>
+                            </md-input-container>
+                        </div>
+                    </div>
+
+                     <div fxLayout="row"  fxLayoutAlign="start center" fxLayoutGap="10px">
+
+                        <label for="middleName" fxHide.xs fxFlex="30">
+                            Middle Name
+                        </label>
+                        <div fxFlex fxFlex.xs="100">
+                            <md-input-container fxFlex>
+                                <div>
+                                    <input mdInput id="middleName" type="text" [(ngModel)]="this.examinee.middleName"
+                                        #mname="ngModel"
+                                        name="middleName" placeholder="Middle Name" aria-describedby="sizing-addon1">
+                                </div>
+                            </md-input-container>
+                        </div>
+                    </div>
+
+                    <div fxLayout="row"  fxLayoutAlign="start center" fxLayoutGap="10px">
+                        <label for="e_id" fxHide.xs fxFlex="30">
+                            Examinee Id
+                        </label>
+                        <div fxFlex fxFlex.xs="100">
+                            <md-input-container fxFlex>
+
+                                <div>
+                                    <input mdInput id="e_id" name="e_id" class="form-control" type="text"
+                                        [(ngModel)]="this.examinee.examineeId"
+                                        #eId="ngModel"
+                                        placeholder="Examinee Id" aria-describedby="sizing-addon1">
+                                </div>
+                            </md-input-container>
+                        </div>
+                    </div>
+                    <div fxLayout="row"  fxLayoutAlign="start center" fxLayoutGap="10px">
+                        <label for="dob" fxHide.xs fxFlex="30">
+                            Date of Birth
+                        </label>
+                        <div fxFlex fxFlex.xs="100">
+                           
+                             <md-input-container fxFlex>
+                                <input mdInput [mdDatepicker]="pickerExaminee" [(ngModel)]="this.examinee.dob" #dob="ngModel"  name="dob"
+                                        placeholder="Date of Birth" aria-describedby="sizing-addon1">
+                                <button mdSuffix [mdDatepickerToggle]="pickerExaminee"></button>
+                            </md-input-container>
+                            <md-datepicker #pickerExaminee></md-datepicker>
+                        </div>
+                    </div>
+                    <div fxLayout="row"  fxLayoutAlign="start center" fxLayoutGap="10px">
+
+                        <label for="gender" fxHide.xs fxFlex="30">
+                            Gender
+                        </label>
+                        <div fxFlex fxFlex.xs="100">
+                            
+                                <md-select fxFlex id="gender" name="gender" #genderVar="ngModel"
+                                        [(ngModel)]="this.examinee.gender"
+                                        required>
+                                    <md-option *ngFor="let gender of genderValues" [value]="gender">{{gender}}</md-option>
+                                </md-select>
+                           
+                        </div>
+                    </div>
+                    <div fxLayout="row"  fxLayoutAlign="start center" fxLayoutGap="10px">
+                        <label for="comments" fxHide.xs fxFlex="30">
+                            Comments
+                        </label>
+                        <div fxFlex fxFlex.xs="100">
+                            <md-input-container fxFlex>
+                                <textarea mdInput id="comments" name="comments" placeholder="Comments"
+                                        [(ngModel)]="this.examinee.comments" rows="6"> </textarea>
+                            </md-input-container>
+                        </div>
+                    </div>
+                    <div fxLayout="row"  fxLayoutAlign="start center" fxLayoutGap="10px">
+                        <button md-raised-button color="primary" type="submit" value="Submit"
+                                [disabled]="!examineeForm.valid">Submit
+                        </button>
+                        <button md-raised-button color="secondary" type="button" value="Cancel" (click)="location.back()">Cancel</button>
+                    </div>
+
+                </div>
+            </form>
+
+
+   
+
+
+    </md-card>
+    </div>
+</div>

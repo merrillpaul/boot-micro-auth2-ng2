@@ -1,0 +1,203 @@
+import java.security.MessageDigest
+
+import static groovy.io.FileType.FILES
+
+def configFiles
+
+// allows loading dbmaintain properties from external location though command line using properties like:
+// `$ dynamodbmaint_config_file=/some/location/dbmaintain_auth_db.properties   ./gradlew updateDatabase`
+// if not, uses the one that is there in the resources folder of the data project
+def getMongoDBMaintainFiles = {
+	def scriptFolder = "${project.projectDir}/src/database/mongodb/scripts"
+	def externalDbMaintainPropertiesFile = System.getenv('mongodbmaint_config_file') ?: "${project.projectDir}/src/database/resources/mongodb.properties"
+	def properties = new Properties()
+	new File(externalDbMaintainPropertiesFile).withInputStream { stream ->
+		properties.load(stream)
+	}
+	configFiles =
+			[
+					dir       : scriptFolder,
+					config    : properties,
+					configFile: externalDbMaintainPropertiesFile
+			]
+}
+
+
+def generateMD5(String s) {
+	MessageDigest.getInstance("MD5").digest(s.bytes).encodeHex().toString()
+}
+
+/**
+ * Uses local files for preparing the dynamodb wrappers
+ */
+def prepareMongoDbForLocal = {
+	getMongoDBMaintainFiles()
+}
+
+def getIncrementals = {
+	def extraLocation = configFiles.config['default-script-location']
+
+	def files = []
+
+	if (extraLocation) {
+		def dir = new File("${configFiles.dir}/incremental/all")
+		dir.eachFileRecurse(FILES) {
+			if (it.name.endsWith('.js')) {
+				files << [name: it.path, md5: generateMD5(it.text)]
+			}
+		}
+		dir = new File("${configFiles.dir}/incremental/${extraLocation}")
+		dir.eachFileRecurse(FILES) {
+			if (it.name.endsWith('.js')) {
+				files << [name: it.path, md5: generateMD5(it.text)]
+			}
+		}
+	} else {
+		def dir = new File("${configFiles.dir}/incremental")
+		dir.eachFileRecurse(FILES) {
+			if (it.name.endsWith('.js')) {
+				files << [name: it.path, md5: generateMD5(it.text)]
+			}
+		}
+	}
+
+	files
+}
+
+def getRepeatables = {
+	def dir = new File("${configFiles.dir}/repeatable")
+	def files = []
+
+	dir.eachFileRecurse(FILES) {
+		if (it.name.endsWith('.js')) {
+			files << [name: it.path, md5: generateMD5(it.text)]
+		}
+	}
+
+	files
+
+}
+
+/**
+ * Marks all scripts as succeeded
+ */
+def markUp2Date = {
+	def result = ant.exec(executable: "mongo", output: "${project.buildDir}/mongo_dbmaintain.log", dir: configFiles.dir, resultproperty: "resCode") {
+		arg(value: configFiles.config['mongo-uri'])
+		arg(value: "--eval")
+		arg(value: """
+			db.DBMaintain.updateMany({}, {\$set: {"succeeded": true}});
+		""".toString())
+	}
+
+	def logText = new File(project.buildDir.toString() + "/mongo_dbmaintain.log").text
+	println logText
+	if (result.getProject().getProperty("resCode") != "0") {
+		throw new GradleException("Error in dbmaintain -> \n ${logText}")
+	}
+}
+
+/////////// TASKS ////////////////
+
+def runUpdate = { logLocation = null ->
+	def incrementals = getIncrementals()
+	def repeatables = getRepeatables()
+	ant.echo("Updating Mongo DB Maintain for ${project.name}")
+	def result = ant.exec(executable: "mongo", output: "${logLocation ?: project.buildDir}/mongo_dbmaintain.log", dir: configFiles.dir, resultproperty: "resCode") {
+		arg(value: configFiles.config['mongo-uri'])
+		arg(value: "--eval")
+		arg(value: """
+			baseDir = "${configFiles.dir}";
+			incrementals = [${incrementals.collect { " {name: \"${it.name}\", md5:\"${it.md5}\" }" }.join(",")}];
+			repeatables = [${repeatables.collect { " {name: \"${it.name}\", md5:\"${it.md5}\" }" }.join(",")}];
+			try {
+				load("${logLocation?:project.parent.projectDir}/MongoDBMaintainRunner.js")
+			} catch(e) {
+				print(e);
+				throw "Error in dbMaintain execution";
+			}
+		""".toString())
+	}
+
+	def logText = new File((logLocation ?: project.buildDir).toString() + "/mongo_dbmaintain.log").text
+	println logText
+	if (result.getProject().getProperty("resCode") != "0") {
+		throw new GradleException("Error in dbmaintain -> \n ${logText}")
+	}
+}
+
+// brings the database up2date
+task updateMongo << {
+	prepareMongoDbForLocal()
+	runUpdate()
+}
+
+// marks up2date
+task markup2date << {
+	prepareMongoDbForLocal()
+	ant.echo("Marking Mongo DB Maintain up2date for ${project.name}")
+	markUp2Date()
+}
+
+// create the archive for distribution
+task createMongoDBMaintainArchive << {
+	prepareMongoDbForLocal()
+	ant.echo("Creating Mongo DB Maintain archive for ${project.name}")
+	def destination = "${project.buildDir}/mongo-dbmaintain"
+	ant.mkdir(dir: destination)
+
+	ant.jar(destfile: "${destination}/${project.name}-${project.version}-mongo-dbmaintain.jar") {
+		fileset(dir: configFiles.dir)
+		fileset(file: configFiles.configFile)
+	}
+	ant.copy(file: "${project.rootDir}/mongodbmaintain.gradle", tofile: "${project.buildDir}/mongo-dbmaintain/build.gradle")
+	ant.zip(destfile: "${destination}/${project.name}-${project.version}-mongo-dbmaintain.zip") {
+		fileset(file: "${destination}/${project.name}-${project.version}-mongo-dbmaintain.jar")
+		fileset(file: "${project.buildDir}/mongo-dbmaintain/build.gradle")
+		fileset(file: "${project.rootDir}/MongoDBMaintainRunner.js")
+
+	}
+}
+
+// runs scripts from jar
+task runMongoJar << {
+	def mongoProperties = System.getenv('mongodbmaint_config_file')
+
+	if (!mongoProperties) {
+		throw new Exception("Needs mongodbproperties config file. " +
+				"Ensure you called with `\$ mongodbmaint_config_file=/mongo_property_location gradle runMongoJar")
+	}
+
+	def dir = new File("${projectDir}")
+	def jar = []
+	dir.eachFile(FILES) {
+		if (it.name.endsWith('.jar')) {
+			jar << it
+		}
+	}
+	if (jar.size() != 1) {
+		throw new Exception("There should be absolutely one mongo dbmaintain archive jar")
+	}
+	def properties = new Properties()
+	new File(mongoProperties).withInputStream { stream ->
+		properties.load(stream)
+	}
+	configFiles =
+			[
+					config    : properties,
+					configFile: mongoProperties
+			]
+
+	def scriptsJar = jar[0]
+	// unzipping jar to temp folder to run from there
+	def temp = java.nio.file.Files.createTempDirectory("mongodbmaintain_tmp${System.currentTimeMillis()}")
+	ant.unzip(src: scriptsJar.path.toString(), dest: temp.toString())
+	configFiles.dir = temp.toString()
+	ant.echo("Using properties with ${configFiles.config['dynamo-accessKey']}")
+	ant.echo("Updating Dynamo DB Maintain from ${scriptsJar.path}")
+	runUpdate(projectDir.toString())
+	ant.delete(dir: temp.toString())
+}
+
+
+

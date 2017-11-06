@@ -1,0 +1,51 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### UI JS
+# Front End Dependency Generated
+projectone-ui/.sass-cache/
+projectone-ui/bower_components/
+projectone-ui/dist/
+projectone-ui/node/
+projectone-ui/node_modules/
+projectone-ui/npm-debug.log
+projectone-ui/.tscache/
+projectone-ui/scss/.tmp/
+dist/
+# dependencies
+node_modules
+
+# testing
+coverage
+
+# production
+build
+dist
+
+# misc
+.DS_Store
+.env
+npm-debug.log

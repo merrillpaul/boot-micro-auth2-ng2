@@ -1,0 +1,109 @@
+{
+   "normType": "d-kefs-dk",
+   "testGUID": "07ef50e9c6aa43b1b9ac14a4df667bd4",
+   "displayName": "D-KEFS",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Executive Function",
+   "name": "D-KEFS-DK",
+   "description": "Test til udredning af eksekutiv funktion hos børn og voksne",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "Trail Making Test består af fem betingelser. Dels indgår den primære eksekutive betingelse Trail Making Test Skift, der giver et mål for kognitiv fleksibilitet, og dels indgår fire kontrolbetingelser (visuel afsøgning, talrækkefølge, bogstavorden og motorisk hastighed), som giver testlederen mulighed for at vurdere, om årsagen til nedsat kognitiv fleksibilitet i den primære betingelse kan relateres til funktionsnedsættelser i de underliggende færdigheder, som indgår i kontrolbetingelserne.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 9
+         },
+         "testGUID": "07ef50e9c6aa43b1b9ac14a4df667bd4",
+         "subtestGUID": "fa4b43f32744495689584473d5e5903a",
+         "orderId": 1,
+         "displayName": "Trail Making Test",
+         "name": "Trail Making Test",
+         "abbr": "Trail Making Test"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Ordmobilisering omfatter betingelserne Fonemisk ordmobilisering (der undersøger, hvor let testpersonen kan generere leksikalske svar og samtidig overholde flere regler eller restriktioner), Semantisk ordmobilisering (som kontrasterer generering af svar fra indlærte semantiske kategorier med den mere krævende opgave at generere leksikalske svar) og Kategoriskift (der prøver testpersonens kognitive fleksibilitet ved skift mellem generering af svar fra to forskellige betingelser).",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 10
+         },
+         "testGUID": "07ef50e9c6aa43b1b9ac14a4df667bd4",
+         "subtestGUID": "25bb913978a642539f6fa5904ad24bf3",
+         "orderId": 2,
+         "displayName": "Ordmobilisering",
+         "name": "Ordmobilisering",
+         "abbr": "Verbal Fluency Test (Standard)"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Figurdesign omfatter flere betingelser. Betingelse 1 en grundlæggende test af figurdesign, Betingelse 2 måler både figurdesign og inhibering af svar, og Betingelse 3 undersøger både figurdesign og kognitiv fleksibilitet.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 10
+         },
+         "testGUID": "07ef50e9c6aa43b1b9ac14a4df667bd4",
+         "subtestGUID": "8aae7d4c3175452e9e69a772e90fea8f",
+         "orderId": 3,
+         "displayName": "Figurdesign",
+         "name": "Figurdesign",
+         "abbr": "Design Fluency Test"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Farve-ord interferens test måler evnen til verbal inhibering. Denne udvikling af den klassiske Stroop test omfatter, i tillæg til den kendte inhiberingsbetingelse, også kontrolbetingelserne farvebenævnelse og læsning samt en yderligere betingelse, som tester kognitiv fleksibilitet ved at kombinere regelskift med verbal inhibering.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 8
+         },
+         "testGUID": "07ef50e9c6aa43b1b9ac14a4df667bd4",
+         "subtestGUID": "bdd148f27039457b9b2a56191bc47c89",
+         "orderId": 4,
+         "displayName": "Farve-ord interferens test",
+         "name": "Farve-ord interferens test",
+         "abbr": "Color-Word Interference Test"
+      }
+   ],
+   "averageDuration": 37
+}

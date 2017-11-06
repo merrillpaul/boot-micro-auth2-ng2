@@ -1,0 +1,72 @@
+{
+   "normType": "ravlt",
+   "testGUID": "b6a026e7446e44778b3b8d5f52ce64cd",
+   "displayName": "RAVLT",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Memory",
+   "name": "RAVLT",
+   "description": "Auditory learning and memory test for research purposes only.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "RAVLT research version",
+            "rules": [{
+               "maxAge": {
+                  "month": 0,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 13
+         },
+         "testGUID": "b6a026e7446e44778b3b8d5f52ce64cd",
+         "subtestGUID": "dd1183aee5ca452096538d8141c12a70",
+         "orderId": 1,
+         "displayName": "Short Delay",
+         "name": "RAVLT Short Delay",
+         "abbr": "RAVLT Short Delay"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "RAVLT research version",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 0,
+                     "year": 90
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 4
+                  },
+                  "type": "age"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "dd1183aee5ca452096538d8141c12a70",
+                     "subtestName": "RAVLT Short Delay"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "b6a026e7446e44778b3b8d5f52ce64cd",
+         "subtestGUID": "3a1a62c633e44b6c98b489707fc3005a",
+         "orderId": 2,
+         "displayName": "Long Delay",
+         "name": "RAVLT Long Delay",
+         "abbr": "RAVLT Long Delay"
+      }
+   ],
+   "averageDuration": 20
+}

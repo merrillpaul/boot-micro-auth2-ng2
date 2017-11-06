@@ -1,0 +1,19 @@
+:host {
+    .messageContainer {
+        min-height: 240px;        
+    }
+    .chart {
+        max-height: 200px;       
+    }
+    .bordered {
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        padding: 20px 20px;
+    }
+
+    .recent {
+        p {
+            margin-top: 0;
+        }
+    }
+}

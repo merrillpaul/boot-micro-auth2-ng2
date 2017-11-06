@@ -1,0 +1,257 @@
+{
+   "normType": "wms-iv-nl-older-adult",
+   "testGUID": "dde90802e8e04246980caa55061a2cc4",
+   "displayName": "WMS-IV-NL Ouderen",
+   "businessUnitGuid": "60e0560444824221b804706f27c23ce9",
+   "domain": "Memory",
+   "name": "WMS-IV-NL-Older-Adult",
+   "description": "Het meest gebruikte instrument om het geheugen van ouderen in kaart te brengen.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt voert eenvoudige taken uit op een aantal gebieden, waaronder oriëntatie in tijd, mentale controle, klok tekenen, incidenteel leren, inhibitiecontrole en verbale productie.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Mental Status",
+            "averageDuration": 7
+         },
+         "testGUID": "dde90802e8e04246980caa55061a2cc4",
+         "subtestGUID": "aaf5e4bf4ce440cfacd2ff9cf3b5cbf7",
+         "orderId": 1,
+         "displayName": "Kort Cognitief Functieonderzoek",
+         "name": "Kort Cognitief Functieonderzoek",
+         "educationRange": [
+            "laag",
+            "midden",
+            "hoog"
+         ],
+         "abbr": "kcf"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Er wordt een patroon getoond, 10 seconden lang. Nadat het patroon is getoond, wordt de cliënt gevraagd om het patroon uit het hoofd na te tekenen. Zo worden totaal vijf patronen getoond.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Memory",
+            "averageDuration": 4
+         },
+         "testGUID": "dde90802e8e04246980caa55061a2cc4",
+         "subtestGUID": "00fc5309f9384638ae04e057b2366ff1",
+         "orderId": 2,
+         "displayName": "Visuele Reproductie I",
+         "name": "Visuele Reproductie I",
+         "abbr": "vr1"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Er worden twee korte verhalen voorgelezen. Eén verhaal wordt tweemaal aangeboden en één verhaal eenmaal. Aan de cliënt wordt gevraagd om direct na het voorlezen van elk verhaal dit na te vertellen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 65
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Auditory Memory",
+            "averageDuration": 4
+         },
+         "testGUID": "dde90802e8e04246980caa55061a2cc4",
+         "subtestGUID": "2f52666ebf5341cfbdd9f450b9577eef",
+         "orderId": 3,
+         "displayName": "Logisch Geheugen I",
+         "name": "Logisch Geheugen I - Oudere Volwassenen",
+         "abbr": "lg1OV"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Nadat tien woordparen zijn voorgelezen aan de cliënt, wordt het eerste woord van ieder paar voorgelezen, en de cliënt wordt gevraagd om het geassocieerde woord te geven.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 65
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Auditory Memory",
+            "averageDuration": 9
+         },
+         "testGUID": "dde90802e8e04246980caa55061a2cc4",
+         "subtestGUID": "bc545be800b3424f95573af919b2d04d",
+         "orderId": 4,
+         "displayName": "Woordparen I",
+         "name": "Woordparen I - Oudere Volwassenen",
+         "abbr": "wp1OV"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Als eerste wordt de cliënt gevraagd om uit het hoofd de patronen die getoond zijn bij de onmiddellijke conditie in een willekeurige volgorde te tekenen. Daarna wordt de cliënt gevraagd om te kiezen welke van de zes patronen op een plaatje overeenkomt met het oorspronkelijke patroon dat tijdens de onmiddellijke conditie is getoond. Als laatste, als optionele kopieertaak, wordt de cliënt gevraagd om patronen na te tekenen terwijl hij of zij hiernaar kijkt.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 90
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 16
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 30,
+                  "minDelayMinutes": 20,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "00fc5309f9384638ae04e057b2366ff1",
+                     "subtestName": "Visuele Reproductie I"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Visual Memory",
+            "averageDuration": 8
+         },
+         "testGUID": "dde90802e8e04246980caa55061a2cc4",
+         "subtestGUID": "c47abc3b96be40fe9c94919eecfcacfa",
+         "orderId": 5,
+         "displayName": "Visuele Reproductie II",
+         "name": "Visuele Reproductie II",
+         "abbr": "vr3"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt wordt gevraagd om beide verhalen uit de onmiddellijke conditie na te vertellen. Vervolgens krijgt de cliënt ja/nee-vragen over beide verhalen.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 90
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 65
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 30,
+                  "minDelayMinutes": 20,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "2f52666ebf5341cfbdd9f450b9577eef",
+                     "subtestName": "Logisch Geheugen I - Oudere Volwassenen"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Auditory Memory",
+            "averageDuration": 5
+         },
+         "testGUID": "dde90802e8e04246980caa55061a2cc4",
+         "subtestGUID": "5bfe028634594f74a6b2ea50250b26d1",
+         "orderId": 6,
+         "displayName": "Logisch Geheugen II",
+         "name": "Logisch Geheugen II - Oudere Volwassenen",
+         "abbr": "lg2OV"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt krijgt het eerste woord van ieder woordpaar dat bij de onmiddellijke conditie is voorgelezen, en wordt vervolgens gevraagd om het bijbehorende woord te geven. De cliënt krijgt vervolgens een lijst woordparen voorgelezen en wordt gevraagd om aan te geven of dit woordpaar een van de woordparen is waarvan hem of haar gevraagd is dit te onthouden, of dat het om een nieuw woordpaar gaat. Ten slotte wordt de cliënt tijdens de optionele woordreproductietaak gevraagd om zoveel mogelijk van de woorden uit de paren op te noemen als hij of zij zich kan herinneren.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 90
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 65
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 30,
+                  "minDelayMinutes": 20,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "bc545be800b3424f95573af919b2d04d",
+                     "subtestName": "Woordparen I - Oudere Volwassenen"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Auditory Memory",
+            "averageDuration": 5
+         },
+         "testGUID": "dde90802e8e04246980caa55061a2cc4",
+         "subtestGUID": "9862687141fb404d9752272fb623bb75",
+         "orderId": 7,
+         "displayName": "Woordparen II",
+         "name": "Woordparen II - Oudere Volwassenen",
+         "abbr": "wp2OV"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt krijgt kort een reeks abstracte symbolen op een scherm te zien en wordt vervolgens gevraagd om de eerder getoonde symbolen uit een aantal symbolen te selecteren en ook in dezelfde volgorde aan te wijzen als op het voorgaande scherm werd gepresenteerd.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Working Memory",
+            "averageDuration": 8
+         },
+         "testGUID": "dde90802e8e04246980caa55061a2cc4",
+         "subtestGUID": "a5d3a8d745cc4371a3711c5e98059252",
+         "orderId": 8,
+         "displayName": "Symbool Reeksen",
+         "name": "Symbool Reeksen",
+         "abbr": "sr"
+      }
+   ],
+   "averageDuration": 105
+}

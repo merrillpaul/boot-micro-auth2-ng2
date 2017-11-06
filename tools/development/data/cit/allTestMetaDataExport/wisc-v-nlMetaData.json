@@ -1,0 +1,349 @@
+{
+   "normType": "wisc-v-au",
+   "testGUID": "382f7f34d9094e7da82d843a104ac192",
+   "displayName": "WISC-V-NL",
+   "useQgComparisonAPI": true,
+   "businessUnitGuid": "60e0560444824221b804706f27c23ce9",
+   "domain": "Ability",
+   "name": "WISC-V-NL",
+   "description": "Meten van de intellectuele vaardigheden van kinderen en verschillende specifieke cognitieve domeinen.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "Het kind moet binnen een tijdslimiet met rood-witte blokken de bovenzijde van een driedimensionaal model of afgebeeld patroon naleggen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 12
+         },
+         "testGUID": "382f7f34d9094e7da82d843a104ac192",
+         "subtestGUID": "2cd28d973ec34fa28dc42772592b1302",
+         "orderId": 1,
+         "displayName": "Blokpatronen",
+         "name": "Blokpatronen",
+         "abbr": "bd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het kind krijgt twee woorden voorgelegd die alledaagse voorwerpen of concepten vertegenwoordigen en hij beschrijft in welk opzicht deze overeenkomen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 10
+         },
+         "testGUID": "382f7f34d9094e7da82d843a104ac192",
+         "subtestGUID": "0ce171b782f54588bd901bcd69dc42f3",
+         "orderId": 2,
+         "displayName": "Overeenkomsten",
+         "name": "Overeenkomsten",
+         "abbr": "si"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het kind ziet een incomplete matrix of serie en selecteert de antwoordoptie die de matrix of serie compleet maakt.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 7
+         },
+         "testGUID": "382f7f34d9094e7da82d843a104ac192",
+         "subtestGUID": "e7ca7ef4aba84c579ad31ff6177f9483",
+         "orderId": 3,
+         "displayName": "Matrix Redeneren",
+         "name": "Matrix Redeneren",
+         "abbr": "mr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het kind wordt een cijferreeks voorgelezen en gevraagd de reeks te herhalen in dezelfde volgorde (Cijferreeksen Voorwaarts), in omgekeerde volgorde (Cijferreeksen Achterwaarts) en in oplopende volgorde (Cijferreeksen Sorteren).",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 10
+         },
+         "testGUID": "382f7f34d9094e7da82d843a104ac192",
+         "subtestGUID": "c0e8ecb12cde4d309a3297a873523223",
+         "orderId": 4,
+         "displayName": "Cijferreeksen",
+         "name": "Cijferreeksen",
+         "abbr": "ds"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Met behulp van een sleutel kopieert het kind symbolen die gekoppeld zijn aan eenvoudige geometrische vormen of getallen, binnen een gespecificeerde tijdslimiet.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 4
+         },
+         "testGUID": "382f7f34d9094e7da82d843a104ac192",
+         "subtestGUID": "86b8778b3b284b13836801a3d19c7b7e",
+         "orderId": 5,
+         "displayName": "Symbool Substitutie Coderen",
+         "name": "Symbool Substitutie Coderen",
+         "abbr": "cd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het kind krijgt eerst vier visuele stimuli aangeboden waarbij hij benoemt wat hij ziet, daarna krijgt het kind woorden voorgelezen waarvan hij de definitie in eigen woorden geeft.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 8
+         },
+         "testGUID": "382f7f34d9094e7da82d843a104ac192",
+         "subtestGUID": "66aa1c7d5dab4c10a74d99adcc50f53e",
+         "orderId": 6,
+         "displayName": "Woordenschat",
+         "name": "Woordenschat",
+         "abbr": "vc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het kind bekijkt binnen een bepaalde tijd een weegschaal met één of meer ontbrekende gewichten en selecteert vervolgens het antwoord waarmee de weegschaal in evenwicht blijft.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 6
+         },
+         "testGUID": "382f7f34d9094e7da82d843a104ac192",
+         "subtestGUID": "cba6c67a3dfa4f66b3ce25124c281f7e",
+         "orderId": 7,
+         "displayName": "Gewichten",
+         "name": "Gewichten",
+         "abbr": "fw"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het kind bekijkt binnen een vastgestelde tijdslimiet een afbeelding en selecteert drie puzzelstukken die samen de afbeelding vormen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 6
+         },
+         "testGUID": "382f7f34d9094e7da82d843a104ac192",
+         "subtestGUID": "d1eba3ffc8d74d6abf01469e4971a4ac",
+         "orderId": 8,
+         "displayName": "Figuur Samenstellen",
+         "name": "Figuur Samenstellen",
+         "abbr": "vp"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het kind bekijkt voor een bepaalde tijd een stimuluspagina met één of meerdere plaatjes en selecteert vervolgens (indien mogelijk in sequentiële volgorde) plaatje(s) uit opties van een antwoordpagina.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "382f7f34d9094e7da82d843a104ac192",
+         "subtestGUID": "d52b65434c6843f1910d5e9292ec298c",
+         "orderId": 9,
+         "displayName": "Plaatjesreeksen",
+         "name": "Plaatjesreeksen",
+         "abbr": "ps"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het kind moet, binnen een gespecificeerd tijdslimiet, zoekgroepen bekijken en hierin aangeven of doelsymbolen al dan niet aanwezig zijn.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "382f7f34d9094e7da82d843a104ac192",
+         "subtestGUID": "ad59befafaec4f878989be8b65c1fb29",
+         "orderId": 10,
+         "displayName": "Symbool Zoeken",
+         "name": "Symbool Zoeken",
+         "abbr": "ss"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Er worden reeksen voorgelezen die bestaan uit cijfers en letters. Het kind moet vervolgens de cijfers in oplopende volgorde en de letters in alfabetische volgorde herhalen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "382f7f34d9094e7da82d843a104ac192",
+         "subtestGUID": "7bef792418d64fcb855157bb2d8dd95e",
+         "orderId": 11,
+         "displayName": "Cijfers en Letters Nazeggen",
+         "name": "Cijfers en Letters Nazeggen",
+         "abbr": "ln"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het kind bekijkt binnen een bepaalde tijdslimiet twee verzamelingen (één willekeurig, één gestructureerd) van vormen en streept de doelobjecten aan.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "382f7f34d9094e7da82d843a104ac192",
+         "subtestGUID": "75c346ce8ae248df9b0e2e9f557b6020",
+         "orderId": 12,
+         "displayName": "Figuur Zoeken",
+         "name": "Figuur Zoeken",
+         "abbr": "ca"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het kind beantwoordt vragen die betrekking hebben op zijn begrip van algemene principes en sociale situaties.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 11
+         },
+         "testGUID": "382f7f34d9094e7da82d843a104ac192",
+         "subtestGUID": "678b6ea9cf94472eb4eddf960caddbbe",
+         "orderId": 13,
+         "displayName": "Begrijpen",
+         "name": "Begrijpen",
+         "abbr": "co"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het kind krijgt een rekensom in verhaalvorm en geeft het juiste antwoord op de rekensom.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 9
+         },
+         "testGUID": "382f7f34d9094e7da82d843a104ac192",
+         "subtestGUID": "00874153478b4a31954a2cf86f4e1190",
+         "orderId": 14,
+         "displayName": "Rekenen",
+         "name": "Rekenen",
+         "abbr": "ar"
+      }
+   ],
+   "averageDuration": 103
+}

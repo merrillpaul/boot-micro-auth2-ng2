@@ -1,0 +1,15 @@
+{
+    "title": "ProjectOne",
+    "subTitle": "User Login",
+    "loginForm": {
+        "username": "Username",
+        "password": "Password"
+    },
+    "registerForm": {
+        "newPromptTitle": "New Here?",
+        "newPrompt": "By providing some basic information you may request an account",
+        "requestButton": "Request New Account"
+    },
+    "submit": "Submit",
+    "forgotPassword": "Forgot password"
+}

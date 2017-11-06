@@ -1,0 +1,373 @@
+{
+   "normType": "wisc-v-fr",
+   "testGUID": "fc74e9d79474494ba57f34ffcc90a195",
+   "displayName": "WISC-V-FR",
+   "useQgComparisonAPI": true,
+   "businessUnitGuid": "211d4c122b3242e286090a80c09b95eb",
+   "domain": "Ability",
+   "name": "WISC-V-FR",
+   "description": "Évaluation du fonctionnement intellectuel global des enfants dans des domaines cognitifs spécifiques.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "À partir d'un modèle construit ou d'une image vue sur l'écran, l'enfant utilise des cubes bicolores rouges et blancs pour reproduire le modèle en temps limité.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 12
+         },
+         "testGUID": "fc74e9d79474494ba57f34ffcc90a195",
+         "subtestGUID": "eff1929f6e274293999ed215b904e6f8",
+         "orderId": 1,
+         "displayName": "Cubes",
+         "name": "Cubes",
+         "abbr": "bd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Des paires de mots sont énoncées oralement et, pour chacune, l'enfant doit trouver la similitude entre les objets ou les concepts proposés.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 10
+         },
+         "testGUID": "fc74e9d79474494ba57f34ffcc90a195",
+         "subtestGUID": "1262e4e77fb64998b2fea57ea23ca6dd",
+         "orderId": 2,
+         "displayName": "Similitudes",
+         "name": "Similitudes",
+         "abbr": "si"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "L'enfant regarde une matrice ou une série incomplète et sélectionne la partie manquante qui complète la matrice ou la série.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 7
+         },
+         "testGUID": "fc74e9d79474494ba57f34ffcc90a195",
+         "subtestGUID": "7fa6d905343f4d66bda52f7df2ca87c6",
+         "orderId": 3,
+         "displayName": "Matrices",
+         "name": "Matrices",
+         "abbr": "mr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Le psychologue lit des séries de chiffres. Le subtest Mémoire des chiffres est constitué de trois parties administrées séparément :\r\n- Mémoire des chiffres en ordre direct : l'enfant répète, dans le même ordre, les chiffres lus par le psychologue ;\r\n- Mémoire des chiffres en ordre inverse : l'enfant répète, en ordre inverse, les chiffres lus par le psychologue ;\r\n- Mémoire des chiffres en ordre croissant : l'enfant répète, en les classant du plus petit au plus grand, les chiffres lus par le psychologue.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 10
+         },
+         "testGUID": "fc74e9d79474494ba57f34ffcc90a195",
+         "subtestGUID": "b4486678b0b346838c409553688d8dfa",
+         "orderId": 4,
+         "displayName": "Mémoire des chiffres",
+         "name": "Mémoire des chiffres",
+         "abbr": "ds"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "L'enfant trouve des symboles simples associés à des formes géométriques ou à des chiffres. En utilisant un code et dans un temps limité, l'enfant les touche dans les formes géométriques ou sous les chiffres correspondants.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 4
+         },
+         "testGUID": "fc74e9d79474494ba57f34ffcc90a195",
+         "subtestGUID": "a883afdc2edc40cb83ecd61631ecca6e",
+         "orderId": 5,
+         "displayName": "Code",
+         "name": "Code",
+         "abbr": "cd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Pour les items en images, l'enfant nomme les images qui lui sont présentées sur l'écran de sa tablette. Pour les items verbaux, l'enfant donne les définitions des mots qui sont lus à haute voix par l'examinateur.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 8
+         },
+         "testGUID": "fc74e9d79474494ba57f34ffcc90a195",
+         "subtestGUID": "a0a2322f19264f8b80a3708faf416870",
+         "orderId": 6,
+         "displayName": "Vocabulaire",
+         "name": "Vocabulaire",
+         "abbr": "vc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "L'enfant voit une balance à plateaux où il manque des poids. En un temps limité, il doit choisir la réponse qui permet d'équilibrer les plateaux de la balance.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 6
+         },
+         "testGUID": "fc74e9d79474494ba57f34ffcc90a195",
+         "subtestGUID": "d9ece067265f46b1a08c707b38e10107",
+         "orderId": 7,
+         "displayName": "Balances",
+         "name": "Balances",
+         "abbr": "fw"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "L'enfant voit un puzzle terminé. Il doit sélectionner, en temps limité, les trois pièces qui permettent de reconstituer le puzzle complet.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 6
+         },
+         "testGUID": "fc74e9d79474494ba57f34ffcc90a195",
+         "subtestGUID": "76899c6bc1654a078f84ed9266140f02",
+         "orderId": 8,
+         "displayName": "Puzzles visuels",
+         "name": "Puzzles visuels",
+         "abbr": "vp"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "L'enfant voit sur un premier écran une ou plusieurs images pendant un temps limité et choisit ensuite, sur l'écran suivant, la (ou les) image(s) (dans le même ordre si possible) parmi les possibilités de réponse proposées.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "fc74e9d79474494ba57f34ffcc90a195",
+         "subtestGUID": "b49db9f39f29494bb7fd6fa9c5c2f654",
+         "orderId": 9,
+         "displayName": "Mémoire des images",
+         "name": "Mémoire des images",
+         "abbr": "ps"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Dans un temps limité, l'enfant regarde un groupe de symboles de recherche et indique si le(s) symbole(s) cible(s) correspond(ent) à l'un des symboles du groupe de recherche.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "fc74e9d79474494ba57f34ffcc90a195",
+         "subtestGUID": "0e8e6b84c1224671b1a14c31bd30939e",
+         "orderId": 10,
+         "displayName": "Symboles",
+         "name": "Symboles",
+         "abbr": "ss"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "L'enfant répond oralement à des questions, lues par le psychologue, ayant trait à des thèmes de culture générale.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 5
+         },
+         "testGUID": "fc74e9d79474494ba57f34ffcc90a195",
+         "subtestGUID": "74c455e4e0ad4130a0015e0a0012057e",
+         "orderId": 11,
+         "displayName": "Information",
+         "name": "Information",
+         "abbr": "in"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Le praticien lit des séquences de lettres et de chiffres. L’enfant rappelle les chiffres en premier dans l’ordre croissant, puis les lettres dans l’ordre alphabétique.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "fc74e9d79474494ba57f34ffcc90a195",
+         "subtestGUID": "8e4595c2746442339d08ff82b55c09e9",
+         "orderId": 12,
+         "displayName": "Séquence Lettres-Chiffres",
+         "name": "Séquence Lettres-Chiffres",
+         "abbr": "ln"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "L'enfant regarde attentivement deux planches d'images et barre les images cibles en un temps limité.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "fc74e9d79474494ba57f34ffcc90a195",
+         "subtestGUID": "2541d6506a0d45db95c244174325ccb6",
+         "orderId": 13,
+         "displayName": "Barrage",
+         "name": "Barrage",
+         "abbr": "ca"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "L’enfant répond oralement à une série de questions. Il doit, soit trouver des solutions à des problèmes de la vie de tous les jours, soit démontrer sa compréhension de règles ou de concepts relatifs à la vie sociale.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 11
+         },
+         "testGUID": "fc74e9d79474494ba57f34ffcc90a195",
+         "subtestGUID": "faab8521004344cbab1971b36f2e08ad",
+         "orderId": 14,
+         "displayName": "Compréhension",
+         "name": "Compréhension",
+         "abbr": "co"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "A partir d'items en images et d'items verbaux, l'enfant doit résoudre mentalement une série de problèmes arithmétiques, en un temps limité.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 9
+         },
+         "testGUID": "fc74e9d79474494ba57f34ffcc90a195",
+         "subtestGUID": "dcbbe8332d7e4b38b9bd4b6c10db6f26",
+         "orderId": 15,
+         "displayName": "Arithmétique",
+         "name": "Arithmétique",
+         "abbr": "ar"
+      }
+   ],
+   "averageDuration": 108
+}

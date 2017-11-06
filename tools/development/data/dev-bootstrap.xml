@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev>
+
+    <oauth2>
+        <client id="globalServerApp" grantTypes="authorization_code,refresh_token,password,implicit" scopes="read"/>
+        <client id="customerServerApp" grantTypes="authorization_code,refresh_token,password,implicit" scopes="read"/>
+        <client id="projectOneApp" grantTypes="authorization_code,refresh_token,password,implicit" scopes="read"/>
+        <client id="globalCheckTokenApp"/>
+        <client id="customerCheckTokenApp"/>
+        <client id="internalResourceApp" roles="ROLE_INTERNAL_RESOURCE"/>
+    </oauth2>
+
+    <roles>
+        <role code="ROLE_SYSTEM_ADMIN"/>
+        <role code="ROLE_CLINICIAN"/>
+        <role code="ROLE_CLIENT"/>
+        <role code="ROLE_CUSTOMER_SERVICE"/>
+        <role code="ROLE_CONTENT_UPLOAD"/>
+        <role code="ROLE_FINANCE"/>
+        <role code="ROLE_NO_ROLES"/>
+        <role code="ROLE_BU_ADMIN"/>
+        <role code="ROLE_SYNC"/>
+        <role code="ROLE_USER"/>
+        <role code="ROLE_INTERNAL_RESOURCE"/>
+    </roles>
+
+    <!-- domains -->
+    <domain type = "ASSESSMENT_TYPE" order = "1" code = "Published" name = "Published"/>
+    <domain type = "ASSESSMENT_TYPE" order = "2" code = "Field Research" name = "Field Reseach"/>
+    <domain type = "ASSESSMENT_TYPE" order = "3" code = "Trial" name = "Trial"/>
+    <domain type = "ASSESSMENT_TYPE" order = "4" code = "Pre-published" name = "Pre-published"/>
+    <domain type = "STATUS_TYPE" order = "1" code = "Active" name = "Active"/>
+    <domain type = "STATUS_TYPE" order = "2" code = "Inactive" name = "Inactive"/>
+    <domain type = "SCORING_TYPE" order = "1" code = "Scoring" name = "Aggregate Scoring"/>
+    <domain type = "SCORING_TYPE" order = "2" code = "ComboScoring" name = "Combo Scoring"/>
+    <domain type = "SCORING_TYPE" order = "3" code = "Individual" name = "Individual Scoring"/>
+    <domain type = "SCORING_TYPE" order = "3" code = "OnTheFly" name = "On The Fly Scoring"/>
+    <domain type = "SCORING_ENGINE" order = "1" code = "OPP And Q-Local Engine" name = "OPP And Q-Local Engine"/>
+    <domain type = "SCORING_ENGINE" order = "2" code = "Lacrosse" name = "Lacrosse"/>
+    <domain type = "SCORING_ENGINE" order = "3" code = "SAS" name = "SAS"/>
+    <domain type = "SCORING_ENGINE" order = "4" code = "QLocal" name = "QLocal"/>
+    <domain type = "SCORING_ENGINE" order = "5" code = "OPP Engine" name = "OPP Engine"/>
+    <domain type = "OSA_ENGINE" order = "1" code = "TestNav" name = "TestNav OSA"/>
+    <domain type = "OSA_ENGINE" order = "2" code = "Qualtrics" name = "Qualtrics OSA"/>
+    <domain type = "FORM_TYPE" order = "1" code = "Flex Form" name = "Flex Form"/>
+    <domain type = "FORM_DELIVERY_TYPE" order = "1" code = "Manual Entry" name = "Manual Entry"/>
+    <domain type = "FORM_DELIVERY_TYPE" order = "2" code = "On Screen Administration" name = "On Screen Administration"/>
+    <domain type = "FORM_DELIVERY_TYPE" order = "3" code = "Remote On Screen Administration" name = "Remote On Screen Administration"/>
+    <domain type = "REPORTING_ENGINE" order = "1" code = "OPP Engine" name = "OPP Engine"/>
+    <domain type = "REPORTING_ENGINE" order = "2" code = "OPP And Q-Local Engine" name = "OPP And Q-Local Engine"/>
+    <domain type = "REPORTING_ENGINE" order = "3" code = "RaaS Engine" name = "RaaS Engine"/>
+    <domain type = "REPORTING_ENGINE" order = "4" code = "SLang" name = "SLang"/>
+    <domain type = "REPORTING_ENGINE" order = "5" code = "QLocal" name = "QLocal"/>
+    <domain type = "REPORT_TYPE" order = "1" code = "Standard" name = "Standard (Individual)"/>
+    <domain type = "REPORT_TYPE" order = "2" code = "Progress" name = "Progress"/>
+    <domain type = "REPORT_TYPE" order = "3" code = "Combo" name = "Combo"/>
+    <domain type = "REPORT_TYPE" order = "4" code = "Group" name = "Group"/>
+    <domain type = "REPORT_TYPE" order = "5" code = "Multirater" name = "Multirater"/>
+    <domain type = "REPORT_TYPE" order = "6" code = "Specialty" name = "Specialty"/>
+    <domain type = "REPORT_TYPE" order = "7" code = "Progress_Aggregate" name = "Progress Aggregate"/>
+    <domain type = "REPORT_TYPE" order = "8" code = "StandardMultiAsmt" name = "Standard (Multi-Assessment)"/>
+    <domain type = "REPORT_TYPE" order = "9" code = "ProgressMultiAsmt" name = "Progress (Multi-Assessment)"/>
+    <domain type = "REPORT_TYPE" order = "10" code = "Writer" name = "Writer"/>
+    <domain type = "REPORT_TYPE" order = "11" code = "Standard_Tiered" name = "Standard (Tiered)"/>
+    <domain type = "REPORT_TYPE" order = "12" code = "Integrated" name = "Integrated"/>
+    <domain type = "REPORT_TYPE" order = "13" code = "Monitor_Report" name = "Monitor Report"/>
+    <domain type = "REPORT_OUTPUT_TYPE" order = "1" code = "Adobe (pdf)" name = "Adobe (pdf)"/>
+    <domain type = "REPORT_OUTPUT_TYPE" order = "2" code = "Microsoft Excel (xls)" name = "Microsoft Excel (xls)"/>
+    <domain type = "REPORT_OUTPUT_TYPE" order = "3" code = "Microsoft Word (doc)" name = "Microsoft Word (doc)"/>
+    <domain type = "GENDER_TYPE" order = "1" code = "Male" name = "Male"/>
+    <domain type = "GENDER_TYPE" order = "2" code = "Female" name = "Female"/>
+    <domain type = "GENDER_TYPE" order = "3" code = "Unspecified" name = "Unspecified"/>
+    <domain type = "GENDER_TYPE" order = "4" code = "None" name = "None"/>
+
+    <!-- global users -->
+    <user id="admin0001" userName="systemadmin" firstName="System" lastName="Admin" hon="Mr." roles="system_admin"/>
+
+    <business_units>
+        <business_unit id="BU00001" guid="8456fe717d5f449b8b7620d18f883318" name="Pearson US"
+                       firstName="Pearson" lastName="US" middleName="." phone="210" email="p1@pearson.com"
+                       timezoneId="America/Chicago">
+
+            <account id="ACC0001" name="ABCD Clinic" owner="211" firstName="Joe" lastName="Pesci">
+                <user id="user00001" userName="joe" firstName="Joe" lastName="Doe" hon="Dr."
+                      roles="system_admin,clinician,client"/>
+                <user id="user00002" userName="jane" firstName="Jane" lastName="Doe" hon="Dr."
+                      roles="system_admin,clinician,client,finance"/>
+            </account>
+
+        </business_unit>
+    </business_units>   
+</dev>

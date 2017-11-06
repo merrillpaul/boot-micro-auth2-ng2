@@ -1,0 +1,221 @@
+{
+   "normType": "nepsy-ii-no",
+   "testGUID": "373e6dd4744a4260ae87b92b8a3131c1",
+   "displayName": "NEPSY-II",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Neuropsychology",
+   "name": "NEPSY-II-NO",
+   "description": "Test for nevropsykologisk undersøkelse av barn og ungdom",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "Deltesten er ment å måle grunnleggende begrepsdannelse, å kunne omsette dette i handling (sortere i kategorier) samt kognitiv fleksibilitet. Barnet skal sortere åtte kort i to grupper med fire kort i hver. Sorteringen foregår ut fra forskjellige selv-initierte sorteringskriterier i så mange ulike kategorier som mulig innenfor en gitt tidsgrense.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 7
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 7
+         },
+         "testGUID": "373e6dd4744a4260ae87b92b8a3131c1",
+         "subtestGUID": "196cade4c29f4a2c89c832e6cbe36f70",
+         "orderId": 1,
+         "displayName": "Dyresortering",
+         "name": "Dyresortering",
+         "abbr": "Dyresortering"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Deltesten er ment å måle motoriske og visuospatiale ferdigheter når det gjelder reproduksjon av todimensjonale geometriske figurer.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 3
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 6
+         },
+         "testGUID": "373e6dd4744a4260ae87b92b8a3131c1",
+         "subtestGUID": "baa0f3e55ac1432a88af3d17cb0b0655",
+         "orderId": 2,
+         "displayName": "Figurkopiering",
+         "name": "Figurkopiering",
+         "abbr": "Figurkopiering"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Deltesten er ment å måle den spatiale hukommelsen for nytt visuelt materiale. Barnet får se et rutemønster med mellom fire og ti figurer per stimulusbilde. Ut fra et antall kort med bilde av figurer på skal barnet deretter velge de figurene han eller hun husker fra stimulusbildet. Kortene skal plasseres på et brett i samme posisjon som på bildet. For hvert målkort finnes det et distraktorkort.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 3
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 10
+         },
+         "testGUID": "373e6dd4744a4260ae87b92b8a3131c1",
+         "subtestGUID": "f2cbd56b350047fa8fe4677f86c47617",
+         "orderId": 3,
+         "displayName": "Hukommelse for figurer",
+         "name": "Hukommelse for figurer",
+         "abbr": "Hukommelse for figurer"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Deltesten består av to deler. Del A Repetisjon av fingerbevegelser er ment å måle kontroll av fingerbevegelser og motorisk hurtighet, mens Del B Sekvensielle fingerbevegelser er ment å måle hurtighet når det gjelder motorisk planlegging. Barnet skal herme en serie fingerbevegelser så raskt som mulig. Både dominant og ikke-dominant hånd vurderes.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Sensorimotor",
+            "averageDuration": 3
+         },
+         "testGUID": "373e6dd4744a4260ae87b92b8a3131c1",
+         "subtestGUID": "61ec7526c09b408d8f8b753c20c1b480",
+         "orderId": 4,
+         "displayName": "Fingerbevegelser",
+         "name": "Fingerbevegelser",
+         "abbr": "Fingerbevegelser"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Deltesten er ment å måle i hvilken grad et barn klarer å inhibere automatiserte responser for heller å følge et nytt svarmønster, samt det å kunne veksle mellom ulike svarmønstre. Barnet får se en serie bestående av svarte og hvite former eller piler, og skal benevne form eller retning eller gi en alternativ respons avhengig av formens eller pilens farge.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 7
+         },
+         "testGUID": "373e6dd4744a4260ae87b92b8a3131c1",
+         "subtestGUID": "f18f53c559084a4abc1b27999c971364",
+         "orderId": 5,
+         "displayName": "Inhibisjon",
+         "name": "Inhibisjon",
+         "abbr": "Inhibisjon"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Deltesten er ment å måle idégenerering. Barnet skal produsere ord innenfor to kategorier: Kategori A Semantisk flyt og Kategori B Fonologisk flyt. Hver kategori inneholder to oppgaver med gitte tidsgrenser.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 3
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 6
+         },
+         "testGUID": "373e6dd4744a4260ae87b92b8a3131c1",
+         "subtestGUID": "45c9e0d1f413465bb289fd8bb1face3b",
+         "orderId": 6,
+         "displayName": "Ordflyt",
+         "name": "Ordflyt",
+         "abbr": "Ordflyt"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Deltesten er ment å måle den spatiale hukommelsen for nytt visuelt materiale. Barnet får se et rutemønster med mellom fire og ti figurer per stimulusbilde. Ut fra et antall kort med bilde av figurer på skal barnet deretter velge de figurene han eller hun husker fra stimulusbildet. Kortene skal plasseres på et brett i samme posisjon som på bildet. For hvert målkort finnes det et distraktorkort.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 16
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 5
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 25,
+                  "minDelayMinutes": 15,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "f2cbd56b350047fa8fe4677f86c47617",
+                     "subtestName": "Hukommelse for figurer"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 3
+         },
+         "testGUID": "373e6dd4744a4260ae87b92b8a3131c1",
+         "subtestGUID": "28e5da4d44524cbc9d82d36551dd1e78",
+         "orderId": 7,
+         "displayName": "Hukommelse for figurer - Utsatt",
+         "name": "Hukommelse for figurer - Utsatt",
+         "abbr": "Hukommelse for figurer - Utsatt"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Deltesten er ment å måle visuell diskriminering og skanning, spatial lokalisering samt oppfattelsen av\r\nforholdet mellom deler og helhet. Barnet får se et stort bilde som er oppdelt i et rutenett. Fire deler av bildet er også gjengitt utenfor rutenettet. Barnets oppgave er å lokalisere hvor i rutenettet hver av de fire bildedelene hører hjemme.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 7
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 9
+         },
+         "testGUID": "373e6dd4744a4260ae87b92b8a3131c1",
+         "subtestGUID": "262551d3b09246928d6fa685092b8dbc",
+         "orderId": 8,
+         "displayName": "Bildepuslespill",
+         "name": "Bildepuslespill",
+         "abbr": "Bildepuslespill"
+      }
+   ],
+   "averageDuration": 51
+}

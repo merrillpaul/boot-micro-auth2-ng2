@@ -1,0 +1,24 @@
+{
+   "normType": "gfta-3-spanish",
+   "testGUID": "4e035c921b9146c6bb9b8360e50e3c8b",
+   "displayName": "GFTA-3 Spanish Ages 7-21:11",
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Speech/Language",
+   "name": "GFTA-3-Spanish_Ages_7-21:11",
+   "description": "A systematic means of assessing an individual's articulation of the consonant and consonant cluster sounds of  Spanish.",
+   "subtests": [{
+      "metaData": {
+         "descriptionCS": "A systematic means of assessing an individual's articulation of the consonant and consonant cluster sounds of Spanish.",
+         "rules": [],
+         "subtestCategory": "Articulation",
+         "averageDuration": 15
+      },
+      "testGUID": "4e035c921b9146c6bb9b8360e50e3c8b",
+      "subtestGUID": "641d1424c051443394db6b0d875ffb2a",
+      "orderId": 1,
+      "displayName": "Test of Articulation",
+      "name": "Test of Articulation 7 - 21:11",
+      "abbr": "SoundsRe"
+   }],
+   "averageDuration": 30
+}

@@ -1,0 +1,450 @@
+{
+   "normType": "wiat-iii-ca",
+   "testGUID": "4b2dc2a9c20d45ed8733b071ccd21854",
+   "displayName": "WIAT-III-CDN",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "f57ca8e054a74d278b7c34001c2f393d",
+   "domain": "Achievement",
+   "name": "WIAT-III-CA",
+   "description": "Updated achievement test for use in a variety of clinical, educational, and research settings.",
+   "subtests": [
+      {
+         "metaData": {
+            "minGradeLevel": 0,
+            "descriptionCS": "On Receptive Vocabulary, the examinee points to the picture that best illustrates the meaning of each word he or she hears. On Oral Discourse Comprehension, the examinee listens to sentences and passages and orally responds to comprehension questions.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 50
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Oral Language",
+            "averageDuration": 13,
+            "maxGradeLevel": 13
+         },
+         "testGUID": "4b2dc2a9c20d45ed8733b071ccd21854",
+         "subtestGUID": "3e715eafafff43e09820ddb61c1cab6d",
+         "orderId": 1,
+         "displayName": "Listening Comprehension",
+         "name": "Listening Comprehension",
+         "abbr": "lc"
+      },
+      {
+         "metaData": {
+            "minGradeLevel": 0,
+            "descriptionCS": "The examinee names letters of the alphabet, identifies and generates rhyming words, and completes other tasks deemed important for developing reading skills.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 50
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Total Achievement",
+            "averageDuration": 6,
+            "maxGradeLevel": 4
+         },
+         "testGUID": "4b2dc2a9c20d45ed8733b071ccd21854",
+         "subtestGUID": "5b90c43ce05c4acfa8e9443d8247bd29",
+         "orderId": 2,
+         "displayName": "Early Reading Skills",
+         "name": "Early Reading Skills",
+         "abbr": "er"
+      },
+      {
+         "metaData": {
+            "minGradeLevel": 2,
+            "descriptionCS": "The examinee reads passages aloud or silently. After each passage, the examinee orally responds to literal and inferential comprehension questions that are read aloud by the examiner.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 50
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Reading Comprehension and Fluency",
+            "averageDuration": 15,
+            "maxGradeLevel": 13
+         },
+         "testGUID": "4b2dc2a9c20d45ed8733b071ccd21854",
+         "subtestGUID": "a7f6e681566b4e4e8007a8ace6ad5243",
+         "orderId": 3,
+         "displayName": "Reading Comprehension",
+         "name": "Reading Comprehension",
+         "abbr": "rc"
+      },
+      {
+         "metaData": {
+            "minGradeLevel": 0,
+            "descriptionCS": "The examinee solves untimed math problems in the following domains: basic concepts, everyday applications, geometry, and algebra.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 50
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Mathematics",
+            "averageDuration": 12,
+            "maxGradeLevel": 13
+         },
+         "testGUID": "4b2dc2a9c20d45ed8733b071ccd21854",
+         "subtestGUID": "7f45a3989268476e85db3b2d4d1b61a4",
+         "orderId": 4,
+         "displayName": "Math Problem Solving",
+         "name": "Math Problem Solving",
+         "abbr": "mp"
+      },
+      {
+         "metaData": {
+            "minGradeLevel": 0,
+            "descriptionCS": "The examinee writes as many letters of the alphabet as possible within a 30-second time limit.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 50
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Written Expression",
+            "averageDuration": 1,
+            "maxGradeLevel": 4
+         },
+         "testGUID": "4b2dc2a9c20d45ed8733b071ccd21854",
+         "subtestGUID": "d8196ee04a0c4eeaaeeb49ecb0cbe7a1",
+         "orderId": 5,
+         "displayName": "Alphabet Writing Fluency",
+         "name": "Alphabet Writing Fluency",
+         "abbr": "aw"
+      },
+      {
+         "metaData": {
+            "minGradeLevel": 2,
+            "descriptionCS": "On Sentence Combining, the examinee combines two or three sentences into one sentence that preserves the meaning of the original sentences. On Sentence Building, the examinee is asked to write one sentence that uses a target word with appropriate context.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 50
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Written Expression",
+            "averageDuration": 11,
+            "maxGradeLevel": 13
+         },
+         "testGUID": "4b2dc2a9c20d45ed8733b071ccd21854",
+         "subtestGUID": "0e3e36a07edf4cc88299aad9206c8b96",
+         "orderId": 6,
+         "displayName": "Sentence Composition",
+         "name": "Sentence Composition",
+         "abbr": "sw"
+      },
+      {
+         "metaData": {
+            "minGradeLevel": 2,
+            "descriptionCS": "The examinee reads aloud from a list of words that increase in difficulty.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 50
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Basic Reading",
+            "averageDuration": 2,
+            "maxGradeLevel": 13
+         },
+         "testGUID": "4b2dc2a9c20d45ed8733b071ccd21854",
+         "subtestGUID": "7484397055754be2b25416ecf642000f",
+         "orderId": 7,
+         "displayName": "Word Reading",
+         "name": "Word Reading",
+         "abbr": "wr"
+      },
+      {
+         "metaData": {
+            "minGradeLevel": 4,
+            "descriptionCS": "The examinee writes a brief essay within a 10-minute time limit.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 50
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Written Expression",
+            "averageDuration": 10,
+            "maxGradeLevel": 13
+         },
+         "testGUID": "4b2dc2a9c20d45ed8733b071ccd21854",
+         "subtestGUID": "7a0bdfa445724447873d6ec0d942f23e",
+         "orderId": 8,
+         "displayName": "Essay Composition",
+         "name": "Essay Composition",
+         "abbr": "ew"
+      },
+      {
+         "metaData": {
+            "minGradeLevel": 2,
+            "descriptionCS": "The examinee reads aloud from a list of pseudowords that increase in difficulty.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 50
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Basic Reading",
+            "averageDuration": 2,
+            "maxGradeLevel": 13
+         },
+         "testGUID": "4b2dc2a9c20d45ed8733b071ccd21854",
+         "subtestGUID": "15c59e7a9a0045e9bac8930b6d6029a3",
+         "orderId": 9,
+         "displayName": "Pseudoword Decoding",
+         "name": "Pseudoword Decoding",
+         "abbr": "pd"
+      },
+      {
+         "metaData": {
+            "minGradeLevel": 1,
+            "descriptionCS": "The examinee solves math calculation problems in the Response Booklet.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 50
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Mathematics",
+            "averageDuration": 9,
+            "maxGradeLevel": 13
+         },
+         "testGUID": "4b2dc2a9c20d45ed8733b071ccd21854",
+         "subtestGUID": "28c884ccf1d04f73897e0dc0ee2f4f86",
+         "orderId": 10,
+         "displayName": "Numerical Operations",
+         "name": "Numerical Operations",
+         "abbr": "no"
+      },
+      {
+         "metaData": {
+            "minGradeLevel": 0,
+            "descriptionCS": "On Expressive Vocabulary, the examinee says the word that best corresponds to a given picture and definition. On Oral Word Fluency, the examinee names as many things as possible belonging to a given category (i.e., animals, colors) within 60 seconds. On Sentence Repetition the examinee listens to sentences that increase in length and complexity and repeats each sentence verbatim.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 50
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Oral Language",
+            "averageDuration": 9,
+            "maxGradeLevel": 13
+         },
+         "testGUID": "4b2dc2a9c20d45ed8733b071ccd21854",
+         "subtestGUID": "1558bfef79674961afade82db0323407",
+         "orderId": 11,
+         "displayName": "Oral Expression",
+         "name": "Oral Expression",
+         "abbr": "oe"
+      },
+      {
+         "metaData": {
+            "minGradeLevel": 2,
+            "descriptionCS": "The examinee reads passages aloud, and then orally responds to comprehension questions after each passage",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 50
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Reading Comprehension and Fluency",
+            "averageDuration": 8,
+            "maxGradeLevel": 13
+         },
+         "testGUID": "4b2dc2a9c20d45ed8733b071ccd21854",
+         "subtestGUID": "74d53c8a6cdc4bd3bc4d3da277f8408e",
+         "orderId": 12,
+         "displayName": "Oral Reading Fluency",
+         "name": "Oral Reading Fluency",
+         "abbr": "or"
+      },
+      {
+         "metaData": {
+            "minGradeLevel": 1,
+            "descriptionCS": "The examinee hears each letter sound within the context of a word, and each word within the context of a sentence, and then the student writes the target letter sound or word.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 50
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Written Expression",
+            "averageDuration": 6,
+            "maxGradeLevel": 13
+         },
+         "testGUID": "4b2dc2a9c20d45ed8733b071ccd21854",
+         "subtestGUID": "165c035fe3b3471ca2abe5cea24cd8fe",
+         "orderId": 13,
+         "displayName": "Spelling",
+         "name": "Spelling",
+         "abbr": "sp"
+      },
+      {
+         "metaData": {
+            "minGradeLevel": 2,
+            "descriptionCS": "The examinee solves written addition problems within a 60-second time limit.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 50
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Math Fluency",
+            "averageDuration": 1,
+            "maxGradeLevel": 13
+         },
+         "testGUID": "4b2dc2a9c20d45ed8733b071ccd21854",
+         "subtestGUID": "4443bf3d4eeb4112bc84d8094ba59364",
+         "orderId": 14,
+         "displayName": "Math Fluency - Addition",
+         "name": "Math Fluency - Addition",
+         "abbr": "ma"
+      },
+      {
+         "metaData": {
+            "minGradeLevel": 2,
+            "descriptionCS": "The examinee solves written subtraction problems within a 60-second time limit.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 50
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Math Fluency",
+            "averageDuration": 1,
+            "maxGradeLevel": 13
+         },
+         "testGUID": "4b2dc2a9c20d45ed8733b071ccd21854",
+         "subtestGUID": "5fd23c94e08b4cce989f5f1891ec63b0",
+         "orderId": 15,
+         "displayName": "Math Fluency - Subtraction",
+         "name": "Math Fluency - Subtraction",
+         "abbr": "ms"
+      },
+      {
+         "metaData": {
+            "minGradeLevel": 4,
+            "descriptionCS": "The examinee solves written multiplication problems within a 60-second time limit.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 50
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Math Fluency",
+            "averageDuration": 1,
+            "maxGradeLevel": 13
+         },
+         "testGUID": "4b2dc2a9c20d45ed8733b071ccd21854",
+         "subtestGUID": "2bbaf0e079ba400a8f15066119cf01c6",
+         "orderId": 16,
+         "displayName": "Math Fluency - Multiplication",
+         "name": "Math Fluency - Multiplication",
+         "abbr": "mm"
+      }
+   ],
+   "gradeLevels": [
+      "Grade PK",
+      "Grade K",
+      "Grade 1",
+      "Grade 2",
+      "Grade 3",
+      "Grade 4",
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11",
+      "Grade 12+"
+   ],
+   "averageDuration": 107,
+   "gradeTerms": [
+      "Fall",
+      "Winter",
+      "Spring"
+   ]
+}

@@ -1,0 +1,373 @@
+{
+   "normType": "wisc-iv-au",
+   "testGUID": "c49238b8695d6264e040b69fd3e872de",
+   "displayName": "WISC-IV AU",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "9f046d939abf4644820ac698605a228b",
+   "domain": "Ability",
+   "name": "WISC-IV-AU",
+   "description": "Assessment of children's overall cognitive ability and four specific domains of intelligence.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "While viewing a constructed model or a picture, the child uses red-and-white blocks to re-create the design within a specified time limit.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 10
+         },
+         "testGUID": "c49238b8695d6264e040b69fd3e872de",
+         "subtestGUID": "c49238b8695e6264e040b69fd3e872de",
+         "orderId": 1,
+         "displayName": "Block Design",
+         "name": "Block Design",
+         "abbr": "bd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child is presented two words that represent common objects or concepts and describes how they are similar.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 8
+         },
+         "testGUID": "c49238b8695d6264e040b69fd3e872de",
+         "subtestGUID": "c49238b8695f6264e040b69fd3e872de",
+         "orderId": 2,
+         "displayName": "Similarities",
+         "name": "Similarities",
+         "abbr": "si"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "For Digit Span Forward, the child repeats numbers in the same order as read aloud by the examiner. For Digit Span Backward, the child repeats numbers in the reverse order of that presented aloud by the examiner.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 4
+         },
+         "testGUID": "c49238b8695d6264e040b69fd3e872de",
+         "subtestGUID": "c49238b869606264e040b69fd3e872de",
+         "orderId": 3,
+         "displayName": "Digit Span",
+         "name": "Digit Span",
+         "abbr": "ds"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child is presented with two or three rows of pictures and chooses one picture from each row to form a group\r\nwith a common characteristic.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 8
+         },
+         "testGUID": "c49238b8695d6264e040b69fd3e872de",
+         "subtestGUID": "c49238b869616264e040b69fd3e872de",
+         "orderId": 4,
+         "displayName": "Picture Concepts",
+         "name": "Picture Concepts",
+         "abbr": "pcn"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child copies symbols that are paired with simple geometric shapes or numbers. Using a key, the child draws each symbol in its corresponding shape or box within a specified time limit.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "c49238b8695d6264e040b69fd3e872de",
+         "subtestGUID": "c49238b869626264e040b69fd3e872de",
+         "orderId": 5,
+         "displayName": "Coding",
+         "name": "Coding",
+         "abbr": "cd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "For picture items, the child names pictures that are displayed on the Client Device. For verbal items, the child gives definitions for words that the examiner reads aloud.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 8
+         },
+         "testGUID": "c49238b8695d6264e040b69fd3e872de",
+         "subtestGUID": "c49238b869636264e040b69fd3e872de",
+         "orderId": 6,
+         "displayName": "Vocabulary",
+         "name": "Vocabulary",
+         "abbr": "vc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child is read a sequence of numbers and letters and recalls the numbers in ascending order and the letters in alphabetical order.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 5
+         },
+         "testGUID": "c49238b8695d6264e040b69fd3e872de",
+         "subtestGUID": "c49238b869646264e040b69fd3e872de",
+         "orderId": 7,
+         "displayName": "Letter-Number Sequencing",
+         "name": "Letter-Number Sequencing",
+         "abbr": "ln"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child looks at an incomplete matrix and selects the missing portion from five response options.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 6
+         },
+         "testGUID": "c49238b8695d6264e040b69fd3e872de",
+         "subtestGUID": "c49238b869656264e040b69fd3e872de",
+         "orderId": 8,
+         "displayName": "Matrix Reasoning",
+         "name": "Matrix Reasoning",
+         "abbr": "mr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child answers questions based on his or her understanding of general principles and social situations.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 11
+         },
+         "testGUID": "c49238b8695d6264e040b69fd3e872de",
+         "subtestGUID": "c49238b869666264e040b69fd3e872de",
+         "orderId": 9,
+         "displayName": "Comprehension",
+         "name": "Comprehension",
+         "abbr": "co"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child scans a search group and indicates whether the target symbol(s) matches any of the symbols in the search group within a specified time limit.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "c49238b8695d6264e040b69fd3e872de",
+         "subtestGUID": "c49238b869676264e040b69fd3e872de",
+         "orderId": 10,
+         "displayName": "Symbol Search",
+         "name": "Symbol Search",
+         "abbr": "ss"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child views a picture and then points to or names the important part missing within a specified time limit.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 10
+         },
+         "testGUID": "c49238b8695d6264e040b69fd3e872de",
+         "subtestGUID": "c49238b869686264e040b69fd3e872de",
+         "orderId": 11,
+         "displayName": "Picture Completion",
+         "name": "Picture Completion",
+         "abbr": "pcm"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child scans both a random and a structured arrangement of pictures and marks target pictures within a specified time limit.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 4
+         },
+         "testGUID": "c49238b8695d6264e040b69fd3e872de",
+         "subtestGUID": "c49238b869696264e040b69fd3e872de",
+         "orderId": 12,
+         "displayName": "Cancellation",
+         "name": "Cancellation",
+         "abbr": "ca"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child answers questions that address a broad range of general knowledge topics.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 5
+         },
+         "testGUID": "c49238b8695d6264e040b69fd3e872de",
+         "subtestGUID": "c49238b8696a6264e040b69fd3e872de",
+         "orderId": 13,
+         "displayName": "Information",
+         "name": "Information",
+         "abbr": "in"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child mentally solves a series of orally presented arithmetic problems within a specified time limit.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 8
+         },
+         "testGUID": "c49238b8695d6264e040b69fd3e872de",
+         "subtestGUID": "c49238b8696b6264e040b69fd3e872de",
+         "orderId": 14,
+         "displayName": "Arithmetic",
+         "name": "Arithmetic",
+         "abbr": "ar"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child identifies the common concept being described in a series of clues.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 10
+         },
+         "testGUID": "c49238b8695d6264e040b69fd3e872de",
+         "subtestGUID": "c49238b8696c6264e040b69fd3e872de",
+         "orderId": 15,
+         "displayName": "Word Reasoning",
+         "name": "Word Reasoning",
+         "abbr": "wr"
+      }
+   ],
+   "averageDuration": 103
+}

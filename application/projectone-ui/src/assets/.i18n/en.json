@@ -1,0 +1,28 @@
+{
+     "examineeAssessment": {
+          "raterForm": {
+               "FORM_DELIVERY_TYPE": {
+                    "Manual.Entry": "Paper",
+                    "On.Screen.Administration": "Administer on Screen",
+                    "Remote.On.Screen.Administration": "Email a Link"
+               }
+          },
+          "srcFile": "/examineeAssessment/i18n/en.json"
+     },
+     "login": {
+          "title": "ProjectOne",
+          "subTitle": "User Login",
+          "loginForm": {
+               "username": "Username",
+               "password": "Password"
+          },
+          "registerForm": {
+               "newPromptTitle": "New Here?",
+               "newPrompt": "By providing some basic information you may request an account",
+               "requestButton": "Request New Account"
+          },
+          "submit": "Submit",
+          "forgotPassword": "Forgot password",
+          "srcFile": "/login/i18n/en.json"
+     }
+}

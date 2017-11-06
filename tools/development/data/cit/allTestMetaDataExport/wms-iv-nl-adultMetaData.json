@@ -1,0 +1,345 @@
+{
+   "normType": "wms-iv-nl-adult",
+   "testGUID": "8baf561677c54b24814d9bc53ac1c41f",
+   "displayName": "WMS-IV-NL Volwassenen",
+   "businessUnitGuid": "60e0560444824221b804706f27c23ce9",
+   "domain": "Memory",
+   "name": "WMS-IV-NL-Adult",
+   "description": "Het meest gebruikte instrument om het geheugen van volwassenen in kaart te brengen.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt voert eenvoudige taken uit op een aantal gebieden, waaronder oriëntatie in tijd, mentale controle, klok tekenen, incidenteel leren, inhibitiecontrole en verbale productie.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Mental Status",
+            "averageDuration": 7
+         },
+         "testGUID": "8baf561677c54b24814d9bc53ac1c41f",
+         "subtestGUID": "aa3a4ff1606d46579a9309c868f0a4d3",
+         "orderId": 1,
+         "displayName": "Kort Cognitief Functieonderzoek",
+         "name": "Kort Cognitief Functieonderzoek",
+         "educationRange": [
+            "laag",
+            "midden",
+            "hoog"
+         ],
+         "abbr": "kcf"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Er wordt een patroon getoond, 10 seconden lang. Nadat het patroon is getoond, wordt de cliënt gevraagd om het patroon uit het hoofd na te tekenen. Zo worden totaal vijf patronen getoond.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Memory",
+            "averageDuration": 4
+         },
+         "testGUID": "8baf561677c54b24814d9bc53ac1c41f",
+         "subtestGUID": "ea979adc4eda4960bf4ea30679c2fc32",
+         "orderId": 2,
+         "displayName": "Visuele Reproductie I",
+         "name": "Visuele Reproductie I",
+         "abbr": "vr1"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Twee korte verhalen worden voorgelezen. Aan de cliënt wordt gevraagd om direct na het voorlezen van elk verhaal dit na te vertellen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Auditory Memory",
+            "averageDuration": 4
+         },
+         "testGUID": "8baf561677c54b24814d9bc53ac1c41f",
+         "subtestGUID": "101d618863a54bbc90d9e5b070aad5a0",
+         "orderId": 3,
+         "displayName": "Logisch Geheugen I",
+         "name": "Logisch Geheugen I - Volwassenen",
+         "abbr": "lg1"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt krijgt achter elkaar twee matrices met blauwe en rode cirkels te zien. De cliënt wordt vervolgens gevraagd om cirkels op dezelfde locatie op te tellen of af te trekken op basis van een aantal regels.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Working Memory",
+            "averageDuration": 12
+         },
+         "testGUID": "8baf561677c54b24814d9bc53ac1c41f",
+         "subtestGUID": "c2ab5ed6568c45599cd2ad02cc3e40b2",
+         "orderId": 4,
+         "displayName": "Ruimtelijk Rekenen",
+         "name": "Ruimtelijk Rekenen",
+         "abbr": "rr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Als eerste wordt de cliënt gevraagd om uit het hoofd de patronen die getoond zijn bij de onmiddellijke conditie in een willekeurige volgorde te tekenen. Daarna wordt de cliënt gevraagd om te kiezen welke van de zes patronen op een plaatje overeenkomt met het oorspronkelijke patroon dat tijdens de onmiddellijke conditie is getoond. Als laatste, als optionele kopieertaak, wordt de cliënt gevraagd om patronen na te tekenen terwijl hij of zij hiernaar kijkt.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 90
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 16
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 30,
+                  "minDelayMinutes": 20,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "ea979adc4eda4960bf4ea30679c2fc32",
+                     "subtestName": "Visuele Reproductie I"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Visual Memory",
+            "averageDuration": 8
+         },
+         "testGUID": "8baf561677c54b24814d9bc53ac1c41f",
+         "subtestGUID": "88099a4d2737452da12851891a65d033",
+         "orderId": 5,
+         "displayName": "Visuele Reproductie II",
+         "name": "Visuele Reproductie II",
+         "abbr": "vr3"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt wordt gevraagd om beide verhalen uit de onmiddellijke conditie na te vertellen. Vervolgens krijgt de cliënt ja/nee-vragen over beide verhalen.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 69
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 16
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 30,
+                  "minDelayMinutes": 20,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "101d618863a54bbc90d9e5b070aad5a0",
+                     "subtestName": "Logisch Geheugen I - Volwassenen"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Auditory Memory",
+            "averageDuration": 5
+         },
+         "testGUID": "8baf561677c54b24814d9bc53ac1c41f",
+         "subtestGUID": "592dc75ae3324c9a8c8b8defddaebe74",
+         "orderId": 6,
+         "displayName": "Logisch Geheugen II",
+         "name": "Logisch Geheugen II - Volwassenen",
+         "abbr": "lg2"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Nadat veertien woordparen zijn voorgelezen aan de cliënt, wordt het eerste woord van ieder paar voorgelezen, en de cliënt wordt gevraagd om het geassocieerde woord te geven.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Auditory Memory",
+            "averageDuration": 9
+         },
+         "testGUID": "8baf561677c54b24814d9bc53ac1c41f",
+         "subtestGUID": "946d454bc1f9477f8a839c12ef5655dd",
+         "orderId": 7,
+         "displayName": "Woordparen I",
+         "name": "Woordparen I - Volwassenen",
+         "abbr": "wp1"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt krijgt 10 seconden lang een matrix te zien met vier, zes of acht patronen op een scherm, die vervolgens weer uit het zicht wordt gehaald. De cliënt selecteert daarna de patronen uit een set kaarten en plaatst de kaarten in een matrix op dezelfde locatie als daarvoor getoond is.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Memory",
+            "averageDuration": 10
+         },
+         "testGUID": "8baf561677c54b24814d9bc53ac1c41f",
+         "subtestGUID": "e9441797e84c4587adf4544956b0e2a0",
+         "orderId": 8,
+         "displayName": "Patronen I",
+         "name": "Patronen I",
+         "abbr": "p1"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt krijgt kort een reeks abstracte symbolen op een scherm te zien en wordt vervolgens gevraagd om de eerder getoonde symbolen uit een aantal symbolen te selecteren en ook in dezelfde volgorde aan te wijzen als op het voorgaande scherm werd gepresenteerd.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Working Memory",
+            "averageDuration": 8
+         },
+         "testGUID": "8baf561677c54b24814d9bc53ac1c41f",
+         "subtestGUID": "9fe893bd87e94e92a4ff3884c77a3037",
+         "orderId": 9,
+         "displayName": "Symbool Reeksen",
+         "name": "Symbool Reeksen",
+         "abbr": "sr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt krijgt het eerste woord van ieder woordpaar dat bij de onmiddellijke conditie is voorgelezen, en wordt vervolgens gevraagd om het bijbehorende woord te geven. De cliënt krijgt vervolgens een lijst woordparen voorgelezen en wordt gevraagd om aan te geven of dit woordpaar een van de woordparen is waarvan hem of haar gevraagd is dit te onthouden, of dat het om een nieuw woordpaar gaat. Ten slotte wordt de cliënt tijdens de optionele woordreproductietaak gevraagd om zoveel mogelijk van de woorden uit de paren op te noemen als hij of zij zich kan herinneren.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 69
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 16
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 30,
+                  "minDelayMinutes": 20,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "946d454bc1f9477f8a839c12ef5655dd",
+                     "subtestName": "Woordparen I - Volwassenen"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Auditory Memory",
+            "averageDuration": 5
+         },
+         "testGUID": "8baf561677c54b24814d9bc53ac1c41f",
+         "subtestGUID": "8c331bca0be34296a94550dc0b91300e",
+         "orderId": 10,
+         "displayName": "Woordparen II",
+         "name": "Woordparen II - Volwassenen",
+         "abbr": "wp2"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Eerst wordt de cliënt gevraagd om de plaatjes die in de onmiddellijke conditie getoond zijn met de kaarten en matrix opnieuw te maken. Vervolgens krijgt hij of zij een serie matrices te zien en wordt hem of haar gevraagd om twee patronen te selecteren die correct zijn en op dezelfde plaats staan als op de plaatjes die in de onmiddellijke conditie getoond zijn.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 69
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 16
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 30,
+                  "minDelayMinutes": 20,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "e9441797e84c4587adf4544956b0e2a0",
+                     "subtestName": "Patronen I"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Visual Memory",
+            "averageDuration": 10
+         },
+         "testGUID": "8baf561677c54b24814d9bc53ac1c41f",
+         "subtestGUID": "5b86a1555b9f4bf58053e9a1d3b14dfe",
+         "orderId": 11,
+         "displayName": "Patronen II",
+         "name": "Patronen II",
+         "abbr": "p2"
+      }
+   ],
+   "averageDuration": 105
+}

@@ -1,0 +1,20 @@
+
+<ng-template spin="testSessions.load">
+    <div class="test-sessions">
+        <ng-template let-item let-last="last" ngFor [ngForOf]="testSessions">
+            <md-card>
+                <md-card-title>Angular-Material Components</md-card-title>
+                <md-card-subtitle>ng2 Material Design core components</md-card-subtitle>
+                <md-divider></md-divider>
+                <md-card-content>
+                    <p>With Angular-Material, we get all these components.</p>
+                </md-card-content>
+                <md-divider></md-divider>
+                <md-card-actions>
+                    <a md-button color="primary" href="https://github.com/angular/material2#feature-status" target="_blank">View Angular-Material Docs</a>
+                </md-card-actions>
+            </md-card>
+            <md-divider *ngIf="!last" md-inset></md-divider>
+        </ng-template>
+    </div>
+</ng-template>

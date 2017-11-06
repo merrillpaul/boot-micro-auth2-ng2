@@ -1,0 +1,69 @@
+<div class="loginDiv" fxLayout="row"  fxLayout.xs="column" fxFlexFill >
+    <div fxLayout="row" fxLayout.xs="column"  fxFlexFill fxLayoutAlign="center center"  fxLayoutAlign.xs="center stretch" >
+
+        <md-card class="login-card"  fxFlex="30" fxFlex.sm="50" fxFlex.xs="100">
+
+            <md-card-header>
+                <div md-card-avatar class="login-p1-image"></div>
+                <md-card-title>{{'login.title' | translate}}</md-card-title>
+                <md-card-subtitle>{{'login.subTitle' | translate}}</md-card-subtitle>
+            </md-card-header>            
+           
+            <md-card-content>
+
+                <form #loginForm="ngForm" class="login-form">
+                     <div fxLayout="column">
+                        <div fxLayout="row" fxLayoutAlign="end center" fxLayoutGap="10px"> 
+                            <label fxFlex="30" for="username">{{'login.loginForm.username' | translate}}</label>
+                            <md-input-container fxFlex>
+
+                                <input mdInput placeholder="Username" id="username" type="text"
+                                    [(ngModel)]="unknownUser.username"
+                                    #uname="ngModel" name="username" required aria-describedby="sizing-addon1">
+                            </md-input-container>
+                        </div>
+                        <div fxLayout="row" fxLayoutAlign="end center" fxLayoutGap="10px">
+                            <label fxFlex="30" for="password">{{'login.loginForm.password' | translate}}</label>
+                            <md-input-container fxFlex>
+
+                                <input mdInput id="password" type="password"
+                                    [(ngModel)]="unknownUser.password"
+                                    #pw="ngModel" name="password" required aria-describedby="sizing-addon1"
+                                    placeholder="password">
+                            </md-input-container>
+                        </div>
+                         <psn-message inverted [sublabel]="loginResponse" icon="info" color="warn" [opened]="!validLogin"> </psn-message>    
+                     </div>
+                </form>
+            
+           
+            </md-card-content>
+            
+            <md-divider class="push-bottom"></md-divider>
+            <md-card-actions fxLayout="row">
+                <span fxFlex></span>
+                <button md-raised-button type="submit" color="primary" [disabled]="!loginForm.form.valid"
+                        (click)="authenticate()">{{'login.submit' | translate}}
+                </button>
+
+                <button md-raised-button type="button" color="secondary">{{'login.forgotPassword' | translate}}</button>
+            </md-card-actions>
+        </md-card>
+
+        <md-card class="login-card"  fxFlex="30" fxFlex.sm="50" fxFlex.xs="100" >
+            <md-card-header>
+                <div md-card-avatar fxHide></div>
+                <md-card-title><h2>{{'login.registerForm.newPromptTitle' | translate}} </h2></md-card-title>
+                <md-card-subtitle></md-card-subtitle>
+            </md-card-header>
+            <md-card-content>
+                <p> {{'login.registerForm.newPrompt' | translate}} </p>
+            </md-card-content>
+            <md-card-actions>
+                <button md-raised-button type="button" color="secondary">{{'login.registerForm.requestButton' | translate}}</button>
+            </md-card-actions>
+        </md-card>
+
+
+    </div>
+</div>

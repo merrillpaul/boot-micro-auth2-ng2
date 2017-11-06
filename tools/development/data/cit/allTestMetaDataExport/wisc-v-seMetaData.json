@@ -1,0 +1,373 @@
+{
+   "normType": "wisc-v-se",
+   "testGUID": "e939dee672b04b71aafd481d2d3e7684",
+   "displayName": "WISC-V-SE",
+   "useQgComparisonAPI": true,
+   "businessUnitGuid": "9f046d939abf4644820ac698605a228b",
+   "domain": "Ability",
+   "name": "WISC-V-SE",
+   "description": "Test för bedömning av kognitivt fungerande hos barn och ungdomar",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "Barnet ska inom givna tidsgränser avbilda modeller av mönster med hjälp av klossar.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 12
+         },
+         "testGUID": "e939dee672b04b71aafd481d2d3e7684",
+         "subtestGUID": "fb112d24db604e1ca5f84ac66eec9128",
+         "orderId": 1,
+         "displayName": "Blockmönster",
+         "name": "Blockmönster",
+         "abbr": "bd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet ska besvara frågor om vad två begrepp har gemensamt.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 10
+         },
+         "testGUID": "e939dee672b04b71aafd481d2d3e7684",
+         "subtestGUID": "85e94da1c9934c7780ceb4bca5a5966a",
+         "orderId": 2,
+         "displayName": "Likheter",
+         "name": "Likheter",
+         "abbr": "si"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet ska titta på en matris i vilken en del saknas och identifiera den del som gör matrisen komplett.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 7
+         },
+         "testGUID": "e939dee672b04b71aafd481d2d3e7684",
+         "subtestGUID": "589685bff4e84ea097447d973dedcf00",
+         "orderId": 3,
+         "displayName": "Matriser",
+         "name": "Matriser",
+         "abbr": "mr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet ska återge muntligt givna siffror, framlänges, baklänges och sekventiellt.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 10
+         },
+         "testGUID": "e939dee672b04b71aafd481d2d3e7684",
+         "subtestGUID": "423ab7d6d1c34e06bdb093d79cce287b",
+         "orderId": 4,
+         "displayName": "Sifferrepetition",
+         "name": "Sifferrepetition",
+         "abbr": "ds"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet ska identifiera figurer utifrån en kodnyckel inom en given tidsgräns.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 4
+         },
+         "testGUID": "e939dee672b04b71aafd481d2d3e7684",
+         "subtestGUID": "07312b193c9a48e4b531855af2db1d31",
+         "orderId": 5,
+         "displayName": "Kodning",
+         "name": "Kodning",
+         "abbr": "cd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Vid vissa uppgifter ska barnet benämna bilder och vid andra förklara vad olika ord betyder.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 8
+         },
+         "testGUID": "e939dee672b04b71aafd481d2d3e7684",
+         "subtestGUID": "e9f62584ed8e4f3aba13acc042ae28f7",
+         "orderId": 6,
+         "displayName": "Ordförråd",
+         "name": "Ordförråd",
+         "abbr": "vc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet ska inom givna tidsgränser titta på bilder och bland flera svarsalternativ välja det mest logiska.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 6
+         },
+         "testGUID": "e939dee672b04b71aafd481d2d3e7684",
+         "subtestGUID": "b71df38985af452b99b629afd4efdad4",
+         "orderId": 7,
+         "displayName": "Figurvikter",
+         "name": "Figurvikter",
+         "abbr": "fw"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet ska inom givna tidsgränser titta på geometriska former och analysera delar i förhållande till helhet.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 6
+         },
+         "testGUID": "e939dee672b04b71aafd481d2d3e7684",
+         "subtestGUID": "d5e8df588a2b4cf9822c50b00da02ee8",
+         "orderId": 8,
+         "displayName": "Visuella pussel",
+         "name": "Visuella pussel",
+         "abbr": "vp"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet ska inom givna tidsgränser memorera bilder och sedan ur minnet identifiera dessa.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "e939dee672b04b71aafd481d2d3e7684",
+         "subtestGUID": "c2a4bcea83ab4117b1a199ed31184003",
+         "orderId": 9,
+         "displayName": "Bildminne",
+         "name": "Bildminne",
+         "abbr": "ps"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet ska inom en given tidsgräns visuellt söka igenom en grupp symboler och identifiera om någon av målsymbolerna finns med eller inte.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "e939dee672b04b71aafd481d2d3e7684",
+         "subtestGUID": "534ebd68360e4876a82f4a3fbbc0870f",
+         "orderId": 10,
+         "displayName": "Symbolletning",
+         "name": "Symbolletning",
+         "abbr": "ss"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet ska svara på faktafrågor inom olika områden.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 5
+         },
+         "testGUID": "e939dee672b04b71aafd481d2d3e7684",
+         "subtestGUID": "9f46e64ca9e4431ca9158040ddf18ebd",
+         "orderId": 11,
+         "displayName": "Information",
+         "name": "Information",
+         "abbr": "in"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet ska återge muntligt presenterade kombinationer av siffror och bokstäver i stigande sifferordning respektive bokstavsordning.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "e939dee672b04b71aafd481d2d3e7684",
+         "subtestGUID": "1775baf595e2402d9e9bc3b22c45df48",
+         "orderId": 12,
+         "displayName": "Bokstavs-siffer-serier",
+         "name": "Bokstavs-siffer-serier",
+         "abbr": "ln"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet ska inom en given tidsgräns markera vissa objekt.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "e939dee672b04b71aafd481d2d3e7684",
+         "subtestGUID": "7fa9af57bdc74618a67a9c4d889a2f1c",
+         "orderId": 13,
+         "displayName": "Överstrykning",
+         "name": "Överstrykning",
+         "abbr": "ca"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet ska svara på frågor som berör kunskap om allmänna begrepp och regler samt vardagliga företeelser.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 11
+         },
+         "testGUID": "e939dee672b04b71aafd481d2d3e7684",
+         "subtestGUID": "d280d111d80d446bb8c9b2a4b6d91c17",
+         "orderId": 14,
+         "displayName": "Förståelse",
+         "name": "Förståelse",
+         "abbr": "co"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet ska inom givna tidsgränser med hjälp av huvudräkning lösa olika matematiska problem som presenteras muntligt.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 9
+         },
+         "testGUID": "e939dee672b04b71aafd481d2d3e7684",
+         "subtestGUID": "eeeee5446def4936897d6f988e3419e0",
+         "orderId": 15,
+         "displayName": "Aritmetik",
+         "name": "Aritmetik",
+         "abbr": "ar"
+      }
+   ],
+   "averageDuration": 108
+}

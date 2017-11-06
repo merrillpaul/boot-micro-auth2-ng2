@@ -1,0 +1,23 @@
+apply plugin: 'org.springframework.boot'
+apply plugin: 'war'
+
+war {
+	archiveName 'auth.war'
+}
+
+dependencies {
+	compile('org.springframework.boot:spring-boot-starter-security')
+	compile('org.springframework.boot:spring-boot-starter-web')
+	testCompile('org.springframework.boot:spring-boot-starter-test')
+	compile('org.springframework.security.oauth:spring-security-oauth2')
+	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
+	compile("org.springframework.boot:spring-boot-starter-activemq")
+	compile("org.apache.activemq:activemq-broker")
+	compile("com.fasterxml.jackson.core:jackson-databind")
+	compile project(':auth-commons')
+}
+
+task runAll {
+	bootRun.getSystemProperties().put('spring.profiles.active', versions.profile)
+}
+runAll.dependsOn(bootRun)

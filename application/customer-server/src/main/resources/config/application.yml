@@ -1,0 +1,18 @@
+server:
+  port: 9998
+  contextPath: /customer
+
+config:
+  auth_server: false
+  oauth2:
+    check_token_url: http://localhost:9999/auth/oauth/check_token
+    client_id: customerCheckTokenApp
+    client_secret: password1
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+customerDatasource:
+  mongo-uri: mongodb://customerdb_user:password1!@localhost:27017/customerdb

@@ -1,0 +1,77 @@
+{
+   "normType": "cvlt-c",
+   "testGUID": "66e21172044740b6b328049bb569f87e",
+   "displayName": "CVLT-C",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "ff2be44cfa8f4d9c8211633892e9cbc8",
+   "domain": "Memory",
+   "name": "CVLT-C-UK",
+   "description": "An assessment of verbal learning and memory deficits in children.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "An assessment of verbal learning and memory deficits in children.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 13
+         },
+         "testGUID": "66e21172044740b6b328049bb569f87e",
+         "subtestGUID": "e93abce35dd44aa3bcf06e861098a0c4",
+         "orderId": 1,
+         "displayName": "Short Delay",
+         "name": "CVLT-C Short Delay",
+         "abbr": "CVLT-C Short Delay"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "An assessment of verbal learning and memory deficits in children.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 16
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 5
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 25,
+                  "minDelayMinutes": 15,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "e93abce35dd44aa3bcf06e861098a0c4",
+                     "subtestName": "CVLT-C Short Delay"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "66e21172044740b6b328049bb569f87e",
+         "subtestGUID": "28141d6e559a469a93305e8089c3fecd",
+         "orderId": 2,
+         "displayName": "Long Delay",
+         "name": "CVLT-C Long Delay",
+         "abbr": "CVLT-C Long Delay"
+      }
+   ],
+   "averageDuration": 20
+}

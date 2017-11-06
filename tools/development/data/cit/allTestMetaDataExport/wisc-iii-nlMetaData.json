@@ -1,0 +1,325 @@
+{
+   "normType": "wisc-iii-nl",
+   "testGUID": "16f4169c47dc49af9f04b0cf3fe03275",
+   "displayName": "WISC-III-NL",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "60e0560444824221b804706f27c23ce9",
+   "domain": "Ability",
+   "name": "WISC-III-NL",
+   "description": "De Wechslertests worden gebruikt om het niveau van het cognitief functioneren van kinderen vast te kunnen stellen.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "Gekleurde plaatjes van alledaagse voorwerpen en situaties waaraan een belangrijk onderdeel ontbreekt. Het kind moet dit ontbrekende onderdeel noemen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 10
+         },
+         "testGUID": "16f4169c47dc49af9f04b0cf3fe03275",
+         "subtestGUID": "b45396798e03480da66567630792f7cd",
+         "orderId": 1,
+         "displayName": "Onvolledige Tekeningen",
+         "name": "Onvolledige Tekeningen",
+         "abbr": "pc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Mondeling aangeboden vragen waarmee de kennis van het kind over gebeurtenissen, dingen, plaatsen en mensen wordt nagegaan.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 5
+         },
+         "testGUID": "16f4169c47dc49af9f04b0cf3fe03275",
+         "subtestGUID": "dbd51793fb554874a8f5352db72d15f4",
+         "orderId": 2,
+         "displayName": "Informatie",
+         "name": "Informatie",
+         "abbr": "in"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Eenvoudige vormen (niveau A) of getallen (niveau B) waarbij een combinatie gemaakt moet worden met een eenvoudig symbool. Het kind tekent het symbool in de corresponderende vorm (niveau A) of onder het corresponderende getal (niveau B). Het kind hanteert daarbij een codeersleutel.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "16f4169c47dc49af9f04b0cf3fe03275",
+         "subtestGUID": "3821c9ed64764bda9f7bc260dba066a7",
+         "orderId": 3,
+         "displayName": "Substitutie",
+         "name": "Substitutie",
+         "abbr": "cd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Mondeling aangeboden woordparen die alledaagse dingen of begrippen weergeven. Het kind moet de overeenkomst(en) tussen beide woorden aangeven.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 8
+         },
+         "testGUID": "16f4169c47dc49af9f04b0cf3fe03275",
+         "subtestGUID": "e39b3cf0b9d9494092a4e3ed44b1a0f0",
+         "orderId": 4,
+         "displayName": "Overeenkomsten",
+         "name": "Overeenkomsten",
+         "abbr": "si"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Gekleurde plaatjes, in een willekeurige volgorde aangeboden, die het kind in een goede volgorde moet leggen zodat een logisch verhaal ontstaat.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 5
+         },
+         "testGUID": "16f4169c47dc49af9f04b0cf3fe03275",
+         "subtestGUID": "9bc63aee19324fed8e21c3f8cb648ee3",
+         "orderId": 5,
+         "displayName": "Plaatjes Ordenen",
+         "name": "Plaatjes Ordenen",
+         "abbr": "pa"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Rekenopgaven die het kind uit het hoofd moet oplossen, waarbij het mondeling antwoord moet geven.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 8
+         },
+         "testGUID": "16f4169c47dc49af9f04b0cf3fe03275",
+         "subtestGUID": "019471ed1a9e4c3f8a96a8161cd7bc51",
+         "orderId": 6,
+         "displayName": "Rekenen",
+         "name": "Rekenen",
+         "abbr": "ar"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Tweedimensionale geometrische patronen die het kind met behulp van tweekleurige blokjes moet naleggen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 10
+         },
+         "testGUID": "16f4169c47dc49af9f04b0cf3fe03275",
+         "subtestGUID": "8e4af65b48f644c5899f2f2dd9b194c4",
+         "orderId": 7,
+         "displayName": "Blokpatronen",
+         "name": "Blokpatronen",
+         "abbr": "bd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Mondeling aangeboden woorden die door het kind omschreven moeten worden.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 8
+         },
+         "testGUID": "16f4169c47dc49af9f04b0cf3fe03275",
+         "subtestGUID": "de583ec456194dfd9aafa7fea3ab5aeb",
+         "orderId": 8,
+         "displayName": "Woordkennis",
+         "name": "Woordkennis",
+         "abbr": "vc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Legpuzzels met afbeeldingen van alledaagse voorwerpen waarvan de stukjes, die op een gestandaardiseerde manier worden aangeboden, tot een zinvolle figuur moeten worden samengevoegd",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 10
+         },
+         "testGUID": "16f4169c47dc49af9f04b0cf3fe03275",
+         "subtestGUID": "6a284c1c0d524a459578e730457fd23e",
+         "orderId": 9,
+         "displayName": "Figuur Leggen",
+         "name": "Figuur Leggen",
+         "abbr": "oa"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Mondeling aangeboden vragen waarbij uit het antwoord blijkt of het kind alledaagse problemen weet op te lossen c.q. begrip heeft voor sociale regels en begrippen",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 11
+         },
+         "testGUID": "16f4169c47dc49af9f04b0cf3fe03275",
+         "subtestGUID": "37c481a99f6049eaaab4d52310479c3a",
+         "orderId": 10,
+         "displayName": "Begrijpen",
+         "name": "Begrijpen",
+         "abbr": "co"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Gepaarde groepen symbolen die het kind met elkaar moet vergelijken en waarvan het moet aangeven of beide groepen een\r\ngemeenschappelijk symbool bevatten.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "16f4169c47dc49af9f04b0cf3fe03275",
+         "subtestGUID": "01bea9494c454f5d823e1e4c3d31898a",
+         "orderId": 11,
+         "displayName": "Symbolen Vergelijken",
+         "name": "Symbolen Vergelijken",
+         "abbr": "ss"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Een reeks mondeling in een bepaalde volgorde aangeboden cijfers die het kind, hetzij in dezelfde, hetzij in omgekeerde volgorde, mondeling moet herhalen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 4
+         },
+         "testGUID": "16f4169c47dc49af9f04b0cf3fe03275",
+         "subtestGUID": "8458ca2c4bb44a07af6c37af022de404",
+         "orderId": 12,
+         "displayName": "Cijferreeksen",
+         "name": "Cijferreeksen",
+         "abbr": "ds"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Diverse doolhoven oplossen door een lijn te tekenen vanuit het midden naar buiten zonder geblokkeerde gangen in te gaan of door muren heen te gaan.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 10
+         },
+         "testGUID": "16f4169c47dc49af9f04b0cf3fe03275",
+         "subtestGUID": "0886ef8e380f4252b61378c560cf2507",
+         "orderId": 13,
+         "displayName": "Doolhoven",
+         "name": "Doolhoven",
+         "abbr": "mz"
+      }
+   ],
+   "averageDuration": 95
+}

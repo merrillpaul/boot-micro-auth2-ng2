@@ -1,0 +1,96 @@
+<div  class="assesment-examinee-ctr">   
+   
+    <md-divider></md-divider>     
+        <form #examineeForm="ngForm"  class="examineeForm">
+
+            <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="start center" fxLayoutAlign.xs="start stretch" fxLayoutGap="15px" fxLayoutGap.xs="5px">
+
+                    <div fxFlex="30" fxFlex.xs="100">
+                        <label for="firstName" fxHide.xs >
+                                <strong>First Name</strong>
+                        </label>
+                        <div >
+                            <md-input-container fxFlex>
+                                <input mdInput  type="text" [(ngModel)]="examinee.firstName"
+                                   
+                                    name="firstName" placeholder="First Name" required >
+                            </md-input-container>
+                        </div>
+                    </div> 
+
+                    <div fxFlex="33" fxFlex.xs="100">
+                        <label for="middleName" fxHide.xs >
+                                <strong>Middle Name</strong>
+                        </label>
+                        <div >
+                            <md-input-container fxFlex>
+                                <input mdInput  type="text" [(ngModel)]="examinee.middleName"                                   
+                                    name="middleName" placeholder="Middle Name" >
+                            </md-input-container>
+                        </div>
+                    </div> 
+
+                    <div fxFlex fxFlex.xs="100">
+                        <label for="lastName" fxHide.xs >
+                                <strong>Last Name</strong>
+                        </label>
+                        <div >
+                            <md-input-container fxFlex>
+                                <input mdInput  type="text" [(ngModel)]="examinee.lastName"
+                                    name="lastName" placeholder="Last Name" required >
+                            </md-input-container>
+                        </div>
+                    </div> 
+            </div>
+
+             <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="start start" fxLayoutAlign.xs="start stretch" fxLayoutGap="15px" fxLayoutGap.xs="5px">
+
+                    <div fxFlex="30" fxFlex.xs="100">
+
+                        <label for="dob" fxHide.xs >
+                                <strong>Birth Date</strong>
+                        </label>
+                        <div >
+                           <md-input-container fxFlex>
+                                <input mdInput [mdDatepicker]="pickerExaminee" [(ngModel)]="examinee.dob"  name="dob"
+                                        placeholder="mm/dd/yyyy" >
+                                <button mdSuffix [mdDatepickerToggle]="pickerExaminee"></button>
+                            </md-input-container>
+                            <md-datepicker #pickerExaminee></md-datepicker>
+                        </div>
+
+                        <label for="gender" fxHide.xs >
+                                <strong>Gender</strong>
+                        </label>
+                        <div >
+                            <md-select fxFlex id="gender" name="gender" #genderVar="ngModel"
+                                        [(ngModel)]="examinee.gender"
+                                        required>
+                                    <md-option *ngFor="let gender of genderValues" [value]="gender">{{gender}}</md-option>
+                            </md-select>
+                        </div>
+                    </div> 
+                    
+
+                    <div fxFlex fxFlex.xs="100">
+                        <label for="comments" fxHide.xs >
+                                <strong>Notes</strong> <i> (Notes will appear within user's profile in Examinee section)</i>
+                        </label>
+                        <div >
+                            <md-input-container fxFlex>
+                                <textarea mdInput  name="comments" placeholder="Comments"
+                                        [(ngModel)]="examinee.comments" rows="6"> </textarea>
+                            </md-input-container>
+                        </div>
+                    </div> 
+                   
+            </div>
+
+            <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="start center" fxLayoutAlign.xs="start stretch" fxLayoutGap="15px" fxLayoutGap.xs="5px">
+                <span fxFlex></span>
+                  <button md-raised-button color="primary" type="submit" (click)="createExamineeAndMoveOn()"
+                                [disabled]="!examineeForm.valid">Next: Select Tests
+                 </button>
+            </div>    
+        </form>
+</div>

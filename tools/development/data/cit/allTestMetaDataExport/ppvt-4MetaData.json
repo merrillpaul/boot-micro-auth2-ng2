@@ -1,0 +1,82 @@
+{
+   "normType": "ppvt-4",
+   "testGUID": "bbe5826e896a469cbc723d7a79a869c7",
+   "displayName": "PPVT-4",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Speech/Language",
+   "name": "PPVT-4",
+   "description": "A measure of receptive vocabulary for Standard American English. Includes both Form A and Form B.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "Receptive Vocabulary",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 99
+               },
+               "minAge": {
+                  "month": 6,
+                  "year": 2
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 13
+         },
+         "testGUID": "bbe5826e896a469cbc723d7a79a869c7",
+         "subtestGUID": "73345d29e9624754bfb1694dfd08c31b",
+         "orderId": 1,
+         "displayName": "Form A",
+         "name": "Form A",
+         "abbr": "ppvta"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Receptive Vocabulary",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 99
+               },
+               "minAge": {
+                  "month": 6,
+                  "year": 2
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 13
+         },
+         "testGUID": "bbe5826e896a469cbc723d7a79a869c7",
+         "subtestGUID": "6cb5fa348c254325aac9c8ca4de761e2",
+         "orderId": 2,
+         "displayName": "Form B",
+         "name": "Form B",
+         "abbr": "ppvtb"
+      }
+   ],
+   "gradeLevels": [
+      "< Grade K",
+      "Grade K",
+      "Grade 1",
+      "Grade 2",
+      "Grade 3",
+      "Grade 4",
+      "Grade 5",
+      "Grade 6",
+      "Grade 7",
+      "Grade 8",
+      "Grade 9",
+      "Grade 10",
+      "Grade 11",
+      "Grade 12",
+      "> Grade 12"
+   ],
+   "averageDuration": 26,
+   "gradeTerms": [
+      "Fall",
+      "Spring"
+   ]
+}

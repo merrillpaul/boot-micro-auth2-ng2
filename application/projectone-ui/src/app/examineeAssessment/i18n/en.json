@@ -1,0 +1,11 @@
+{
+    "raterForm": {
+        
+        "FORM_DELIVERY_TYPE": {
+            "Manual.Entry": "Paper",
+            "On.Screen.Administration": "Administer on Screen",
+            "Remote.On.Screen.Administration": "Email a Link"
+        }
+    }
+}
+

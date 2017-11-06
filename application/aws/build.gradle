@@ -1,0 +1,9 @@
+dependencies {
+	compile("com.amazonaws:aws-java-sdk:${versions.aws_sdk}")
+	compile("com.amazonaws:amazon-sqs-java-messaging-lib:${versions.aws_sqs_msg}")
+	compile("commons-logging:commons-logging:${versions.commons_logging}")
+	compile("org.apache.httpcomponents:httpcore:${versions.apache_httpcore}")
+	compile("org.apache.httpcomponents:httpclient:${versions.apache_httpclient}")
+	compile("commons-io:commons-io:${versions.commons_io}")
+	compile project(':core')
+}

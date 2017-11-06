@@ -1,0 +1,372 @@
+{
+   "normType": "wppsi-iv-ages-4-7",
+   "testGUID": "a01fd87af7484742a309c3f1032c2c86",
+   "displayName": "WPPSI-IV Ages 4-7",
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Ability",
+   "name": "WPPSI-IV-Ages-4-7",
+   "description": "An innovative measure of cognitive development for preschoolers and young children.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "Working within a specified time limit, the child views a model and/or a picture and uses one- or two-color blocks to\r\nre-create the design.",
+            "rules": [{
+               "maxAge": {
+                  "month": 7,
+                  "year": 7
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 8
+         },
+         "testGUID": "a01fd87af7484742a309c3f1032c2c86",
+         "subtestGUID": "dc03d72e08264569aa75e665fecf4816",
+         "orderId": 1,
+         "displayName": "Block Design",
+         "name": "Block Design",
+         "abbr": "bd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "For picture items, the child selects the response option that best answers a question about a general-knowledge topic. For verbal items, the child answers questions about a broad range of general-knowledge topics.",
+            "rules": [{
+               "maxAge": {
+                  "month": 7,
+                  "year": 7
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 4
+         },
+         "testGUID": "a01fd87af7484742a309c3f1032c2c86",
+         "subtestGUID": "47d4ced248744344ab43af6ffafc6137",
+         "orderId": 2,
+         "displayName": "Information",
+         "name": "Information",
+         "abbr": "in"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child views an incomplete matrix and selects the response option that completes the matrix.",
+            "rules": [{
+               "maxAge": {
+                  "month": 7,
+                  "year": 7
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 4
+         },
+         "testGUID": "a01fd87af7484742a309c3f1032c2c86",
+         "subtestGUID": "54b0c3cffc594f579c67af622650dccd",
+         "orderId": 3,
+         "displayName": "Matrix Reasoning",
+         "name": "Matrix Reasoning",
+         "abbr": "mr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Working within a specified time limit, the child marks the bug in the search group that matches the target bug.",
+            "rules": [{
+               "maxAge": {
+                  "month": 7,
+                  "year": 7
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 4
+         },
+         "testGUID": "a01fd87af7484742a309c3f1032c2c86",
+         "subtestGUID": "ad9d18b29cea4557a087f922b4e67595",
+         "orderId": 4,
+         "displayName": "Bug Search",
+         "name": "Bug Search",
+         "abbr": "bs"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child views a stimulus screen of one or more pictures for a specified time and then selects the pictures from options on a response screen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 7,
+                  "year": 7
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 5
+         },
+         "testGUID": "a01fd87af7484742a309c3f1032c2c86",
+         "subtestGUID": "ec748f13826646f5826cee904e8d0dd7",
+         "orderId": 5,
+         "displayName": "Picture Memory",
+         "name": "Picture Memory",
+         "abbr": "pm"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "For picture items, the child selects the response option that is from the same category as two other depicted objects. For verbal items, the child is read two words that represent common objects or concepts and describes how they are similar.",
+            "rules": [{
+               "maxAge": {
+                  "month": 7,
+                  "year": 7
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 6
+         },
+         "testGUID": "a01fd87af7484742a309c3f1032c2c86",
+         "subtestGUID": "1183a23876b243448c55f06bda17937c",
+         "orderId": 6,
+         "displayName": "Similarities",
+         "name": "Similarities",
+         "abbr": "si"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child views two or three rows of pictures and selects one picture from each row to form a group with a common characteristic.",
+            "rules": [{
+               "maxAge": {
+                  "month": 7,
+                  "year": 7
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 6
+         },
+         "testGUID": "a01fd87af7484742a309c3f1032c2c86",
+         "subtestGUID": "38b29e8f03954941bb483f3532398bee",
+         "orderId": 7,
+         "displayName": "Picture Concepts",
+         "name": "Picture Concepts",
+         "abbr": "pc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Working within a specified time limit, the child scans two arrangements of objects (one random, one structured) and marks target objects.",
+            "rules": [{
+               "maxAge": {
+                  "month": 7,
+                  "year": 7
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 4
+         },
+         "testGUID": "a01fd87af7484742a309c3f1032c2c86",
+         "subtestGUID": "6cad435d648543ceb05127636dfeb4b8",
+         "orderId": 8,
+         "displayName": "Cancellation",
+         "name": "Cancellation",
+         "abbr": "ca"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child views one or more animal cards placed on a zoo layout for a specified time and then places each card in the previously viewed locations.",
+            "rules": [{
+               "maxAge": {
+                  "month": 7,
+                  "year": 7
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "a01fd87af7484742a309c3f1032c2c86",
+         "subtestGUID": "8b0ead33eca94dc38051d9d02222b688",
+         "orderId": 9,
+         "displayName": "Zoo Locations",
+         "name": "Zoo Locations",
+         "abbr": "zl"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Working within a specified time limit, the child assembles the pieces of a puzzle to create a representation of an\r\nidentified object.",
+            "rules": [{
+               "maxAge": {
+                  "month": 7,
+                  "year": 7
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 10
+         },
+         "testGUID": "a01fd87af7484742a309c3f1032c2c86",
+         "subtestGUID": "1bcf0b877a52483aa69b7573b1bb6df8",
+         "orderId": 10,
+         "displayName": "Object Assembly",
+         "name": "Object Assembly",
+         "abbr": "oa"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "For picture items, the child names the depicted object. For verbal items, the child defines words that are read aloud.",
+            "rules": [{
+               "maxAge": {
+                  "month": 7,
+                  "year": 7
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 8
+         },
+         "testGUID": "a01fd87af7484742a309c3f1032c2c86",
+         "subtestGUID": "ca8712412f914f5d8ca8d1f0f875510d",
+         "orderId": 11,
+         "displayName": "Vocabulary",
+         "name": "Vocabulary",
+         "abbr": "vc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Working within a specified time limit and using a key, the child marks shapes that correspond to pictured animals.",
+            "rules": [{
+               "maxAge": {
+                  "month": 7,
+                  "year": 7
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "a01fd87af7484742a309c3f1032c2c86",
+         "subtestGUID": "60856ed76e5b420cb44804bee2e16f84",
+         "orderId": 12,
+         "displayName": "Animal Coding",
+         "name": "Animal Coding",
+         "abbr": "ac"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "For picture items, the child selects the response option that represents the best response to a general principle or social situation. For verbal items, the child answers questions based on his or her understanding of general principles and social situations.",
+            "rules": [{
+               "maxAge": {
+                  "month": 7,
+                  "year": 7
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 7
+         },
+         "testGUID": "a01fd87af7484742a309c3f1032c2c86",
+         "subtestGUID": "e9432f9f8e3a482bae8d623fed87b543",
+         "orderId": 13,
+         "displayName": "Comprehension",
+         "name": "Comprehension",
+         "abbr": "co"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child selects the response option that best represents the word the examiner reads aloud.",
+            "rules": [{
+               "maxAge": {
+                  "month": 7,
+                  "year": 7
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 3
+         },
+         "testGUID": "a01fd87af7484742a309c3f1032c2c86",
+         "subtestGUID": "cf9ff502dfb64c91aab2f11e35ed785f",
+         "orderId": 14,
+         "displayName": "Receptive Vocabulary",
+         "name": "Receptive Vocabulary",
+         "abbr": "rv"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child names depicted objects.",
+            "rules": [{
+               "maxAge": {
+                  "month": 7,
+                  "year": 7
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 4
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 5
+         },
+         "testGUID": "a01fd87af7484742a309c3f1032c2c86",
+         "subtestGUID": "b2e2c126e771452f88888f9b46566af7",
+         "orderId": 15,
+         "displayName": "Picture Naming",
+         "name": "Picture Naming",
+         "abbr": "pn"
+      }
+   ],
+   "averageDuration": 84
+}

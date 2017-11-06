@@ -1,0 +1,373 @@
+{
+   "normType": "wais-iv-nl",
+   "testGUID": "c02c29f4e4206d8be040a8c042015ba3",
+   "displayName": "WAIS-IV-NL",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "60e0560444824221b804706f27c23ce9",
+   "domain": "Ability",
+   "name": "WAIS-IV-NL",
+   "description": "De WAIS-IV bestaat uit verscheidene subtest- en indexscores die een beeld geven van het intellectuele functioneren op specifieke intellectuele gebieden. Daarnaast kent de test een score die het algemene intellectuele functioneren  weergeeft (d.w.z. Totaal IQ).",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt bekijkt binnen een bepaalde tijdslimiet een driedimensionaal model en een afbeelding op de tablet of alleen een afbeelding op de tablet en gebruikt rood-witte blokken om het patroon na te bouwen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 84
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 9
+         },
+         "testGUID": "c02c29f4e4206d8be040a8c042015ba3",
+         "subtestGUID": "c02c402219f27a10e040a8c042015d5e",
+         "orderId": 1,
+         "displayName": "Blokpatronen",
+         "name": "Blokpatronen",
+         "abbr": "bp"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt krijgt twee woorden voorgelegd die alledaagse voorwerpen of concepten vertegenwoordigen en beschrijft hoe deze overeenkomen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 84
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 7
+         },
+         "testGUID": "c02c29f4e4206d8be040a8c042015ba3",
+         "subtestGUID": "c0b90dc7a3d9fa0ae040a8c0420124c9",
+         "orderId": 2,
+         "displayName": "Overeenkomsten",
+         "name": "Overeenkomsten",
+         "abbr": "ov"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Bij Cijferreeksen Voorwaarts krijgt de cliënt een reeks cijfers voorgelezen en herhaalt de cijfers in dezelfde volgorde.  Bij Cijferreeksen Achterwaarts krijgt de cliënt een reeks cijfers voorgelezen en herhaalt de cijfers in omgekeerde volgorde. \r\nBij Cijferreeksen Sorteren krijgt de cliënt een reeks cijfers voorgelezen en herhaalt de cijfers in oplopende volgorde.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 84
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 8
+         },
+         "testGUID": "c02c29f4e4206d8be040a8c042015ba3",
+         "subtestGUID": "c02c4da2d48d7fbae040a8c042015fb3",
+         "orderId": 3,
+         "displayName": "Cijferreeksen",
+         "name": "Cijferreeksen",
+         "abbr": "cr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt krijgt een matrix of serie gepresenteerd waarvan een deel ontbreekt en selecteert het ontbrekende deel uit de antwoordopties.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 84
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 7
+         },
+         "testGUID": "c02c29f4e4206d8be040a8c042015ba3",
+         "subtestGUID": "c23cae465dca48efe040a8c042010298",
+         "orderId": 4,
+         "displayName": "Matrix redeneren",
+         "name": "Matrix redeneren",
+         "abbr": "mr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Bij de visuele items benoemt de cliënt de afbeelding. Bij de verbale items geeft de cliënt definities van termen die via woord en beeld worden gepresenteerd.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 84
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 10
+         },
+         "testGUID": "c02c29f4e4206d8be040a8c042015ba3",
+         "subtestGUID": "c0b9158c0075a37be040a8c04201255e",
+         "orderId": 5,
+         "displayName": "Woordenschat",
+         "name": "Woordenschat",
+         "abbr": "ws"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt lost zonder pen en papier binnen een bepaalde tijdslimiet een serie rekenproblemen op.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 84
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 6
+         },
+         "testGUID": "c02c29f4e4206d8be040a8c042015ba3",
+         "subtestGUID": "c02c478f595640f2e040a8c042015df5",
+         "orderId": 6,
+         "displayName": "Rekenen",
+         "name": "Rekenen",
+         "abbr": "re"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt moet binnen een bepaalde tijdslimiet aangeven of één van de twee figuren uit een doelgroep in een zoekgroep aanwezig is.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 84
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "c02c29f4e4206d8be040a8c042015ba3",
+         "subtestGUID": "c02c5567803458bae040a8c04201601c",
+         "orderId": 7,
+         "displayName": "Symbool Zoeken",
+         "name": "Symbool Zoeken",
+         "abbr": "sz"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt bekijkt binnen een bepaalde tijdslimiet een afbeelding en selecteert de drie antwoordopties die samen de afbeelding vormen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 84
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 6
+         },
+         "testGUID": "c02c29f4e4206d8be040a8c042015ba3",
+         "subtestGUID": "c0b9130526a2b8bfe040a8c042012517",
+         "orderId": 8,
+         "displayName": "Figuur Samenstellen",
+         "name": "Figuur Samenstellen",
+         "abbr": "fs"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt beantwoordt vragen over zeer uiteenlopende onderwerpen die betrekking hebben op de algemene kennis.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 84
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 5
+         },
+         "testGUID": "c02c29f4e4206d8be040a8c042015ba3",
+         "subtestGUID": "c02c50ada9e61aede040a8c042015fe3",
+         "orderId": 9,
+         "displayName": "Informatie",
+         "name": "Informatie",
+         "abbr": "in"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Met behulp van een sleutel kopieert de cliënt binnen een bepaalde tijdslimiet symbolen die gekoppeld zijn aan getallen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 84
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "c02c29f4e4206d8be040a8c042015ba3",
+         "subtestGUID": "c02c4a70dca478dde040a8c042015e76",
+         "orderId": 10,
+         "displayName": "Symbool Substitutie Coderen",
+         "name": "Symbool Substitutie Coderen",
+         "abbr": "ssc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt krijgt een reeks cijfers en letters voorgelezen en herhaalt de cijfers in oplopende volgorde en de letters in alfabetische volgorde.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "c02c29f4e4206d8be040a8c042015ba3",
+         "subtestGUID": "c02c50ada9e71aede040a8c042015fe3",
+         "orderId": 11,
+         "displayName": "Cijfers en Letters Nazeggen",
+         "name": "Cijfers en Letters Nazeggen",
+         "abbr": "cln"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt bekijkt binnen een bepaalde tijdslimiet een weegschaal met ontbrekend(e) gewicht(en) en selecteert de antwoordoptie waarmee de weegschaal in evenwicht blijft.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 11
+         },
+         "testGUID": "c02c29f4e4206d8be040a8c042015ba3",
+         "subtestGUID": "c0b9076332c63268e040a8c0420123e9",
+         "orderId": 12,
+         "displayName": "Gewichten",
+         "name": "Gewichten",
+         "abbr": "gw"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt beantwoordt vragen op basis van zijn/haar begrip van algemene principes en sociale situaties.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 84
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 15
+         },
+         "testGUID": "c02c29f4e4206d8be040a8c042015ba3",
+         "subtestGUID": "c0b857fd6dcfdcaae040a8c042010e32",
+         "orderId": 13,
+         "displayName": "Begrijpen",
+         "name": "Begrijpen",
+         "abbr": "bg"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt scant binnen een bepaalde tijdslimiet een groot aantal vormen en markeert de doelvormen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 4
+         },
+         "testGUID": "c02c29f4e4206d8be040a8c042015ba3",
+         "subtestGUID": "c02c446b429ce06ce040a8c042015d95",
+         "orderId": 14,
+         "displayName": "Figuur Zoeken",
+         "name": "Figuur Zoeken",
+         "abbr": "fz"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De cliënt bekijkt binnen een bepaalde tijdslimiet een tekening waarin een belangrijk onderdeel ontbreekt en geeft het ontbrekende onderdeel aan.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 84
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 9
+         },
+         "testGUID": "c02c29f4e4206d8be040a8c042015ba3",
+         "subtestGUID": "c0b90dc7a3d7fa0ae040a8c0420124c9",
+         "orderId": 15,
+         "displayName": "Onvolledige Tekeningen",
+         "name": "Onvolledige Tekeningen",
+         "abbr": "ot"
+      }
+   ],
+   "averageDuration": 110
+}

@@ -1,0 +1,155 @@
+<div fxLayout="row" fxLayoutAlign="start stretch" class="dashboard">
+    
+    <div fxLayout="column" fxFlex>
+            
+
+            <md-card>
+            
+            <md-card-content>
+                <h3>Tasks</h3>
+                <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="start stretch"  fxLayoutAlign.xs="start stretch" fxLayoutGap="10px">
+                    <div fxFlex="30" fxFlex.xs="100">
+                        <div fxLayout="column" fxLayoutGap="10px">
+                            <div  class="chart bordered" fxLayout="row" fxLayoutAlign="center center">              
+                       
+                                <ngx-charts-pie-chart
+                                    [view]="[200,200]"
+                                    [scheme]="colorScheme"
+                                    [results]="assessments"
+                                    [legend]="false"
+                                    [explodeSlices]="true"
+                                    [labels]="false"
+                                    [doughnut]="true"
+                                    [gradient]="true">
+                                    </ngx-charts-pie-chart>
+                            </div>
+
+                             <button md-raised-button >Assigned  <psn-badge color="primary" notifications="3"></psn-badge></button>
+                             <button md-raised-button >In Progress</button>
+                             <button md-raised-button >Needs Editing</button>
+                             <button md-raised-button >Ready</button>
+                             <button md-raised-button >Report Complete</button>
+
+                        </div>
+                    </div> 
+
+                    <div fxFlex>
+                        <div fxLayout="row" fxLayout.xs="column" class="bordered">
+                            <div fxFlex="25" fxFlex.xs="100">
+                                <div fxLayout="column" class="recent">
+                                    <h4><u>Recent Examinees</u></h4>
+
+                                    <div>Harry Nilson - 1000 <p><a href="#">View Profile</a> | <a href="#">Test Now</a></p></div>
+
+                                    <div>Liz McGrath - 1000 <p><a href="#">View Profile</a> | <a href="#">Test Now</a></p></div>
+
+                                    <div>Herb Elwood - 1000 <p><a href="#">View Profile</a> | <a href="#">Test Now</a></p></div>
+
+                                    <div>Sean Smith - 1000 <p><a href="#">View Profile</a> | <a href="#">Test Now</a></p></div>
+
+                                    <div>Harry Nilson - 1000 <p><a href="#">View Profile</a> | <a href="#">Test Now</a></p></div>
+                                </div>    
+                            </div> 
+
+                            <div fxFlex>
+                                <div fxLayout="column" fxLayoutGap="20px">
+
+                                    <div fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap="10px">
+                                        <div fxFlex="50" fxFlex.sm="100" fxFlex.xs="100">
+                                            <button fxFlex md-raised-button color="primary" [routerLink]="['/build']">Create New Test Session & Examinee</button>
+                                        </div>   
+                                        <div fxFlex="50" fxFlex.sm="100" fxFlex.xs="100">
+                                            <button fxFlex md-raised-button color="primary">Create New Examinee</button>
+                                        </div>    
+                                    </div>    
+                                    <div fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap="10px">
+                                        <div fxFlex="50" fxFlex.sm="100" fxFlex.xs="100">
+                                            <button fxFlex md-raised-button color="primary">View Reports</button>
+                                        </div>   
+                                        <div fxFlex="50" fxFlex.sm="100" fxFlex.xs="100">
+                                            <button fxFlex md-raised-button color="primary">View Active Test Sessions</button>
+                                        </div>    
+                                    </div>    
+                                   
+                                </div>
+                            </div>   
+                        </div>
+                    </div>    
+                </div>
+            </md-card-content>
+          </md-card>
+
+          <md-card>
+           
+            <md-card-content>
+                <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="start stretch"  fxLayoutAlign.xs="start stretch" fxLayoutGap="10px" class="messageCenter">
+
+                    <div fxFlex="70" fxFlex.xs="100" >
+                                                
+                                <h3>Message Center</h3>
+                                <div class="messageContainer bordered">   
+                                    <div fxLayout="column" fxLayoutAlign="start stretch"  fxLayoutGap="10px">
+                                        <psn-message fxFlex sublabel="BASC-3 Standard report inventory has been added to your account" icon="info" color="secondary"  [opened]="true">
+                                            <span message-actions>4/11/17</span>
+                                            <button md-icon-button  message-actions>
+                                                <md-icon>close</md-icon>
+                                            </button>
+                                        </psn-message>  
+
+                                        <psn-message fxFlex sublabel="Practice mode has been updated to include reporting" icon="info" color="success" inverted  [opened]="true">
+                                            <span message-actions>4/11/17</span>
+                                            <button md-icon-button  message-actions>
+                                                <md-icon>close</md-icon>
+                                            </button>
+                                        </psn-message>   
+
+                                        <psn-message fxFlex sublabel="An adjustment has been made to your Administration Role." icon="info" color="accent" inverted [opened]="true">
+                                            <span message-actions>4/11/17</span>
+                                            <button md-icon-button  message-actions>
+                                                <md-icon>close</md-icon>
+                                            </button>
+                                        </psn-message> 
+
+                                        <psn-message fxFlex sublabel="WIAT-III Subscription will include access to new Interpretative Report Feature." icon="info" color="primary" [opened]="true">
+                                            <span message-actions>4/11/17</span>
+                                            <button md-icon-button  message-actions>
+                                                <md-icon>close</md-icon>
+                                            </button>
+                                        </psn-message>                              
+                                    </div>
+                             </div>   
+                           
+                    </div>    
+                    <div fxFlex="30" fxFlex.xs="100">
+                                <h3>Coming Soon!</h3>
+                                <div class="messageContainer bordered">   
+                                    <div fxLayout="column" fxLayoutAlign="start stretch"  fxLayoutGap="10px">
+                                        <div fxFlex fxLayoutColumn>
+                                            <div>Try Practice Mode!</div>
+                                            <a href="#">More</a>
+                                        </div>   
+
+                                        <div fxFlex fxLayoutColumn>
+                                            <div>View Autoscore Features</div>
+                                            <a href="#">More</a>
+                                        </div>   
+
+                                        <div fxFlex fxLayoutColumn>
+                                            <div>Visual Capture Tech</div>
+                                            <a href="#">More</a>
+                                        </div>   
+
+                                        <div fxFlex fxLayoutColumn>
+                                            <div>New Webinar 3.0</div>
+                                            <a href="#">More</a>
+                                        </div>                         
+                                    </div>
+                             </div> 
+                    </div>    
+                </div>
+            </md-card-content>
+          </md-card>
+
+    </div>
+
+</div>

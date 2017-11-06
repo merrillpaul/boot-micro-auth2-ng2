@@ -1,0 +1,180 @@
+{
+   "normType": "wppsi-iv-ages-2-3",
+   "testGUID": "71404a89cf374b9ca55f0d5fd506d57d",
+   "displayName": "WPPSI-IV Ages 2-3",
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Ability",
+   "name": "WPPSI-IV-Ages-2-3",
+   "description": "An innovative measure of cognitive development for preschoolers and young children.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "The child selects the response option that best represents the word the examiner reads aloud.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 3
+               },
+               "minAge": {
+                  "month": 6,
+                  "year": 2
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 3
+         },
+         "testGUID": "71404a89cf374b9ca55f0d5fd506d57d",
+         "subtestGUID": "37935f1e6219472f9b5d20f046b72ac2",
+         "orderId": 1,
+         "displayName": "Receptive Vocabulary",
+         "name": "Receptive Vocabulary",
+         "abbr": "rv"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Working within a specified time limit, the child views a model and/or a picture and uses one- or two-color blocks to\r\nre-create the design.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 3
+               },
+               "minAge": {
+                  "month": 6,
+                  "year": 2
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 8
+         },
+         "testGUID": "71404a89cf374b9ca55f0d5fd506d57d",
+         "subtestGUID": "bdeccf0d7ff54267950ebb61f91aa749",
+         "orderId": 2,
+         "displayName": "Block Design",
+         "name": "Block Design",
+         "abbr": "bd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child views a stimulus screen of one or more pictures for a specified time and then selects the pictures from options on a response screen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 3
+               },
+               "minAge": {
+                  "month": 6,
+                  "year": 2
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 5
+         },
+         "testGUID": "71404a89cf374b9ca55f0d5fd506d57d",
+         "subtestGUID": "76a81626df894a6eba9124ad181fa6d5",
+         "orderId": 3,
+         "displayName": "Picture Memory",
+         "name": "Picture Memory",
+         "abbr": "pm"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "For picture items, the child selects the response option that best answers a question about a general-knowledge topic. For verbal items, the child answers questions about a broad range of general-knowledge topics.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 3
+               },
+               "minAge": {
+                  "month": 6,
+                  "year": 2
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 4
+         },
+         "testGUID": "71404a89cf374b9ca55f0d5fd506d57d",
+         "subtestGUID": "744b3c40dc6644babe610635b5329253",
+         "orderId": 4,
+         "displayName": "Information",
+         "name": "Information",
+         "abbr": "in"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Working within a specified time limit, the child assembles the pieces of a puzzle to create a representation of an\r\nidentified object.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 3
+               },
+               "minAge": {
+                  "month": 6,
+                  "year": 2
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 10
+         },
+         "testGUID": "71404a89cf374b9ca55f0d5fd506d57d",
+         "subtestGUID": "94c9127991e04703b72c93c02f85232b",
+         "orderId": 5,
+         "displayName": "Object Assembly",
+         "name": "Object Assembly",
+         "abbr": "oa"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child views one or more animal cards placed on a zoo layout for a specified time and then places each card in the previously viewed locations.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 3
+               },
+               "minAge": {
+                  "month": 6,
+                  "year": 2
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "71404a89cf374b9ca55f0d5fd506d57d",
+         "subtestGUID": "4bf90b9809044231b71a4601fa7895da",
+         "orderId": 6,
+         "displayName": "Zoo Locations",
+         "name": "Zoo Locations",
+         "abbr": "zl"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child names depicted objects.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 3
+               },
+               "minAge": {
+                  "month": 6,
+                  "year": 2
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 5
+         },
+         "testGUID": "71404a89cf374b9ca55f0d5fd506d57d",
+         "subtestGUID": "11e12dd86df147e88475be7636aefb6e",
+         "orderId": 7,
+         "displayName": "Picture Naming",
+         "name": "Picture Naming",
+         "abbr": "pn"
+      }
+   ],
+   "averageDuration": 84
+}

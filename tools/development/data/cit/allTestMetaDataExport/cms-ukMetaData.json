@@ -1,0 +1,101 @@
+{
+   "normType": "cms",
+   "testGUID": "0c1afc017ddd4426afe745b27df0e639",
+   "displayName": "CMS",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "ff2be44cfa8f4d9c8211633892e9cbc8",
+   "domain": "Memory",
+   "name": "CMS-UK",
+   "description": "A comprehensive learning and memory test for children.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "The examinee is shown a stimulus item consisting of blue dots placed in various locations within a box. The stimulus is then removed from view, and the examinee places Response Chips on the Response Grid in the same locations as the blue dots appeared in the stimulus item.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 3
+         },
+         "testGUID": "0c1afc017ddd4426afe745b27df0e639",
+         "subtestGUID": "bee142998c774937bd51e47ada7ae5a2",
+         "orderId": 1,
+         "displayName": "Dot Locations",
+         "name": "Dot Locations",
+         "abbr": null
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The examinee is shown pictures placed in various locations within a rectangle. The stimulus is removed from view, and the examinee is asked to place the Response Chips on the Response Grid in the same locations as the pictures appeared.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 5
+         },
+         "testGUID": "0c1afc017ddd4426afe745b27df0e639",
+         "subtestGUID": "6863364b04094879843f07b752c4ca2d",
+         "orderId": 3,
+         "displayName": "Picture Locations",
+         "name": "Picture Locations",
+         "abbr": null
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The examinee is asked to recall the dot locations from the learning trials of the Dot Locations subtest.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 16
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 5
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 35,
+                  "minDelayMinutes": 25,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "bee142998c774937bd51e47ada7ae5a2",
+                     "subtestName": "Dot Locations"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 2
+         },
+         "testGUID": "0c1afc017ddd4426afe745b27df0e639",
+         "subtestGUID": "d8a4f88ccaeb4340b0897bd9b15f9700",
+         "orderId": 4,
+         "displayName": "Dot Locations 2",
+         "name": "Dot Locations 2",
+         "abbr": null
+      }
+   ],
+   "averageDuration": 10
+}

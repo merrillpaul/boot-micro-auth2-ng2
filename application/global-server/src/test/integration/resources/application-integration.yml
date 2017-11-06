@@ -1,0 +1,25 @@
+globalDatasource:
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/integration_db
+  username: intg_user
+  password: password1!
+spring:
+ jpa:
+   show-sql: true
+   generate-ddl: true
+   hibernate:
+     ddl-auto: create
+   properties:
+     hibernate:
+      dialect: com.pearson.projectone.core.support.data.hibernate.MySQLUTF8InnoDBDialect
+      physical_naming_strategy: com.pearson.projectone.core.support.hibernate.PhysicalNamingStrategyImpl
+      ejb:
+        interceptor: com.pearson.projectone.core.support.jpa.listeners.GenericJpaListener
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              index: OFF

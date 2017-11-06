@@ -1,0 +1,221 @@
+{
+   "normType": "nepsy-ii",
+   "testGUID": "d573d69db2644deab03c4cc9b82db97b",
+   "displayName": "NEPSY-II",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "ff2be44cfa8f4d9c8211633892e9cbc8",
+   "domain": "Neuropsychology",
+   "name": "NEPSY-II-UK",
+   "description": "The only customisable measure of neurocognitive processes.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "The child sorts cards into two groups of four cards each using various self-initiated sorting criteria.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 7
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 7
+         },
+         "testGUID": "d573d69db2644deab03c4cc9b82db97b",
+         "subtestGUID": "faf18f4981d840838c624b54b829aa57",
+         "orderId": 1,
+         "displayName": "Animal Sorting",
+         "name": "Animal Sorting",
+         "abbr": "Animal Sorting"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child copies figures displayed in the response booklet.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 3
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 6
+         },
+         "testGUID": "d573d69db2644deab03c4cc9b82db97b",
+         "subtestGUID": "e5eb468861e84177b90bee5f3237956e",
+         "orderId": 2,
+         "displayName": "Design Copying",
+         "name": "Design Copying",
+         "abbr": "Design Copying"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child is shown a grid with four to ten designs on a page, which is then removed from view. The child selects the designs from a set of cards and places the cards on a grid in the same location as previously show.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 3
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 10
+         },
+         "testGUID": "d573d69db2644deab03c4cc9b82db97b",
+         "subtestGUID": "e3df4a810a994054aea9ae74a56e4d80",
+         "orderId": 3,
+         "displayName": "Memory for Designs",
+         "name": "Memory for Designs",
+         "abbr": "Memory for Designs"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child copies a series of finger motions demonstrated by the examiner as quickly as possible.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Sensorimotor",
+            "averageDuration": 3
+         },
+         "testGUID": "d573d69db2644deab03c4cc9b82db97b",
+         "subtestGUID": "b19d5fa8dac743bcbeac08e16a5d6ee8",
+         "orderId": 4,
+         "displayName": "Fingertip Tapping",
+         "name": "Fingertip Tapping",
+         "abbr": "Fingertip Tapping"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child looks at a series of black and white shapes or arrows and names either the shape or direction or an alternate response, depending on the color or shape of the arrow.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 7
+         },
+         "testGUID": "d573d69db2644deab03c4cc9b82db97b",
+         "subtestGUID": "6a6b6b9f46c844ed819f35fa894884f9",
+         "orderId": 5,
+         "displayName": "Inhibition",
+         "name": "Inhibition",
+         "abbr": "Inhibition"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child is given a semantic or initial letter category and asked to produce as many words as possible in 60 seconds.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 3
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 6
+         },
+         "testGUID": "d573d69db2644deab03c4cc9b82db97b",
+         "subtestGUID": "3a235aca5dfc4f218f094e9b756bd3bf",
+         "orderId": 7,
+         "displayName": "Word Generation",
+         "name": "Word Generation",
+         "abbr": "Word Generation"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child selects designs from a set of cards and places the cards on a grid in the same location as previously shown in Memory for Designs.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 16
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 5
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 25,
+                  "minDelayMinutes": 15,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "e3df4a810a994054aea9ae74a56e4d80",
+                     "subtestName": "Memory for Designs"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 3
+         },
+         "testGUID": "d573d69db2644deab03c4cc9b82db97b",
+         "subtestGUID": "1eebec3758fb48b1b11a61223db92b3d",
+         "orderId": 8,
+         "displayName": "Memory for Designs Delayed",
+         "name": "Memory for Designs Delayed",
+         "abbr": "Memory for Designs Delayed"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The child is presented a large picture divided by a grid and four smaller pictures taken from sections of the larger picture. The child identifies the location on the grid of the larger picture from which each of the smaller pictures was taken.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 7
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 9
+         },
+         "testGUID": "d573d69db2644deab03c4cc9b82db97b",
+         "subtestGUID": "20ed2ff189d44a6e9279c97317f4e963",
+         "orderId": 9,
+         "displayName": "Picture Puzzles",
+         "name": "Picture Puzzles",
+         "abbr": "Picture Puzzles"
+      }
+   ],
+   "averageDuration": 51
+}

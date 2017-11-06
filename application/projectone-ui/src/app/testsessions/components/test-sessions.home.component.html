@@ -1,0 +1,48 @@
+<div fxLayout="column" fxFlexFill>
+
+  <div fxLayout="column" fxFlex fxFlex.xs="none">
+
+    <md-toolbar color="primary" fxHide fxShow.xs>
+        <span></span>
+        <div td-toolbar-content fxLayout="row" fxLayoutAlign="start center" fxFlex>
+            <button (click)="sessionNav.toggle()" md-icon-button><md-icon class="md-24">menu</md-icon></button>
+        </div>
+    </md-toolbar>
+
+    <md-sidenav-container fxFlex="100" fxLayout="column" >
+
+        <md-sidenav #sessionNav [mode]="(media.query('gt-xs')   ) ? 'side' : 'push'" [opened]="(media.query('gt-xs') ) ? true: false">
+
+            <div class="test-session-nav" psn-scroller>
+                <div fxLayout="row" fxLayoutAlign="start center" class="pad-left-sm pad-right-sm">
+                    <md-input-container fxFlex>
+                        <input mdInput placeholder="Search my tests">
+                        <md-icon class="input-icon">search</md-icon>
+                    </md-input-container>
+                </div>
+                <md-divider></md-divider>
+                <md-nav-list>
+                    <ng-template let-item let-last="last" ngFor [ngForOf]="testSessionRoutes">
+                        <a md-list-item [routerLink]="[item.route]" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" (click)="!media.query('gt-xs') && sessionNav.close()">
+                            <md-icon md-list-avatar>{{item.icon}}</md-icon>
+                            <h3 md-line> {{item.title}} </h3>
+                            <p md-line> {{item.description}} </p>
+                        </a>
+                        <md-divider *ngIf="!last" md-inset></md-divider>
+                    </ng-template>
+                </md-nav-list>
+
+            </div>
+
+        </md-sidenav>
+     
+       
+         <div class="test-session-ctr" psn-scroller [browserScroll]="!media.query('gt-xs')">
+            <router-outlet></router-outlet>
+        </div>      
+       
+
+    </md-sidenav-container>
+  </div>
+   
+</div>

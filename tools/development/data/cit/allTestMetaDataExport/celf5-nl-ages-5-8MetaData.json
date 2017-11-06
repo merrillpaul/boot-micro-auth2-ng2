@@ -1,0 +1,228 @@
+{
+   "normType": "celf-5",
+   "testGUID": "d548e09e109145bc8a3fbd3867fb722d",
+   "displayName": "CELF-5-NL Leeftijden 5-8",
+   "businessUnitGuid": "60e0560444824221b804706f27c23ce9",
+   "domain": "Speech/Language",
+   "name": "CELF5-NL-AGES-5-8",
+   "description": "Een flexibele test voor diagnose en evaluatie van taalproblemen.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "Beoordeling van de vaardigheid van de leerling om (a) steeds langer wordende gesproken zinnen te interpreteren, en (b) de plaatjes te selecteren die de betekenis van de zin aangeven.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 8
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 6
+         },
+         "testGUID": "d548e09e109145bc8a3fbd3867fb722d",
+         "subtestGUID": "037b7969ad9c4e86acae61ff6a235a9f",
+         "orderId": 1,
+         "displayName": "Zinnen Begrijpen",
+         "name": "Zinnen Begrijpen",
+         "abbr": "sc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "De vaardigheden hebben betrekking op het kunnen opvolgen van gesproken aanwijzingen bij het uitvoeren van opdrachten en activiteiten in de groep of de klas.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 8
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 6
+         },
+         "testGUID": "d548e09e109145bc8a3fbd3867fb722d",
+         "subtestGUID": "8fbcb9fdf99d480a8536f54147d704a9",
+         "orderId": 2,
+         "displayName": "Linguïstische Concepten",
+         "name": "Linguïstische Concepten",
+         "abbr": "lc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Beoordeling van het vermogen van het kind om (a) regels voor woordstructuur (morfologie) toe te passen voor het maken van vervoegingen, verbuigingen, afleidingen en vergelijkingen en (b) de juiste naamvalsvorm van voornaamwoorden te kiezen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 8
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 10
+         },
+         "testGUID": "d548e09e109145bc8a3fbd3867fb722d",
+         "subtestGUID": "507a73d6f5804d88bb71ec3bb8be9d7d",
+         "orderId": 3,
+         "displayName": "Woordstructuur",
+         "name": "Woordstructuur",
+         "abbr": "ws"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het beoordelen van de vaardigheid van het kind om verbanden tussen woorden te begrijpen, gebaseerd op kenmerken van de semantische klasse, functie, plaats of tijdstip.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 8
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 8
+         },
+         "testGUID": "d548e09e109145bc8a3fbd3867fb722d",
+         "subtestGUID": "c145e694b15b4f56a44e273ab6138d5b",
+         "orderId": 4,
+         "displayName": "Woordcategorieën",
+         "name": "Woordcategorieën",
+         "abbr": "wc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het evalueren van de vaardigheid van een leerling om (a) gesproken aanwijzingen van toenemende lengte en complexiteit te interpreteren, (b) zich de namen en kenmerken (zoals kleur, formaat of plaats) van voorwerpen te herinneren, evenals de volgorde waarin deze werden opgenoemd en (c) uit verschillende afgebeelde mogelijkheden de voorwerpen die werden genoemd te kunnen herkennen. Deze vaardigheden reflecteren de capaciteit  van het korte-termijn en procedureel geheugen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 18
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 9
+         },
+         "testGUID": "d548e09e109145bc8a3fbd3867fb722d",
+         "subtestGUID": "cb3e96197115415b9a182eec00a02032",
+         "orderId": 5,
+         "displayName": "Aanwijzingen Volgen",
+         "name": "Aanwijzingen Volgen",
+         "abbr": "fd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Het beoordelen van de vaardigheid van het kind om volledige, semantisch en grammaticaal correcte zinnen te formuleren van toenemende lengte en complexiteit (enkelvoudige en samengestelde zinnen). Daarbij moeten aangeboden woorden worden gebruikt (auto, als, omdat) en moeten de zinnen passen binnen een door plaatjes ingeperkte context. Deze vaardigheden reflecteren het vermogen semantische, syntactische en pragmatische regels en restricties te integreren, terwijl het werkgeheugen wordt gebruikt.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 8
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 13
+         },
+         "testGUID": "d548e09e109145bc8a3fbd3867fb722d",
+         "subtestGUID": "16293e4097744ebe98934e196aba3a2e",
+         "orderId": 6,
+         "displayName": "Zinnen Formuleren",
+         "name": "Zinnen Formuleren",
+         "abbr": "fs"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Beoordelen van de vaardigheid van het kind te luisteren naar gesproken zinnen van toenemende lengte en complexiteit, en het herhalen van deze zinnen zonder de zins- en woordbetekenis (semantiek), woordstructuur (morfologie) of zinsstructuur (syntaxis) te wijzigen. Semantische, morfologische en syntactische competentie faciliteren het kortetermijngeheugen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 8
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 7
+         },
+         "testGUID": "d548e09e109145bc8a3fbd3867fb722d",
+         "subtestGUID": "ed35ba387ae149fe9c810de13c1a4511",
+         "orderId": 7,
+         "displayName": "Zinnen Herhalen",
+         "name": "Zinnen Herhalen",
+         "abbr": "rs"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Evalueren van de vaardigheid van het kind om (a) de aandacht vast te houden tijdens het luisteren naar gesproken teksten, (b) mondelinge verhalen en tekst te begrijpen, (c) vragen te beantwoorden over de inhoud van de gegeven informatie, en (d) strategieën voor kritisch denken te gebruiken om een interpretatie af te leiden die verder gaat dan de gegeven informatie. De vragen dienen om na te gaan of het kind het hoofdidee van het verhaal begrepen heeft, feiten en details en de volgorde van gebeurtenissen onthouden heeft, conclusies kan trekken en voorspellingen kan doen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 8
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 12
+         },
+         "testGUID": "d548e09e109145bc8a3fbd3867fb722d",
+         "subtestGUID": "ec87f19763e644b99292c38c6d743244",
+         "orderId": 8,
+         "displayName": "Tekstbegrip",
+         "name": "Tekstbegrip",
+         "abbr": "usp"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Identificeren van verbale en nonverbale pragmatische problemen die een negatieve invloed kunnen hebben op de sociale en schoolse communicatie.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 18
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 8
+         },
+         "testGUID": "d548e09e109145bc8a3fbd3867fb722d",
+         "subtestGUID": "d78be965123d49b9bd13df99a0095a7f",
+         "orderId": 9,
+         "displayName": "Pragmatiekprofiel",
+         "name": "Pragmatiekprofiel",
+         "abbr": "pp"
+      }
+   ],
+   "averageDuration": 130
+}

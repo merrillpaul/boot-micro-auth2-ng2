@@ -1,0 +1,9 @@
+<hr>
+
+
+
+
+<ul id="appFooter" fxLayout="row" fxLayout.xs="column">
+    <li>&copy; 2017 Pearson, Inc.</li>
+    <li *ngFor="let f of footerObject"><a href="{{f.value}}" target="_blank"> {{f.key}} </a></li>
+</ul>

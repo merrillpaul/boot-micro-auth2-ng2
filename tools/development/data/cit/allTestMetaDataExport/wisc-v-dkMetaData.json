@@ -1,0 +1,373 @@
+{
+   "normType": "wisc-v-se",
+   "testGUID": "12f1d0f6827c4f6dbfb39354972b866d",
+   "displayName": "WISC-V-DK",
+   "useQgComparisonAPI": true,
+   "businessUnitGuid": "211d4c122b3242e286090a80c09b95eb",
+   "domain": "Ability",
+   "name": "WISC-V-DK",
+   "description": "Test til vurdering af kognitive funktioner hos børn og unge.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "Barnet skal ved hjælp af tofarvede klodser lave mønstre magen til modeller eller billeder, inden for den angivne tidsfrist.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 12
+         },
+         "testGUID": "12f1d0f6827c4f6dbfb39354972b866d",
+         "subtestGUID": "c89498a5881047c892aff9b5aed0450d",
+         "orderId": 1,
+         "displayName": "Blokmønstre",
+         "name": "Blokmønstre",
+         "abbr": "bd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet præsenteres mundtligt for to ord og skal derpå sige, hvad de to ord har til fælles. Ordene repræsenterer ting eller begreber.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 10
+         },
+         "testGUID": "12f1d0f6827c4f6dbfb39354972b866d",
+         "subtestGUID": "2ee5640260bc4567bea47111a8f3b22f",
+         "orderId": 2,
+         "displayName": "Ligheder",
+         "name": "Ligheder",
+         "abbr": "si"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet præsenteres for en matrix eller serie, hvoraf en del mangler, og skal derpå identificere den manglende del ved enten at pege på eller benævne den rigtige del blandt fem valgmuligheder.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 7
+         },
+         "testGUID": "12f1d0f6827c4f6dbfb39354972b866d",
+         "subtestGUID": "0397be29b0a54c489fb0fef09c3227fe",
+         "orderId": 3,
+         "displayName": "Matricer",
+         "name": "Matricer",
+         "abbr": "mr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Talspændvidde består af tre dele, der administreres uafhængigt af hinanden: Talspændvidde Forfra, Talspændvidde Bagfra og Talspændvidde Rangordning.\r\nI alle tre dele præsenteres barnet mundtligt for en række talserier. I Talspændvidde Forfra skal barnet gengive tallene i samme rækkefølge, som de blev læst højt. I Talspændvidde Bagfra skal barnet gengive tallene i omvendt rækkefølge, og i Talspændvidde Rangordning skal barnet gengive tallene i stigende rækkefølge.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 10
+         },
+         "testGUID": "12f1d0f6827c4f6dbfb39354972b866d",
+         "subtestGUID": "e933c3d28a1d4283b53dd47ecb572e1b",
+         "orderId": 4,
+         "displayName": "Talspændvidde",
+         "name": "Talspændvidde",
+         "abbr": "ds"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet skal kopiere enkle figurer, som hører sammen med enkle geometriske former (Kodning A) eller med tal (Kodning B).\r\nVed hjælp af kodenøglen øverst på siden tegner barnet den rigtige figur ind i den modsvarende form (Kodning A) eller talrude (Kodning B). Barnet skal gennemføre så mange opgaver som muligt, inden for den angivne tidsfrist.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 4
+         },
+         "testGUID": "12f1d0f6827c4f6dbfb39354972b866d",
+         "subtestGUID": "18a63ffd12aa4e36ae9c2dce90af6b9a",
+         "orderId": 5,
+         "displayName": "Kodning",
+         "name": "Kodning",
+         "abbr": "cd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet skal dels benævne afbildede genstande, dels definere ord mundtligt.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 8
+         },
+         "testGUID": "12f1d0f6827c4f6dbfb39354972b866d",
+         "subtestGUID": "c2e34dc48c6d4b3aa038314314c4f40c",
+         "orderId": 6,
+         "displayName": "Ordforråd",
+         "name": "Ordforråd",
+         "abbr": "vc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet skal inden for en fastsat tidsgrænse se på en vægt, hvor der mangler en eller flere figurer, og vælge den svarmulighed ud af fem, der får vægten til at være i ligevægt.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 6
+         },
+         "testGUID": "12f1d0f6827c4f6dbfb39354972b866d",
+         "subtestGUID": "70ad4e801f444d559a4a58dab3178318",
+         "orderId": 7,
+         "displayName": "Figurvægte",
+         "name": "Figurvægte",
+         "abbr": "fw"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet skal inden for en fastsat tid se på et færdigt puslespil og identificere de tre svarmuligheder ud af seks, der danner puslespillet, når de lægges sammen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 6
+         },
+         "testGUID": "12f1d0f6827c4f6dbfb39354972b866d",
+         "subtestGUID": "1fe269d8f09b4262b825ba8ed847bc2d",
+         "orderId": 8,
+         "displayName": "Visuelle puslespil",
+         "name": "Visuelle puslespil",
+         "abbr": "vp"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet præsenteres for en stimulusside med et eller flere objekter og skal på følgende side identificere det eller de præsenterede objekter.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "12f1d0f6827c4f6dbfb39354972b866d",
+         "subtestGUID": "2599c653486f4fb38b125a69bee01c0c",
+         "orderId": 9,
+         "displayName": "Visuel genkendelse",
+         "name": "Visuel genkendelse",
+         "abbr": "ps"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet skal visuelt gennemsøge en gruppe figurer for at finde en specifik målfigur. Opgaven skal løses inden for den angivne tidsfrist.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "12f1d0f6827c4f6dbfb39354972b866d",
+         "subtestGUID": "6a3894b110d84cdc98419470e62cb9ac",
+         "orderId": 10,
+         "displayName": "Figursøgning",
+         "name": "Figursøgning",
+         "abbr": "ss"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet præsenteres mundtligt for en række spørgsmål, der vedrører barnets kendskab til ting og begivenheder.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 5
+         },
+         "testGUID": "12f1d0f6827c4f6dbfb39354972b866d",
+         "subtestGUID": "f19a0d32903740648cf191559574f41f",
+         "orderId": 11,
+         "displayName": "Information",
+         "name": "Information",
+         "abbr": "in"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet præsenteres mundtligt for en kombination af tal og bogstaver og skal derpå nævne tallene i stigende numerisk rækkefølge og derefter bogstaverne i alfabetisk orden.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "12f1d0f6827c4f6dbfb39354972b866d",
+         "subtestGUID": "c7e773bdca694b5f90eb91d339d6d8cd",
+         "orderId": 12,
+         "displayName": "Tal-bogstav rangordning",
+         "name": "Tal-bogstav rangordning",
+         "abbr": "ln"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet præsenteres for med billeder af dyr og forskellige andre genstande, der er opstillet dels tilfældigt, dels struktureret på lige rækker. Barnet skal markere de billeder, der forestiller dyr, inden for den angivne tidsfrist.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "12f1d0f6827c4f6dbfb39354972b866d",
+         "subtestGUID": "c49bfed5855a4fc5afe27ba95d68e8fa",
+         "orderId": 13,
+         "displayName": "Udstregning",
+         "name": "Udstregning",
+         "abbr": "ca"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet præsenteres mundtligt for en række spørgsmål, der handler om hverdagsproblemer eller generelle principper og regler.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 11
+         },
+         "testGUID": "12f1d0f6827c4f6dbfb39354972b866d",
+         "subtestGUID": "9146fccb58a94d208a1f939d35bf0ff2",
+         "orderId": 14,
+         "displayName": "Verbal ræsonnering",
+         "name": "Verbal ræsonnering",
+         "abbr": "co"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Barnet præsenteres dels for nogle tælleopgaver, dels nogle regneopgaver, som skal løses ved hjælp af hovedregning inden for den angivne tidsfrist.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 6
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Fluid Reasoning",
+            "averageDuration": 9
+         },
+         "testGUID": "12f1d0f6827c4f6dbfb39354972b866d",
+         "subtestGUID": "017df297bb3041e288bc42144b518b71",
+         "orderId": 15,
+         "displayName": "Regning",
+         "name": "Regning",
+         "abbr": "ar"
+      }
+   ],
+   "averageDuration": 108
+}

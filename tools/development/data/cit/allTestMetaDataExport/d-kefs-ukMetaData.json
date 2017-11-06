@@ -1,0 +1,133 @@
+{
+   "normType": "d-kefs",
+   "testGUID": "fff4ab1863e548ab9f936c341719f41a",
+   "displayName": "D-KEFS",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "ff2be44cfa8f4d9c8211633892e9cbc8",
+   "domain": "Executive Function",
+   "name": "D-KEFS-UK",
+   "description": "A comprehensive assessment of the key components of executive function.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "A visual motor test of cognitive flexibility consisting of five trials: Visual Scanning, Number Sequencing, Letter Sequencing, Number-Letter Sequencing, and Motor Speed.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 9
+         },
+         "testGUID": "fff4ab1863e548ab9f936c341719f41a",
+         "subtestGUID": "784c4c67b03e4070b4fea424d0deaa20",
+         "orderId": 1,
+         "displayName": "Trail Making Test",
+         "name": "Trail Making Test",
+         "abbr": "Trail Making Test"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "A test of verbal behavioral productivity and cognitive flexibility consisting of three trials in which the examinee says as many words as possible by letter, category, and category switching prompts.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 10
+         },
+         "testGUID": "fff4ab1863e548ab9f936c341719f41a",
+         "subtestGUID": "fe76c20db40a41d19d6f43b83fa85653",
+         "orderId": 2,
+         "displayName": "Verbal Fluency Test (Standard)",
+         "name": "Verbal Fluency Test (Standard)",
+         "abbr": "Verbal Fluency Test (Standard)"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "A test of verbal behavioral productivity and cognitive flexibility consisting of three trials in which the examinee says as many words as possible by letter, category, and category switching prompts.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 10
+         },
+         "testGUID": "fff4ab1863e548ab9f936c341719f41a",
+         "subtestGUID": "94f7ad679d54414eacd83c5fd2e0c987",
+         "orderId": 3,
+         "displayName": "Verbal Fluency Test (Alternate)",
+         "name": "Verbal Fluency Test (Alternate)",
+         "abbr": "Verbal Fluency Test (Alternate)"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "A test of visual behavioral productivity and cognitive flexibility consisting of three trials in which the examinee attempts to produce as many novel designs as possible using filled, empty, or switching between filled and empty dots.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 10
+         },
+         "testGUID": "fff4ab1863e548ab9f936c341719f41a",
+         "subtestGUID": "e0146c8e0e354c3c8bba2575f264ad1d",
+         "orderId": 4,
+         "displayName": "Design Fluency Test",
+         "name": "Design Fluency Test",
+         "abbr": "Design Fluency Test"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "A test that utilizes the \"Stroop Effect\" to measure cognitive flexibility and inhibitory control. It consists of four trials: Color Naming, Word Reading, Inhibition, and Inhibition/Switching.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 89
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 8
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 8
+         },
+         "testGUID": "fff4ab1863e548ab9f936c341719f41a",
+         "subtestGUID": "68c74aa456c3467da4401ce025f781e4",
+         "orderId": 5,
+         "displayName": "Color-Word Interference Test",
+         "name": "Color-Word Interference Test",
+         "abbr": "Color-Word Interference Test"
+      }
+   ],
+   "averageDuration": 47
+}

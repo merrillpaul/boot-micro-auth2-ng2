@@ -1,0 +1,373 @@
+{
+   "normType": "wais-iv-fr",
+   "testGUID": "b0ac3317c4c14828bd6fd6271177f049",
+   "displayName": "WAIS-IV",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Ability",
+   "name": "WAIS-IV-FR",
+   "description": "Evaluation de l'intelligence des adultes dans quatre domaines cognitifs spécifiques.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "En un temps limité, le sujet utilise des cubes bicolores pour reproduire une construction à partir d'un modèle construit devant lui et/ou présenté sur l'écran.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 79
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 9
+         },
+         "testGUID": "b0ac3317c4c14828bd6fd6271177f049",
+         "subtestGUID": "47994e0e50be40fda56685b43cf9fafb",
+         "orderId": 1,
+         "displayName": "Cubes",
+         "name": "Cubes",
+         "abbr": "bd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Des paires de mots sont énoncées oralement et, pour chacune, le sujet doit trouver la similitude entre les objets ou les concepts proposés.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 79
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 7
+         },
+         "testGUID": "b0ac3317c4c14828bd6fd6271177f049",
+         "subtestGUID": "87e4faff4553448f89f5b20204f48f01",
+         "orderId": 2,
+         "displayName": "Similitudes",
+         "name": "Similitudes",
+         "abbr": "si"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Le psychologue lit des séries de chiffres. Le subtest Mémoire des chiffres est constitué de trois parties administrées séparément :\r\n- Mémoire des chiffres en ordre direct : le sujet répète, dans le même ordre, les chiffres lus par le psychologue ;\r\n- Mémoire des chiffres en ordre inverse : le sujet répète, en ordre inverse, les chiffres lus par le psychologue ;\r\n- Mémoire des chiffres en ordre croissant : le sujet répète, en les classant du plus petit au plus grand, les chiffres lus par le psychologue.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 79
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 8
+         },
+         "testGUID": "b0ac3317c4c14828bd6fd6271177f049",
+         "subtestGUID": "e0598bb5428d4e47a2f2594316061cf1",
+         "orderId": 3,
+         "displayName": "Mémoire des chiffres",
+         "name": "Mémoire des chiffres",
+         "abbr": "ds"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Le sujet regarde une matrice ou une série incomplète et doit identifier, parmi les options possibles, la réponse qui complète la matrice ou la série.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 79
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 7
+         },
+         "testGUID": "b0ac3317c4c14828bd6fd6271177f049",
+         "subtestGUID": "6b51f5af134f4c46ac4f31a7410ec14c",
+         "orderId": 4,
+         "displayName": "Matrices",
+         "name": "Matrices",
+         "abbr": "mr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Pour les items en images, le sujet nomme les images qui lui sont présentées visuellement. Pour les items verbaux, le sujet donne les définitions des mots qui lui sont présentés oralement et visuellement.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 79
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 10
+         },
+         "testGUID": "b0ac3317c4c14828bd6fd6271177f049",
+         "subtestGUID": "16715895e23b4fcaade245694764b520",
+         "orderId": 5,
+         "displayName": "Vocabulaire",
+         "name": "Vocabulaire",
+         "abbr": "vc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Le sujet doit résoudre mentalement une série de problèmes arithmétiques présentés oralement. Il doit répondre en temps limité.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 79
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 6
+         },
+         "testGUID": "b0ac3317c4c14828bd6fd6271177f049",
+         "subtestGUID": "8fd87bbee2bf4c62950b68f884633d02",
+         "orderId": 6,
+         "displayName": "Arithmétique",
+         "name": "Arithmétique",
+         "abbr": "ar"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Après avoir observé les symboles à rechercher, le sujet indique, en un temps limité, s'il retrouve un de ces symboles parmi ceux qui lui sont proposés.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 79
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "b0ac3317c4c14828bd6fd6271177f049",
+         "subtestGUID": "52c6ff983d1d4c4286be02886153ec29",
+         "orderId": 7,
+         "displayName": "Symboles",
+         "name": "Symboles",
+         "abbr": "ss"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Le sujet voit un puzzle terminé. Il doit sélectionner, en temps limité, trois pièces parmi six possibilités qui permettent de reconstituer un puzzle complet.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 79
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 6
+         },
+         "testGUID": "b0ac3317c4c14828bd6fd6271177f049",
+         "subtestGUID": "44255c2c16084e4aa5e86bd71daea2a0",
+         "orderId": 8,
+         "displayName": "Puzzles visuels",
+         "name": "Puzzles visuels",
+         "abbr": "vp"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Le sujet répond oralement à des questions, lues par le psychologue, ayant trait à des thèmes de culture générale.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 79
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 5
+         },
+         "testGUID": "b0ac3317c4c14828bd6fd6271177f049",
+         "subtestGUID": "fef556547f2a4d49bc33149d2cc542d4",
+         "orderId": 9,
+         "displayName": "Information",
+         "name": "Information",
+         "abbr": "in"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "En utilisant un code et dans un temps limité, le sujet associe, en les dessinant, des symboles à des chiffres.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 79
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "b0ac3317c4c14828bd6fd6271177f049",
+         "subtestGUID": "5ad8b51bcd0f44f5be3afb836057dbe1",
+         "orderId": 10,
+         "displayName": "Code",
+         "name": "Code",
+         "abbr": "cd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Le psychologue lit une séquence de lettres et de chiffres. Le sujet doit restituer les chiffres en premier en ordre croissant, puis les lettres en ordre alphabétique.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "b0ac3317c4c14828bd6fd6271177f049",
+         "subtestGUID": "593bee86766d4bc286a7da4403b19f71",
+         "orderId": 11,
+         "displayName": "Séquence Lettres-Chiffres",
+         "name": "Séquence Lettres-Chiffres",
+         "abbr": "ln"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Le sujet voit une balance à plateaux. En un temps limité, il doit choisir parmi cinq propositions celle qui permet d'équilibrer les plateaux de la balance.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 11
+         },
+         "testGUID": "b0ac3317c4c14828bd6fd6271177f049",
+         "subtestGUID": "75a26828552a43dd9cd2d40cf15d4f12",
+         "orderId": 12,
+         "displayName": "Balances",
+         "name": "Balances",
+         "abbr": "fw"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "On demande au sujet de répondre oralement à une série de questions. Il doit soit trouver des solutions à des problèmes de la vie de tous les jours, soit montrer sa compréhension de règles ou de concepts relatifs à la vie sociale.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 79
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 15
+         },
+         "testGUID": "b0ac3317c4c14828bd6fd6271177f049",
+         "subtestGUID": "9b46f2812fd1480798ecc2bf7215382f",
+         "orderId": 13,
+         "displayName": "Compréhension",
+         "name": "Compréhension",
+         "abbr": "co"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Le sujet regarde attentivement une planche d'images réparties de façon structurée. Il barre les images cibles en un temps limité.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 4
+         },
+         "testGUID": "b0ac3317c4c14828bd6fd6271177f049",
+         "subtestGUID": "03648ae683ba421981cb62eb2e8c56eb",
+         "orderId": 14,
+         "displayName": "Barrage",
+         "name": "Barrage",
+         "abbr": "ca"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Le sujet regarde une image puis pointe ou nomme, en temps limité, la partie manquante.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 79
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 9
+         },
+         "testGUID": "b0ac3317c4c14828bd6fd6271177f049",
+         "subtestGUID": "dbd1db968b734715a4f6845731b5db83",
+         "orderId": 15,
+         "displayName": "Complètement d’images",
+         "name": "Complètement d’images",
+         "abbr": "pc"
+      }
+   ],
+   "averageDuration": 110
+}

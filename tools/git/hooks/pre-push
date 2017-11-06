@@ -1,0 +1,13 @@
+
+#!/bin/bash
+
+# Only allows you to push if the environment variable ALLOW_PUSH is true.
+# This variable is set by ./gitpush
+
+if [ "$ALLOW_PUSH" = "true" ]
+then
+        exit 0;
+else
+        echo Pushing is only permitted through the ./gitpush
+        exit 1
+fi

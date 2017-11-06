@@ -1,0 +1,25 @@
+{
+   "normType": "wais-5",
+   "testGUID": "4aee9aedfdce49cd94bfe4bc475fe15b",
+   "displayName": "Test for Visual Teaching",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Ability",
+   "name": "test-VT",
+   "description": "This is a fake test for testing visual teaching.",
+   "subtests": [{
+      "metaData": {
+         "descriptionCS": "This is a fake subtest for Visual Teaching.",
+         "rules": [],
+         "subtestCategory": "Visual Working Memory",
+         "averageDuration": 0
+      },
+      "testGUID": "4aee9aedfdce49cd94bfe4bc475fe15b",
+      "subtestGUID": "4f48288bd36543a8944291076b89d307",
+      "orderId": 1,
+      "displayName": "VT Subtest",
+      "name": "VT Subtest",
+      "abbr": "vts"
+   }],
+   "averageDuration": 0
+}

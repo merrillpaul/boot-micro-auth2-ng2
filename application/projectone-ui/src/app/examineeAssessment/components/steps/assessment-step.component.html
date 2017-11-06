@@ -1,0 +1,12 @@
+
+  <div class="assessment-step container bgc-white-4" >
+    <div fxFlex *ngIf="active" >
+        <ng-content select="[assessment-active-step]"></ng-content> 
+    </div>    
+    <div fxFlex *ngIf="!active && !complete" class="not-started">
+        <ng-content select="[assessment-not-started-step]"></ng-content> 
+    </div>
+     <div fxFlex *ngIf="complete" class="completed">
+        <ng-content select="[assessment-step-completed]"></ng-content> 
+    </div>
+  </div>

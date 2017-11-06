@@ -1,0 +1,373 @@
+{
+   "normType": "wais-iv",
+   "testGUID": "02617018d34948d995dd9024e24246a2",
+   "displayName": "WAIS-IV",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Ability",
+   "name": "WAIS-IV-NO",
+   "description": "Test for vurdering av kognitive evner hos ungdom og voksne",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "Testpersonen skal innenfor en gitt tidsgrense kopiere modeller og/eller bilder av tofargede\r\nmønstre ved hjelp av rød-hvite klosser.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 9
+         },
+         "testGUID": "02617018d34948d995dd9024e24246a2",
+         "subtestGUID": "15c71d3538da4a8bbe8ae685f9ec1fe5",
+         "orderId": 1,
+         "displayName": "Terningmønster",
+         "name": "Terningmønster",
+         "abbr": "bd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Testpersonen skal beskrive likheten mellom to ord som representerer vanlige gjenstander\r\neller begreper.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 7
+         },
+         "testGUID": "02617018d34948d995dd9024e24246a2",
+         "subtestGUID": "3a33523b88c142f297f7b5e41e83204b",
+         "orderId": 2,
+         "displayName": "Likheter",
+         "name": "Likheter",
+         "abbr": "si"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Tallhukommelse består av tre deler som administreres uavhengig av hverandre: Tallhukommelse Forlengs, Tallhukommelse Baklengs og Tallhukommelse Sekvensering. Et antall tallserier\r\npresenteres muntlig. På Tallhukommelse Forlengs skal testpersonen gjenta tallene i samme rekkefølge som de ble lest opp i. På Tallhukommelse Baklengs skal tallene gjentas i omvendt rekkefølge. På Tallhukommelse Sekvensering skal de gjentas i stigende rekkefølge.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 8
+         },
+         "testGUID": "02617018d34948d995dd9024e24246a2",
+         "subtestGUID": "821cb538b89841a3908f47a58ea6cfb4",
+         "orderId": 3,
+         "displayName": "Tallhukommelse",
+         "name": "Tallhukommelse",
+         "abbr": "ds"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Testpersonen får se en matrise eller serie hvor det mangler en del, og skal identifisere den\r\nmanglende delen blant fem svaralternativer.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 7
+         },
+         "testGUID": "02617018d34948d995dd9024e24246a2",
+         "subtestGUID": "474123d05bd5406f81ce9f6a7247ca49",
+         "orderId": 4,
+         "displayName": "Matriser",
+         "name": "Matriser",
+         "abbr": "mr"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Testpersonen skal forklare hva visuelt og muntlig presenterte ord betyr.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 10
+         },
+         "testGUID": "02617018d34948d995dd9024e24246a2",
+         "subtestGUID": "0fd714063dd645269de18d6dc76125a1",
+         "orderId": 5,
+         "displayName": "Ordforståelse",
+         "name": "Ordforståelse",
+         "abbr": "vc"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Testpersonen skal innenfor en gitt tidsgrense løse ulike regneoppgaver ved hjelp av hoderegning.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 6
+         },
+         "testGUID": "02617018d34948d995dd9024e24246a2",
+         "subtestGUID": "59eb456c5f1e496e80fba68f3952f2bc",
+         "orderId": 6,
+         "displayName": "Regning",
+         "name": "Regning",
+         "abbr": "ar"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Testpersonen skal innenfor en gitt tidsgrense søke gjennom en gruppe symboler og avgjøre\r\nom noen av målsymbolene er med eller ikke.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "02617018d34948d995dd9024e24246a2",
+         "subtestGUID": "0ddcab2e11fb4682a1bb1fc9d837d3c0",
+         "orderId": 7,
+         "displayName": "Symbolleting",
+         "name": "Symbolleting",
+         "abbr": "ss"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Testpersonen skal innenfor en gitt tidsgrense se på et ferdig lagt puslespill, og deretter identifisere de tre svaralternativene (blant seks) som rekonstruerer puslespillet når de legges sammen.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 6
+         },
+         "testGUID": "02617018d34948d995dd9024e24246a2",
+         "subtestGUID": "f9ff8f90bd1d4e57bdca1f7331b98921",
+         "orderId": 8,
+         "displayName": "Visuelle puslespill",
+         "name": "Visuelle puslespill",
+         "abbr": "vp"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Testpersonen skal besvare spørsmål som omhandler allmennkunnskaper.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 5
+         },
+         "testGUID": "02617018d34948d995dd9024e24246a2",
+         "subtestGUID": "4e193c8f957d43f1bbe196fcc519efb5",
+         "orderId": 9,
+         "displayName": "Informasjon",
+         "name": "Informasjon",
+         "abbr": "in"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Testpersonen skal innenfor en gitt tidsgrense kopiere enkle symboler og kombinere dem med tall ved hjelp av en kodenøkkel.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 3
+         },
+         "testGUID": "02617018d34948d995dd9024e24246a2",
+         "subtestGUID": "dae6f933985b44069ab2d5d7524cc073",
+         "orderId": 10,
+         "displayName": "Koding",
+         "name": "Koding",
+         "abbr": "Kd"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Testlederen leser opp kombinasjoner av tall og bokstaver. Testpersonen skal først gjengi\r\ntallene i stigende rekkefølge og deretter bokstavene i alfabetisk rekkefølge.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Working Memory",
+            "averageDuration": 7
+         },
+         "testGUID": "02617018d34948d995dd9024e24246a2",
+         "subtestGUID": "18d8ad74067e41d3a1578c91cfd61a17",
+         "orderId": 11,
+         "displayName": "Bokstav-tall-serier",
+         "name": "Bokstav-tall-serier",
+         "abbr": "lns"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Testpersonen skal innenfor en gitt tidsgrense se på en vekt der én eller flere vektlodd mangler, og velge det svaralternativet blant fem som gjør at vekten er i balanse.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 11
+         },
+         "testGUID": "02617018d34948d995dd9024e24246a2",
+         "subtestGUID": "a64d7f57bcfa4363b35a9e91aef3ca8e",
+         "orderId": 12,
+         "displayName": "Figurvekter",
+         "name": "Figurvekter",
+         "abbr": "fw"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Testpersonen besvarer spørsmål ut fra sin forståelse av generelle prinsipper og sosiale\r\nsituasjoner.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Verbal Comprehension",
+            "averageDuration": 15
+         },
+         "testGUID": "02617018d34948d995dd9024e24246a2",
+         "subtestGUID": "6078d05a213a4751a97a35521af04fbc",
+         "orderId": 13,
+         "displayName": "Resonnering",
+         "name": "Resonnering",
+         "abbr": "co"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Testpersonen skal innenfor en gitt tidsgrense søke gjennom A3-ark med forskjellige\r\ngeometriske objekter, som er arrangert på rette rader, og markere målobjektene.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 69
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Processing Speed",
+            "averageDuration": 4
+         },
+         "testGUID": "02617018d34948d995dd9024e24246a2",
+         "subtestGUID": "6b81cbdb115b4ebaa27e35986a343e97",
+         "orderId": 14,
+         "displayName": "Utstrykning",
+         "name": "Utstrykning",
+         "abbr": "ca"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Testpersonen får se på bilder der en viktig del mangler. Han eller hun skal innenfor en gitt\r\ntidsgrense identifisere hva det er som mangler.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Perceptual Reasoning",
+            "averageDuration": 9
+         },
+         "testGUID": "02617018d34948d995dd9024e24246a2",
+         "subtestGUID": "10277455f7fa42f2be209311b161b2fb",
+         "orderId": 15,
+         "displayName": "Bildeutfylling",
+         "name": "Bildeutfylling",
+         "abbr": "pc"
+      }
+   ],
+   "averageDuration": 110
+}

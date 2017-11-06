@@ -1,0 +1,179 @@
+{
+   "normType": "wms-v-older-adult",
+   "testGUID": "3720e56f05d448d0b42dfa67ad4bccac",
+   "displayName": "WMS-5 Older Adult",
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Memory",
+   "name": "WMS-5-OLDER-ADULT",
+   "description": "The most widely used scale of adult memory.",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "The examinee performs simple tasks in a number of different areas including orientation to time, mental control, clock drawing, incidental recall, automaticity and inhibitory control, and verbal production.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 70
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Mental Status",
+            "averageDuration": 7
+         },
+         "testGUID": "3720e56f05d448d0b42dfa67ad4bccac",
+         "subtestGUID": "bf36553aeb6c42a2b6df383af6f8f7be",
+         "orderId": 1,
+         "displayName": "Brief Cognitive Status Exam",
+         "name": "Brief Cognitive Status Exam",
+         "educationRange": [
+            "<=  8",
+            "9 - 11",
+            "12",
+            "13 - 15",
+            ">= 16"
+         ],
+         "abbr": "bcsevus"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The examinee is shown, sequentially, two grids with blue and red circles. The examinee is then asked to add or subtract the location of the circles based on a set of rules.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 70
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Working Memory",
+            "averageDuration": 12
+         },
+         "testGUID": "3720e56f05d448d0b42dfa67ad4bccac",
+         "subtestGUID": "c3eeff065bbe47ca88a2668d88c33a3d",
+         "orderId": 2,
+         "displayName": "Spatial Addition",
+         "name": "Spatial Addition",
+         "abbr": "savus"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "visual reproduction",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 16
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Memory",
+            "averageDuration": 4
+         },
+         "testGUID": "3720e56f05d448d0b42dfa67ad4bccac",
+         "subtestGUID": "907c9fbce427457c857a4552c7c68994",
+         "orderId": 3,
+         "displayName": "Visual Reproduction I",
+         "name": "Visual Reproduction I",
+         "abbr": "vrsvus"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "TFLS",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 70
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Mental Status",
+            "averageDuration": 10
+         },
+         "testGUID": "3720e56f05d448d0b42dfa67ad4bccac",
+         "subtestGUID": "c5aabc06d3614563bee2a3dded3f0232",
+         "orderId": 4,
+         "displayName": "Texas Functional Living Scale",
+         "name": "TFLS",
+         "abbr": "lmvus"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "VR2",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 90
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 16
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 30,
+                  "minDelayMinutes": 10,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "907c9fbce427457c857a4552c7c68994",
+                     "subtestName": "Visual Reproduction I"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Visual Memory",
+            "averageDuration": 10
+         },
+         "testGUID": "3720e56f05d448d0b42dfa67ad4bccac",
+         "subtestGUID": "6e896388c5a94a8db86635aa6612ed97",
+         "orderId": 5,
+         "displayName": "Visual Reproduction II",
+         "name": "Visual Reproduction II",
+         "abbr": "vrs2vus"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "The examinee is briefly shown a series of abstract symbols on a page and then asked to select the symbols from an array of symbols, in the same order they were presented on the previous page.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 90
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 65
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Working Memory",
+            "averageDuration": 8
+         },
+         "testGUID": "3720e56f05d448d0b42dfa67ad4bccac",
+         "subtestGUID": "efef827f9bb146589183c2a5150ab2e4",
+         "orderId": 6,
+         "displayName": "Symbol Span",
+         "name": "Symbol Span",
+         "abbr": "ssvus"
+      }
+   ],
+   "averageDuration": 125
+}

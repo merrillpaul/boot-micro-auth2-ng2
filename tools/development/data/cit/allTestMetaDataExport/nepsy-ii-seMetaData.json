@@ -1,0 +1,221 @@
+{
+   "normType": "nepsy-ii-se",
+   "testGUID": "2fb502cc61254ccaaa46444a3959cf47",
+   "displayName": "NEPSY-II",
+   "useQgComparisonAPI": false,
+   "businessUnitGuid": "8456fe717d5f449b8b7620d18f883318",
+   "domain": "Neuropsychology",
+   "name": "NEPSY-II-SE",
+   "description": "Test för neuropsykologisk undersökning av barn",
+   "subtests": [
+      {
+         "metaData": {
+            "descriptionCS": "Deltestet mäter förmågan till övergripande begreppsbildning och förståelse för kategorisering samt förmågan till kognitiv flexibilitet. Barnet ska sortera åtta kort i två grupper om fyra kort, i så många olika kategorier som möjligt inom en given tidsgräns.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 7
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 7
+         },
+         "testGUID": "2fb502cc61254ccaaa46444a3959cf47",
+         "subtestGUID": "235df7885c4b442e87487f49fef9f5b3",
+         "orderId": 1,
+         "displayName": "Djursortering",
+         "name": "Djursortering",
+         "abbr": "Djursortering"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Deltestet mäter motoriska och visuospatiala färdigheter avseende förmågan att reproducera\r\ntvådimensionella geometriska figurer.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 3
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 6
+         },
+         "testGUID": "2fb502cc61254ccaaa46444a3959cf47",
+         "subtestGUID": "c482aaadbb8241a1afaffbd85c36f954",
+         "orderId": 2,
+         "displayName": "Figurkopiering",
+         "name": "Figurkopiering",
+         "abbr": "Figurkopiering"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Deltestet mäter förmågan till spatialt minne för nytt visuell material. Barnet får se ett rutmönster med fyra till tio figurer per stimulusbild. Därefter väljer barnet från ett antal kort ut de figurer han eller hon minns från stimulusbilden och ska placera dem i en bricka i samma positioner som på bilden.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 3
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 10
+         },
+         "testGUID": "2fb502cc61254ccaaa46444a3959cf47",
+         "subtestGUID": "7019ee54f0a04fc9a1e054ae7794d373",
+         "orderId": 3,
+         "displayName": "Minne för figurer",
+         "name": "Minne för figurer",
+         "abbr": "Minne för figurer"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Deltestet består av två delar. I Del A Repetition av fingerrörelser mäts kontroll av fingerrörelser och motorisk snabbhet, och i Del B Sekventiella fingerrörelser mäts snabb motorisk planering. Barnet ska härma sekvenser av fingerrörelser så snabbt som möjligt. Både dominant och icke-dominant hand bedöms.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Sensorimotor",
+            "averageDuration": 3
+         },
+         "testGUID": "2fb502cc61254ccaaa46444a3959cf47",
+         "subtestGUID": "b944ecd6e61f467292a25151ffcfd09d",
+         "orderId": 4,
+         "displayName": "Fingerrörelser",
+         "name": "Fingerrörelser",
+         "abbr": "Fingerrörelser"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Deltestet mäter förmågan att inhibera automatiserade responser och följa ett nytt svarsmönster eller att växla mellan olika svarsmönster. Barnet får se en serie bestående av svarta och vita former eller pilar och ska benämna form eller riktning eller ge en alternativ respons beroende på formens eller pilens färg.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 5
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Attention and Executive Functioning",
+            "averageDuration": 7
+         },
+         "testGUID": "2fb502cc61254ccaaa46444a3959cf47",
+         "subtestGUID": "298bbf3ef51242b78f3ff8daab3c1674",
+         "orderId": 5,
+         "displayName": "Inhibition",
+         "name": "Inhibition",
+         "abbr": "Inhibition"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Deltestet mäter förmågan att producera ord inom två kategorier: Kategori A Semantiskt flöde och Kategori B Fonologiskt flöde, som var och en omfattar två uppgifter.\r\nBåda delarna har givna tidsgränser.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 3
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Language",
+            "averageDuration": 6
+         },
+         "testGUID": "2fb502cc61254ccaaa46444a3959cf47",
+         "subtestGUID": "6d13b772af43420eaf9d51a434e44e2b",
+         "orderId": 6,
+         "displayName": "Ordflöde",
+         "name": "Ordflöde",
+         "abbr": "Ordflöde"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Deltestet mäter förmågan till spatialt minne för nytt visuell material. Barnet får se ett rutmönster med fyra till tio figurer per stimulusbild. Därefter väljer barnet från ett antal kort ut de figurer han eller hon minns från stimulusbilden och ska placera dem i en bricka i samma positioner som på bilden.",
+            "rules": [
+               {
+                  "maxAge": {
+                     "month": 11,
+                     "year": 16
+                  },
+                  "minAge": {
+                     "month": 0,
+                     "year": 5
+                  },
+                  "type": "age"
+               },
+               {
+                  "maxDelayMinutes": 25,
+                  "minDelayMinutes": 15,
+                  "type": "delay"
+               },
+               {
+                  "data": [{
+                     "immediatelyFollowSubtest": false,
+                     "requiredToFollow": true,
+                     "subtestGUID": "7019ee54f0a04fc9a1e054ae7794d373",
+                     "subtestName": "Minne för figurer"
+                  }],
+                  "type": "mustFollow"
+               }
+            ],
+            "subtestCategory": "Learning and Memory",
+            "averageDuration": 3
+         },
+         "testGUID": "2fb502cc61254ccaaa46444a3959cf47",
+         "subtestGUID": "5de3f5c1e68b41b4a20d83bd8ab30ced",
+         "orderId": 7,
+         "displayName": "Minne för figurer - Fördröjt",
+         "name": "Minne för figurer - Fördröjt",
+         "abbr": "Minne för figurer - Fördröjt"
+      },
+      {
+         "metaData": {
+            "descriptionCS": "Deltestet mäter förmågan till visuell diskriminering och avläsning, spatial lokalisering samt förmågan att förstå förhållandet mellan delar och helhet. Barnet får se en stor bild som är uppdelad i ett rutsystem. Ur rutsystemet har fyra bilder lagts utanför, och barnets uppgift är att identifiera var i rutsystemet var och en av bilderna återfinns.",
+            "rules": [{
+               "maxAge": {
+                  "month": 11,
+                  "year": 16
+               },
+               "minAge": {
+                  "month": 0,
+                  "year": 7
+               },
+               "type": "age"
+            }],
+            "subtestCategory": "Visual Spatial",
+            "averageDuration": 9
+         },
+         "testGUID": "2fb502cc61254ccaaa46444a3959cf47",
+         "subtestGUID": "5e80a6add21f42889ec1d018dd2900c1",
+         "orderId": 8,
+         "displayName": "Bildpussel",
+         "name": "Bildpussel",
+         "abbr": "Bildpussel"
+      }
+   ],
+   "averageDuration": 51
+}

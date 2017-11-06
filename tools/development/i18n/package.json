@@ -1,0 +1,30 @@
+{
+  "name": "p1_i18n",
+  "version": "1.0.0",
+  "description": "i18n tools for project one",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node -v",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "p1I18n": "$(npm bin)/ts-node src/p1-ui/i18n.json.process.ts",
+    "p1I18nw": "$(npm bin)/ts-node src/p1-ui/i18n.json.watcher.ts",
+    "prep1I18n": "npm install",
+    "prep1I18nw": "npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+   "ts-node": "^3.0.2",
+   "zone.js": "^0.7.6",
+   "typescript": "^2.2.2"
+ },
+ "devDependencies": {
+   "@types/node": "~6.0.60",
+   "codelyzer": "~2.0.0",
+   "concurrently": "^3.4.0",
+   "node-watch": "^0.5.2",
+   "ts-node": "^3.0.2",
+   "tslint": "~4.5.0",
+   "typescript": "^2.2.2"
+ }
+}
